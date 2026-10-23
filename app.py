@@ -14,6 +14,7 @@ def load_model():
     # 自动获取 app.py 所在的绝对路径，并拼接模型路径
     model_path = Path(__file__).resolve().parent / "runs" / "neu_defect_train" / "weights" / "best.pt"
     return YOLO(str(model_path))
+model = load_model()
 # 3. 侧边栏：调节置信度阈值（为了让你能看到框，默认调低到 0.15）
 st.sidebar.header("检测参数设置")
 conf_threshold = st.sidebar.slider("置信度阈值 (越低越容易检测出缺陷)", 0.0, 1.0, 0.15, 0.05)
