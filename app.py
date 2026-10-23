@@ -10,7 +10,7 @@ st.write("请在下方上传一张钢材图片，AI 将自动检测裂纹、斑�
 # 2. 加载你的专属模型（路径已锁定为你训练好的 best.pt）
 @st.cache_resource
 def load_model():
-    return YOLO(r"runs\neu_defect_train\weights\best.pt")
+    return YOLO("/runs/neu_defect_train/weights/best.pt")
 
 model = load_model()
 
