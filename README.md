@@ -37,5 +37,5 @@
    pip install ultralytics opencv-python streamlit
 2. 模型推理(命令行测试)：
 yolo predict model=runs/neu_defect_train/weights/best.pt source=test.jpg save=True
-3.启动可视化 Web 界面：
+3. 启动可视化 Web 界面：
 streamlit run app.py
