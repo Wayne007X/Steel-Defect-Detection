@@ -1,3 +1,4 @@
+from pathlib import Path
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
@@ -10,10 +11,9 @@ st.write("请在下方上传一张钢材图片，AI 将自动检测裂纹、斑�
 # 2. 加载你的专属模型（路径已锁定为你训练好的 best.pt）
 @st.cache_resource
 def load_model():
-    return YOLO("/runs/neu_defect_train/weights/best.pt")
-
-model = load_model()
-
+    # 自动获取 app.py 所在的绝对路径，并拼接模型路径
+    model_path = Path(__file__).resolve().parent / "runs" / "neu_defect_train" / "weights" / "best.pt"
+    return YOLO(str(model_path))
 # 3. 侧边栏：调节置信度阈值（为了让你能看到框，默认调低到 0.15）
 st.sidebar.header("检测参数设置")
 conf_threshold = st.sidebar.slider("置信度阈值 (越低越容易检测出缺陷)", 0.0, 1.0, 0.15, 0.05)
