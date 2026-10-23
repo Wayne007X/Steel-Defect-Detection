@@ -1,4 +1,5 @@
 # 基于 YOLOv8 的钢材表面缺陷检测系统
+🚀 **[👉 点击这里，在线体验 Web 应用](https://wayne-steel-defect.streamlit.app)**
 
 ## 📖 项目简介
 针对热轧带钢表面缺陷人工质检效率低、漏检率高的问题，本项目基于 NEU-DET 公开数据集，使用 YOLOv8n 训练了一套工业视觉缺陷检测模型，并**已基于 Streamlit 完成工程化 Web 部署闭环**。
