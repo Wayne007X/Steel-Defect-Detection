@@ -49,7 +49,21 @@
 - `neu_defect_mosaic000` 的整体 Recall 更高，在当前验证集上更适合优先考虑减少漏检的筛查场景。
 - 两个模型各有取舍，不能仅凭单一指标认定某个模型全面优于另一个模型。
 
-### 2. 固定阈值下的工作点比较
+### 2. 模型权重下载
+
+已将两个候选模型发布到 GitHub Releases。权重文件与代码仓库分开保存，下载后可用于本地推理或后续工程验证。
+
+| 权重文件 | 适用方向 | Precision | Recall | mAP@0.5 | 下载 |
+|---|---|---:|---:|---:|---|
+| `neu_defect_clean_best.pt` | 整体检测质量基线 | 0.673 | 0.650 | **0.7281** | [下载模型](https://github.com/Wayne007X/Steel-Defect-Detection/releases/download/v1.0.0-models/neu_defect_clean_best.pt) |
+| `neu_defect_mosaic000_best.pt` | 召回率优先候选 | 0.664 | **0.689** | 0.7260 | [下载模型](https://github.com/Wayne007X/Steel-Defect-Detection/releases/download/v1.0.0-models/neu_defect_mosaic000_best.pt) |
+
+- [查看完整模型发布页（v1.0.0-models）](https://github.com/Wayne007X/Steel-Defect-Detection/releases/tag/v1.0.0-models)
+- 两个模型均使用纠正后的 NEU-DET 数据集训练；以上指标来自现有验证结果，并非独立测试集结果。
+- **如何选择：** 若优先考虑整体 mAP，可从 `neu_defect_clean_best.pt` 开始评估；若优先考虑减少漏检，可评估 `neu_defect_mosaic000_best.pt`。实际选择仍需结合误报成本、漏检风险和业务验证。
+- 下载后请根据所使用的脚本或应用配置模型路径。当前仓库中的 Web 演示配置不代表这两个候选模型已经完成部署。
+
+### 3. 固定阈值下的工作点比较
 
 为进一步贴近实际推理场景，实验在相同置信度阈值和 NMS 参数下，对两个模型进行了固定工作点复核。
 
@@ -104,6 +118,7 @@
 为了便于复现、审查和继续开展实验，仓库保留正式调优报告、实验归档清单及相关指标文件。
 
 - [**完整模型调优实验报告**](reports/NEU-DET_model_tuning_report_stage4.md)：记录实验过程、指标、错误分析、验收标准和最终结论。
+- [实验索引](experiments/neu_det_tuning/EXPERIMENT_INDEX.md)：按实验目的、对比关系和结论定位实验，帮助区分各组候选。
 - [实验归档清单](experiments/neu_det_tuning/results/artifact_manifest.csv)：查看归档实验文件及其记录信息。
 - [原始实验结果目录](experiments/neu_det_tuning/results/raw_runs/)：保存训练记录、分类别指标、错误分析及其他实验结果。
 - [三模型标准验证指标](deployment_model_comparison/three_model_standard_metrics.csv)：查看模型标准验证指标对照数据。
