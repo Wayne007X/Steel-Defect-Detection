@@ -1,0 +1,29 @@
+NEU-DET box=8.5 controlled experiment decision report
+
+clean mAP50=0.728098, mAP50_95=0.384430
+mosaic000 mAP50=0.725950, mAP50_95=0.378362
+box085 mAP50=0.718184, mAP50_95=0.370524
+delta mAP50=-0.007766
+delta mAP50_95=-0.007838
+mosaic000 fixed F1 (conf=.25, NMS IoU=.30, match IoU=.50)=0.699267
+box085 fixed F1 (conf=.25, NMS IoU=.30, match IoU=.50)=0.698089
+delta fixed F1=-0.001178
+rolled-in_scale localization-related FP: mosaic000=47, box085=53
+
+Per-class mAP50 deltas (box085 - mosaic000):
+  crazing: -0.072420
+  inclusion: +0.013976
+  patches: +0.002258
+  pitted_surface: +0.032104
+  rolled-in_scale: +0.010066
+  scratches: -0.032579
+
+Predefined acceptance gates:
+  FAIL: mAP50_95 improvement >= 0.010
+  FAIL: mAP50 drop no worse than -0.005
+  PASS: fixed-threshold micro-F1 drop no worse than -0.010
+  FAIL: no class mAP50 drop exceeds 0.030
+  FAIL: rolled-in_scale localization-related FP decreased
+
+OVERALL: DOES NOT MEET ALL PREDEFINED GATES
+Do not launch another training experiment if this run does not meet all gates. Thresholds selected on the validation set are provisional, not independent test results.

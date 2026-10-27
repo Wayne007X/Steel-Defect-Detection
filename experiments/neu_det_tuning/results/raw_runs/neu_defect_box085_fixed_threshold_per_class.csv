@@ -1,0 +1,109 @@
+﻿model,nms_iou,threshold_strategy,confidence_threshold,match_iou,class_id,class_name,GT,TP,FP,FN,precision,recall,F1,per_class_thresholds
+neu_defect_clean,0.3,global,0.2,0.5,0,crazing,162,56,58,106,0.491228,0.345679,0.405797,
+neu_defect_clean,0.3,global,0.2,0.5,1,inclusion,159,120,29,39,0.805369,0.754717,0.779221,
+neu_defect_clean,0.3,global,0.2,0.5,2,patches,193,171,26,22,0.86802,0.88601,0.876923,
+neu_defect_clean,0.3,global,0.2,0.5,3,pitted_surface,87,63,16,24,0.797468,0.724138,0.759036,
+neu_defect_clean,0.3,global,0.2,0.5,4,rolled-in_scale,132,75,60,57,0.555556,0.568182,0.561798,
+neu_defect_clean,0.3,global,0.2,0.5,5,scratches,121,99,61,22,0.61875,0.818182,0.704626,
+neu_defect_clean,0.3,global,0.2,0.75,0,crazing,162,26,88,136,0.22807,0.160494,0.188406,
+neu_defect_clean,0.3,global,0.2,0.75,1,inclusion,159,74,75,85,0.496644,0.465409,0.480519,
+neu_defect_clean,0.3,global,0.2,0.75,2,patches,193,124,73,69,0.629442,0.642487,0.635897,
+neu_defect_clean,0.3,global,0.2,0.75,3,pitted_surface,87,32,47,55,0.405063,0.367816,0.385542,
+neu_defect_clean,0.3,global,0.2,0.75,4,rolled-in_scale,132,31,104,101,0.22963,0.234848,0.23221,
+neu_defect_clean,0.3,global,0.2,0.75,5,scratches,121,56,104,65,0.35,0.46281,0.398577,
+neu_defect_clean,0.3,global,0.25,0.5,0,crazing,162,44,40,118,0.52381,0.271605,0.357724,
+neu_defect_clean,0.3,global,0.25,0.5,1,inclusion,159,114,24,45,0.826087,0.716981,0.767677,
+neu_defect_clean,0.3,global,0.25,0.5,2,patches,193,167,23,26,0.878947,0.865285,0.872063,
+neu_defect_clean,0.3,global,0.25,0.5,3,pitted_surface,87,62,13,25,0.826667,0.712644,0.765432,
+neu_defect_clean,0.3,global,0.25,0.5,4,rolled-in_scale,132,73,41,59,0.640351,0.55303,0.593496,
+neu_defect_clean,0.3,global,0.25,0.5,5,scratches,121,98,56,23,0.636364,0.809917,0.712727,
+neu_defect_clean,0.3,global,0.25,0.75,0,crazing,162,19,65,143,0.22619,0.117284,0.154472,
+neu_defect_clean,0.3,global,0.25,0.75,1,inclusion,159,72,66,87,0.521739,0.45283,0.484848,
+neu_defect_clean,0.3,global,0.25,0.75,2,patches,193,123,67,70,0.647368,0.637306,0.642298,
+neu_defect_clean,0.3,global,0.25,0.75,3,pitted_surface,87,32,43,55,0.426667,0.367816,0.395062,
+neu_defect_clean,0.3,global,0.25,0.75,4,rolled-in_scale,132,30,84,102,0.263158,0.227273,0.243902,
+neu_defect_clean,0.3,global,0.25,0.75,5,scratches,121,55,99,66,0.357143,0.454545,0.4,
+neu_defect_clean,0.3,per_class_validation_candidate,0.15,0.5,0,crazing,162,68,98,94,0.409639,0.419753,0.414634,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.4,0.5,1,inclusion,159,103,10,56,0.911504,0.647799,0.757353,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.4,0.5,2,patches,193,165,10,28,0.942857,0.854922,0.896739,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.25,0.5,3,pitted_surface,87,62,13,25,0.826667,0.712644,0.765432,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.25,0.5,4,rolled-in_scale,132,73,41,59,0.640351,0.55303,0.593496,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.3,0.5,5,scratches,121,97,51,24,0.655405,0.801653,0.72119,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.15,0.75,0,crazing,162,27,139,135,0.162651,0.166667,0.164634,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.4,0.75,1,inclusion,159,68,45,91,0.60177,0.427673,0.5,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.4,0.75,2,patches,193,122,53,71,0.697143,0.632124,0.663043,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.25,0.75,3,pitted_surface,87,32,43,55,0.426667,0.367816,0.395062,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.25,0.75,4,rolled-in_scale,132,30,84,102,0.263158,0.227273,0.243902,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,0.3,0.75,5,scratches,121,55,93,66,0.371622,0.454545,0.408922,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,global,0.2,0.5,0,crazing,162,74,48,88,0.606557,0.45679,0.521127,
+neu_defect_mosaic000,0.3,global,0.2,0.5,1,inclusion,159,118,52,41,0.694118,0.742138,0.717325,
+neu_defect_mosaic000,0.3,global,0.2,0.5,2,patches,193,171,34,22,0.834146,0.88601,0.859296,
+neu_defect_mosaic000,0.3,global,0.2,0.5,3,pitted_surface,87,59,15,28,0.797297,0.678161,0.732919,
+neu_defect_mosaic000,0.3,global,0.2,0.5,4,rolled-in_scale,132,84,96,48,0.466667,0.636364,0.538462,
+neu_defect_mosaic000,0.3,global,0.2,0.5,5,scratches,121,92,23,29,0.8,0.760331,0.779661,
+neu_defect_mosaic000,0.3,global,0.2,0.75,0,crazing,162,32,90,130,0.262295,0.197531,0.225352,
+neu_defect_mosaic000,0.3,global,0.2,0.75,1,inclusion,159,73,97,86,0.429412,0.459119,0.443769,
+neu_defect_mosaic000,0.3,global,0.2,0.75,2,patches,193,127,78,66,0.619512,0.658031,0.638191,
+neu_defect_mosaic000,0.3,global,0.2,0.75,3,pitted_surface,87,31,43,56,0.418919,0.356322,0.385093,
+neu_defect_mosaic000,0.3,global,0.2,0.75,4,rolled-in_scale,132,41,139,91,0.227778,0.310606,0.262821,
+neu_defect_mosaic000,0.3,global,0.2,0.75,5,scratches,121,50,65,71,0.434783,0.413223,0.423729,
+neu_defect_mosaic000,0.3,global,0.25,0.5,0,crazing,162,59,35,103,0.62766,0.364198,0.460937,
+neu_defect_mosaic000,0.3,global,0.25,0.5,1,inclusion,159,116,42,43,0.734177,0.72956,0.731861,
+neu_defect_mosaic000,0.3,global,0.25,0.5,2,patches,193,170,28,23,0.858586,0.880829,0.869565,
+neu_defect_mosaic000,0.3,global,0.25,0.5,3,pitted_surface,87,58,11,29,0.84058,0.666667,0.74359,
+neu_defect_mosaic000,0.3,global,0.25,0.5,4,rolled-in_scale,132,80,76,52,0.512821,0.606061,0.555556,
+neu_defect_mosaic000,0.3,global,0.25,0.5,5,scratches,121,89,18,32,0.831776,0.735537,0.780702,
+neu_defect_mosaic000,0.3,global,0.25,0.75,0,crazing,162,32,62,130,0.340426,0.197531,0.25,
+neu_defect_mosaic000,0.3,global,0.25,0.75,1,inclusion,159,72,86,87,0.455696,0.45283,0.454259,
+neu_defect_mosaic000,0.3,global,0.25,0.75,2,patches,193,127,71,66,0.641414,0.658031,0.649616,
+neu_defect_mosaic000,0.3,global,0.25,0.75,3,pitted_surface,87,31,38,56,0.449275,0.356322,0.397436,
+neu_defect_mosaic000,0.3,global,0.25,0.75,4,rolled-in_scale,132,40,116,92,0.25641,0.30303,0.277778,
+neu_defect_mosaic000,0.3,global,0.25,0.75,5,scratches,121,48,59,73,0.448598,0.396694,0.421053,
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.15,0.5,0,crazing,162,90,83,72,0.520231,0.555556,0.537313,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.4,0.5,1,inclusion,159,109,24,50,0.819549,0.685535,0.746575,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.4,0.5,2,patches,193,167,18,26,0.902703,0.865285,0.883598,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.25,0.5,3,pitted_surface,87,58,11,29,0.84058,0.666667,0.74359,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.25,0.5,4,rolled-in_scale,132,80,76,52,0.512821,0.606061,0.555556,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.3,0.5,5,scratches,121,88,15,33,0.854369,0.727273,0.785714,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.15,0.75,0,crazing,162,35,138,127,0.202312,0.216049,0.208955,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.4,0.75,1,inclusion,159,70,63,89,0.526316,0.440252,0.479452,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.4,0.75,2,patches,193,126,59,67,0.681081,0.65285,0.666667,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.25,0.75,3,pitted_surface,87,31,38,56,0.449275,0.356322,0.397436,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.25,0.75,4,rolled-in_scale,132,40,116,92,0.25641,0.30303,0.277778,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,0.3,0.75,5,scratches,121,48,55,73,0.466019,0.396694,0.428571,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,global,0.2,0.5,0,crazing,162,46,28,116,0.621622,0.283951,0.389831,
+neu_defect_box085,0.3,global,0.2,0.5,1,inclusion,159,129,26,30,0.832258,0.811321,0.821656,
+neu_defect_box085,0.3,global,0.2,0.5,2,patches,193,172,48,21,0.781818,0.891192,0.83293,
+neu_defect_box085,0.3,global,0.2,0.5,3,pitted_surface,87,55,5,32,0.916667,0.632184,0.748299,
+neu_defect_box085,0.3,global,0.2,0.5,4,rolled-in_scale,132,83,90,49,0.479769,0.628788,0.544262,
+neu_defect_box085,0.3,global,0.2,0.5,5,scratches,121,92,21,29,0.814159,0.760331,0.786325,
+neu_defect_box085,0.3,global,0.2,0.75,0,crazing,162,23,51,139,0.310811,0.141975,0.194915,
+neu_defect_box085,0.3,global,0.2,0.75,1,inclusion,159,80,75,79,0.516129,0.503145,0.509554,
+neu_defect_box085,0.3,global,0.2,0.75,2,patches,193,130,90,63,0.590909,0.673575,0.62954,
+neu_defect_box085,0.3,global,0.2,0.75,3,pitted_surface,87,29,31,58,0.483333,0.333333,0.394558,
+neu_defect_box085,0.3,global,0.2,0.75,4,rolled-in_scale,132,34,139,98,0.196532,0.257576,0.222951,
+neu_defect_box085,0.3,global,0.2,0.75,5,scratches,121,44,69,77,0.389381,0.363636,0.376068,
+neu_defect_box085,0.3,global,0.25,0.5,0,crazing,162,30,14,132,0.681818,0.185185,0.291262,
+neu_defect_box085,0.3,global,0.25,0.5,1,inclusion,159,124,19,35,0.867133,0.779874,0.821192,
+neu_defect_box085,0.3,global,0.25,0.5,2,patches,193,171,38,22,0.818182,0.88601,0.850746,
+neu_defect_box085,0.3,global,0.25,0.5,3,pitted_surface,87,55,5,32,0.916667,0.632184,0.748299,
+neu_defect_box085,0.3,global,0.25,0.5,4,rolled-in_scale,132,77,75,55,0.506579,0.583333,0.542254,
+neu_defect_box085,0.3,global,0.25,0.5,5,scratches,121,91,17,30,0.842593,0.752066,0.79476,
+neu_defect_box085,0.3,global,0.25,0.75,0,crazing,162,19,25,143,0.431818,0.117284,0.184466,
+neu_defect_box085,0.3,global,0.25,0.75,1,inclusion,159,79,64,80,0.552448,0.496855,0.523179,
+neu_defect_box085,0.3,global,0.25,0.75,2,patches,193,130,79,63,0.62201,0.673575,0.646766,
+neu_defect_box085,0.3,global,0.25,0.75,3,pitted_surface,87,29,31,58,0.483333,0.333333,0.394558,
+neu_defect_box085,0.3,global,0.25,0.75,4,rolled-in_scale,132,33,119,99,0.217105,0.25,0.232394,
+neu_defect_box085,0.3,global,0.25,0.75,5,scratches,121,44,64,77,0.407407,0.363636,0.384279,
+neu_defect_box085,0.3,per_class_validation_candidate,0.15,0.5,0,crazing,162,65,53,97,0.550847,0.401235,0.464286,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.4,0.5,1,inclusion,159,107,6,52,0.946903,0.672956,0.786765,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.4,0.5,2,patches,193,161,19,32,0.894444,0.834197,0.863271,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.25,0.5,3,pitted_surface,87,55,5,32,0.916667,0.632184,0.748299,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.25,0.5,4,rolled-in_scale,132,77,75,55,0.506579,0.583333,0.542254,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.3,0.5,5,scratches,121,89,15,32,0.855769,0.735537,0.791111,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.15,0.75,0,crazing,162,28,90,134,0.237288,0.17284,0.2,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.4,0.75,1,inclusion,159,66,47,93,0.584071,0.415094,0.485294,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.4,0.75,2,patches,193,125,55,68,0.694444,0.647668,0.670241,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.25,0.75,3,pitted_surface,87,29,31,58,0.483333,0.333333,0.394558,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.25,0.75,4,rolled-in_scale,132,33,119,99,0.217105,0.25,0.232394,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,0.3,0.75,5,scratches,121,43,61,78,0.413462,0.355372,0.382222,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30

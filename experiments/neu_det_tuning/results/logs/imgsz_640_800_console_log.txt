@@ -1,0 +1,140 @@
+==============================================================================
+NEU-DET 瀹樻柟楠岃瘉澶嶆牳锛氬悓涓€鏉冮噸锛屽彧鏀瑰彉 imgsz
+鏉冮噸锛欵:\yolo_project\runs\neu_defect_mosaic000\weights\best.pt
+鏁版嵁 YAML锛欴:\yolov8\NEU-DET\data.yaml
+楠岃瘉鍥剧墖鐩綍棰勬湡锛欴:\yolov8\NEU-DET\validation\images
+鍥哄畾鍙傛暟锛歴plit=val, batch=2, conf=0.001, NMS IoU=0.7, max_det=300, rect=True, half=False, augment=False, device=0, workers=0
+娉ㄦ剰锛氭湰鑴氭湰涓嶈皟鐢?train()锛屼笉浼氬惎鍔ㄨ缁冦€?
+==============================================================================
+
+==============================================================================
+寮€濮嬪畼鏂?model.val()锛歩mgsz=640
+==============================================================================
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+Ultralytics 8.4.177  Python-3.10.11 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)
+Model summary (fused): 73 layers, 3,133,922 parameters, 0 gradients, 8.6 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.1卤0.0 ms, read: 168.4卤107.1 MB/s, size: 13.4 KB)
+
+[K[34m[1mval: [0mScanning <DATASET_ROOT>\validation\labels\crazing.cache... 360 images, 0 backgrounds, 0 corrupt: 100% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣 360/360  0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 1/180 2.3it/s 0.1s<1:18
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 6/180 14.1it/s 0.3s<12.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 6% 鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 12/180 27.2it/s 0.4s<6.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% 鈹佲攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 18/180 36.2it/s 0.5s<4.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 13% 鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 24/180 43.0it/s 0.6s<3.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% 鈹佲攣鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 30/180 48.0it/s 0.7s<3.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% 鈹佲攣鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 36/180 51.4it/s 0.8s<2.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 23% 鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 43/180 53.9it/s 0.9s<2.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 27% 鈹佲攣鈹佲攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 49/180 55.1it/s 1.0s<2.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 30% 鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 55/180 56.5it/s 1.1s<2.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 34% 鈹佲攣鈹佲攣鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 62/180 58.1it/s 1.2s<2.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 37% 鈹佲攣鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€ 68/180 58.6it/s 1.3s<1.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% 鈹佲攣鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€ 74/180 58.8it/s 1.4s<1.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% 鈹佲攣鈹佲攣鈹佲攢鈹€鈹€鈹€鈹€鈹€鈹€ 80/180 59.0it/s 1.5s<1.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 48% 鈹佲攣鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€ 87/180 59.6it/s 1.6s<1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% 鈹佲攣鈹佲攣鈹佲攣鈹€鈹€鈹€鈹€鈹€鈹€ 93/180 59.7it/s 1.7s<1.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 55% 鈹佲攣鈹佲攣鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€ 100/180 59.9it/s 1.8s<1.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 59% 鈹佲攣鈹佲攣鈹佲攣鈹佲攢鈹€鈹€鈹€鈹€ 107/180 60.2it/s 1.9s<1.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 62% 鈹佲攣鈹佲攣鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€ 113/180 59.1it/s 2.1s<1.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% 鈹佲攣鈹佲攣鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€ 119/180 58.9it/s 2.2s<1.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 69% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹€鈹€鈹€鈹€ 125/180 56.6it/s 2.3s<1.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 72% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈺糕攢鈹€鈹€ 131/180 55.8it/s 2.4s<0.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 76% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攢鈹€鈹€ 137/180 55.0it/s 2.5s<0.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 79% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲暩鈹€鈹€ 143/180 55.2it/s 2.6s<0.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲暩鈹€鈹€ 149/180 55.8it/s 2.7s<0.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 86% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹€鈹€ 155/180 56.1it/s 2.8s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 89% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈺糕攢 161/180 56.5it/s 2.9s<0.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攢 167/180 56.9it/s 3.0s<0.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲暩 173/180 56.7it/s 3.1s<0.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 99% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲暩 179/180 54.8it/s 3.2s<0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣 180/180 55.1it/s 3.3s
+                   all        360        854      0.664      0.689      0.726      0.378
+               crazing         60        162      0.604      0.333      0.486      0.197
+             inclusion         71        159      0.677      0.755      0.818      0.453
+               patches         73        193      0.794      0.907      0.917      0.577
+        pitted_surface         60         87      0.677      0.722      0.771       0.38
+       rolled-in_scale         60        132      0.463      0.621      0.544      0.252
+             scratches         60        121      0.769      0.793       0.82      0.411
+Speed: 0.3ms preprocess, 3.3ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to [1m<PROJECT_ROOT>\runs\neu_defect_imgsz_official_review\imgsz_640[0m
+
+imgsz=640 姹囨€绘寚鏍囷細
+  metrics/precision(B): 0.6639200435640933
+  metrics/recall(B): 0.6886328778756211
+  metrics/mAP50(B): 0.7259500323608803
+  metrics/mAP50-95(B): 0.37836228149282825
+  fitness: 0.37836228149282825
+
+==============================================================================
+寮€濮嬪畼鏂?model.val()锛歩mgsz=800
+==============================================================================
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+Ultralytics 8.4.177  Python-3.10.11 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)
+Model summary (fused): 73 layers, 3,133,922 parameters, 0 gradients, 8.6 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.2卤0.0 ms, read: 71.0卤33.0 MB/s, size: 16.2 KB)
+
+[K[34m[1mval: [0mScanning <DATASET_ROOT>\validation\labels\crazing.cache... 360 images, 0 backgrounds, 0 corrupt: 100% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣 360/360  0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 1/180 2.4it/s 0.1s<1:14
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 1% 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 3/180 6.6it/s 0.2s<26.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 6/180 11.4it/s 0.4s<15.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% 鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 10/180 17.5it/s 0.5s<9.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 7% 鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 14/180 22.4it/s 0.6s<7.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% 鈹佲攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 19/180 28.1it/s 0.7s<5.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 13% 鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 24/180 32.9it/s 0.9s<4.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% 鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 29/180 36.5it/s 1.0s<4.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 18% 鈹佲攣鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 34/180 39.6it/s 1.1s<3.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 21% 鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 39/180 42.4it/s 1.2s<3.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% 鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 44/180 43.7it/s 1.3s<3.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 27% 鈹佲攣鈹佲攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 49/180 44.8it/s 1.4s<2.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 30% 鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 54/180 46.2it/s 1.5s<2.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 32% 鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 59/180 46.1it/s 1.6s<2.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 35% 鈹佲攣鈹佲攣鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€ 64/180 46.6it/s 1.7s<2.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 38% 鈹佲攣鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€ 69/180 45.7it/s 1.8s<2.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% 鈹佲攣鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€鈹€鈹€ 74/180 45.8it/s 1.9s<2.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 43% 鈹佲攣鈹佲攣鈹佲攢鈹€鈹€鈹€鈹€鈹€鈹€ 79/180 46.5it/s 2.0s<2.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% 鈹佲攣鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€ 84/180 46.5it/s 2.1s<2.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 49% 鈹佲攣鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€鈹€鈹€ 89/180 46.6it/s 2.2s<2.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 52% 鈹佲攣鈹佲攣鈹佲攣鈹€鈹€鈹€鈹€鈹€鈹€ 94/180 46.3it/s 2.4s<1.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 55% 鈹佲攣鈹佲攣鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€ 99/180 46.1it/s 2.5s<1.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 57% 鈹佲攣鈹佲攣鈹佲攣鈺糕攢鈹€鈹€鈹€鈹€ 104/180 46.0it/s 2.6s<1.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% 鈹佲攣鈹佲攣鈹佲攣鈹佲攢鈹€鈹€鈹€鈹€ 109/180 46.1it/s 2.7s<1.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 63% 鈹佲攣鈹佲攣鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€ 114/180 46.7it/s 2.8s<1.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% 鈹佲攣鈹佲攣鈹佲攣鈹佲暩鈹€鈹€鈹€鈹€ 119/180 47.0it/s 2.9s<1.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹€鈹€鈹€鈹€ 124/180 46.3it/s 3.0s<1.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈺糕攢鈹€鈹€ 129/180 46.2it/s 3.1s<1.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 74% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈺糕攢鈹€鈹€ 134/180 46.7it/s 3.2s<1.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攢鈹€鈹€ 139/180 46.5it/s 3.3s<0.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲暩鈹€鈹€ 144/180 46.7it/s 3.4s<0.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲暩鈹€鈹€ 149/180 46.7it/s 3.5s<0.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 85% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹€鈹€ 154/180 46.9it/s 3.6s<0.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈺糕攢 159/180 47.5it/s 3.7s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 91% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈺糕攢 164/180 47.2it/s 3.9s<0.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 93% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攢 169/180 47.6it/s 4.0s<0.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲暩 174/180 47.8it/s 4.1s<0.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 99% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲暩 179/180 47.8it/s 4.2s<0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣鈹佲攣 180/180 43.0it/s 4.2s
+                   all        360        854      0.578       0.68       0.64      0.279
+               crazing         60        162      0.553       0.32      0.428      0.132
+             inclusion         71        159      0.637      0.811      0.809      0.393
+               patches         73        193      0.711      0.917        0.9      0.535
+        pitted_surface         60         87      0.615      0.609      0.582      0.169
+       rolled-in_scale         60        132      0.434      0.606      0.473      0.198
+             scratches         60        121      0.517      0.818      0.646      0.245
+Speed: 0.4ms preprocess, 5.2ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to [1m<PROJECT_ROOT>\runs\neu_defect_imgsz_official_review\imgsz_800[0m
+
+imgsz=800 姹囨€绘寚鏍囷細
+  metrics/precision(B): 0.577791090602906
+  metrics/recall(B): 0.6803373005971682
+  metrics/mAP50(B): 0.6398134011919251
+  metrics/mAP50-95(B): 0.2787480789854299
+  fitness: 0.2787480789854299
+
+==============================================================================
+涓ゆ瀹樻柟楠岃瘉宸插畬鎴愩€?
+姹囨€?CSV锛欵:\yolo_project\runs\neu_defect_imgsz_official_review\official_val_640_vs_800_summary.csv
+姣忔楠岃瘉鐨勭被鍒寚鏍囥€佹洸绾垮強娣锋穯鐭╅樀锛堣嫢 Ultralytics 鐢熸垚锛変繚瀛樺湪锛?
+  <PROJECT_ROOT>\runs\neu_defect_imgsz_official_review\imgsz_640
+  <PROJECT_ROOT>\runs\neu_defect_imgsz_official_review\imgsz_800
+==============================================================================

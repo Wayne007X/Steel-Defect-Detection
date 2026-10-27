@@ -1,0 +1,15 @@
+﻿model,class_id,class_name,precision,recall,mAP50,mAP50_95
+neu_defect_mosaic000_baseline,all,all,0.663973,0.688719,0.726042,0.378375
+neu_defect_mosaic000_baseline,0,crazing,0.603579,0.333333,0.485927,0.197383
+neu_defect_mosaic000_baseline,1,inclusion,0.676885,0.754717,0.818006,0.452812
+neu_defect_mosaic000_baseline,2,patches,0.793718,0.906736,0.9169,0.576989
+neu_defect_mosaic000_baseline,3,pitted_surface,0.677049,0.722925,0.77084,0.380344
+neu_defect_mosaic000_baseline,4,rolled-in_scale,0.462885,0.621212,0.544437,0.251859
+neu_defect_mosaic000_baseline,5,scratches,0.76972,0.793388,0.820143,0.410867
+neu_defect_crazing_weighted150,all,all,0.626426,0.688999,0.716412,0.370303
+neu_defect_crazing_weighted150,0,crazing,0.628626,0.320988,0.470828,0.190617
+neu_defect_crazing_weighted150,1,inclusion,0.62409,0.811321,0.816492,0.433944
+neu_defect_crazing_weighted150,2,patches,0.85095,0.828273,0.905165,0.573796
+neu_defect_crazing_weighted150,3,pitted_surface,0.611797,0.747126,0.772663,0.384544
+neu_defect_crazing_weighted150,4,rolled-in_scale,0.493957,0.560606,0.53204,0.233823
+neu_defect_crazing_weighted150,5,scratches,0.549139,0.86568,0.801285,0.405095

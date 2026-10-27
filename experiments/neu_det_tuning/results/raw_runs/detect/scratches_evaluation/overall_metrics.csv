@@ -1,0 +1,7 @@
+﻿config,match_iou_threshold,images,ground_truth_count,prediction_count,TP,FP,FN,precision,recall,F1,prediction_source_csv
+baseline_before_custom_filter,0.500000,60,124,220,99,121,25,0.450000,0.798387,0.575581,<PROJECT_ROOT>\runs\detect\scratches_postprocess_compare\detections_before.csv
+baseline_before_custom_filter,0.750000,60,124,220,58,162,66,0.263636,0.467742,0.337209,<PROJECT_ROOT>\runs\detect\scratches_postprocess_compare\detections_before.csv
+round1_after_filter_0.25,0.500000,60,124,158,99,59,25,0.626582,0.798387,0.702128,<PROJECT_ROOT>\runs\detect\scratches_postprocess_compare\detections_after.csv
+round1_after_filter_0.25,0.750000,60,124,158,57,101,67,0.360759,0.459677,0.404255,<PROJECT_ROOT>\runs\detect\scratches_postprocess_compare\detections_after.csv
+round2_after_filter_0.20,0.500000,60,124,161,99,62,25,0.614907,0.798387,0.694737,<PROJECT_ROOT>\runs\detect\scratches_postprocess_compare_v2\detections_after.csv
+round2_after_filter_0.20,0.750000,60,124,161,57,104,67,0.354037,0.459677,0.400000,<PROJECT_ROOT>\runs\detect\scratches_postprocess_compare_v2\detections_after.csv

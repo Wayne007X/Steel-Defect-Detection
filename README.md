@@ -103,7 +103,7 @@
 
 为了便于复现、审查和继续开展实验，仓库保留正式调优报告、实验归档清单及相关指标文件。
 
-- [**完整模型调优实验报告**](reports/NEU-DET_model_tuning_report.md)：记录实验过程、指标、错误分析、验收标准和最终结论。
+- [**完整模型调优实验报告**](reports/NEU-DET_model_tuning_report_stage4.md)：记录实验过程、指标、错误分析、验收标准和最终结论。
 - [实验归档清单](experiments/neu_det_tuning/results/artifact_manifest.csv)：查看归档实验文件及其记录信息。
 - [原始实验结果目录](experiments/neu_det_tuning/results/raw_runs/)：保存训练记录、分类别指标、错误分析及其他实验结果。
 - [三模型标准验证指标](deployment_model_comparison/three_model_standard_metrics.csv)：查看模型标准验证指标对照数据。

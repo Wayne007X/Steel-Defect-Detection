@@ -1,0 +1,21 @@
+NEU-DET crazing weighted-sampling experiment
+data_yaml=<DATASET_ROOT>\data.yaml
+pretrained_weight=<PROJECT_ROOT>\yolov8n.pt
+baseline_weight=<PROJECT_ROOT>\runs\neu_defect_mosaic000\weights\best.pt
+sampling_weight_crazing_image=1.5
+sampling_weight_other_image=1.0
+WeightedRandomSampler replacement=True
+samples_per_epoch=len(training_dataset)
+imgsz=640
+batch=16
+epochs_max=100
+patience=20
+mosaic=0.0
+cls=0.5
+seed=42
+validation_conf=0.001
+validation_iou=0.7
+Note: weighting is image-level. If an image contains both crazing and another class, that image is weighted 1.5x as a whole.
+Train-set metrics are not independent test results; all model selection here uses the same validation split.
+best_weight=<PROJECT_ROOT>\runs\neu_defect_crazing_weighted150\weights\best.pt
+comparison_csv=<PROJECT_ROOT>\runs\neu_defect_crazing_weighted150_comparison.csv

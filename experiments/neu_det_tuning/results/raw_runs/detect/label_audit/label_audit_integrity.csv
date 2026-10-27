@@ -1,0 +1,3 @@
+﻿split,images,label_files,images_missing_label,label_files_without_image,empty_label_files,boxes_outside_normalized_range,missing_label_examples,orphan_label_examples
+train,1440,1440,0,0,0,0,,
+validation,360,360,0,0,0,0,,

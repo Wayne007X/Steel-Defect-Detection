@@ -1,0 +1,22 @@
+﻿model,class_id,class_name,weight_path,imgsz,val_conf_floor,val_nms_iou,precision,recall,precision_recall_note,mAP50,mAP50_95
+neu_defect_clean,all,all,<PROJECT_ROOT>\runs\neu_defect_clean\weights\best.pt,640,0.001,0.7,0.6731,0.649525,Ultralytics PR-curve operating point; not fixed-threshold P/R,0.728098,0.38443
+neu_defect_clean,0,crazing,<PROJECT_ROOT>\runs\neu_defect_clean\weights\best.pt,640,0.001,0.7,0.583109,0.241765,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.428471,0.175364
+neu_defect_clean,1,inclusion,<PROJECT_ROOT>\runs\neu_defect_clean\weights\best.pt,640,0.001,0.7,0.793589,0.701248,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.827931,0.461179
+neu_defect_clean,2,patches,<PROJECT_ROOT>\runs\neu_defect_clean\weights\best.pt,640,0.001,0.7,0.860525,0.863132,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.922191,0.575957
+neu_defect_clean,3,pitted_surface,<PROJECT_ROOT>\runs\neu_defect_clean\weights\best.pt,640,0.001,0.7,0.683505,0.735632,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.776183,0.425661
+neu_defect_clean,4,rolled-in_scale,<PROJECT_ROOT>\runs\neu_defect_clean\weights\best.pt,640,0.001,0.7,0.557318,0.545455,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.600829,0.261899
+neu_defect_clean,5,scratches,<PROJECT_ROOT>\runs\neu_defect_clean\weights\best.pt,640,0.001,0.7,0.560553,0.809917,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.812983,0.406519
+neu_defect_mosaic000,all,all,<PROJECT_ROOT>\runs\neu_defect_mosaic000\weights\best.pt,640,0.001,0.7,0.66392,0.688633,Ultralytics PR-curve operating point; not fixed-threshold P/R,0.72595,0.378362
+neu_defect_mosaic000,0,crazing,<PROJECT_ROOT>\runs\neu_defect_mosaic000\weights\best.pt,640,0.001,0.7,0.603871,0.333333,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.485724,0.197337
+neu_defect_mosaic000,1,inclusion,<PROJECT_ROOT>\runs\neu_defect_mosaic000\weights\best.pt,640,0.001,0.7,0.676852,0.754717,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.817851,0.452704
+neu_defect_mosaic000,2,patches,<PROJECT_ROOT>\runs\neu_defect_mosaic000\weights\best.pt,640,0.001,0.7,0.793666,0.906736,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.9169,0.576986
+neu_defect_mosaic000,3,pitted_surface,<PROJECT_ROOT>\runs\neu_defect_mosaic000\weights\best.pt,640,0.001,0.7,0.676892,0.722411,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.770827,0.380421
+neu_defect_mosaic000,4,rolled-in_scale,<PROJECT_ROOT>\runs\neu_defect_mosaic000\weights\best.pt,640,0.001,0.7,0.462911,0.621212,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.544258,0.251857
+neu_defect_mosaic000,5,scratches,<PROJECT_ROOT>\runs\neu_defect_mosaic000\weights\best.pt,640,0.001,0.7,0.769328,0.793388,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.82014,0.410869
+neu_defect_box085,all,all,<PROJECT_ROOT>\runs\neu_defect_box085_controlled\weights\best.pt,640,0.001,0.7,0.709047,0.620384,Ultralytics PR-curve operating point; not fixed-threshold P/R,0.718184,0.370524
+neu_defect_box085,0,crazing,<PROJECT_ROOT>\runs\neu_defect_box085_controlled\weights\best.pt,640,0.001,0.7,0.714568,0.06182,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.413304,0.151067
+neu_defect_box085,1,inclusion,<PROJECT_ROOT>\runs\neu_defect_box085_controlled\weights\best.pt,640,0.001,0.7,0.78494,0.748428,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.831827,0.446709
+neu_defect_box085,2,patches,<PROJECT_ROOT>\runs\neu_defect_box085_controlled\weights\best.pt,640,0.001,0.7,0.73854,0.892778,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.919158,0.580378
+neu_defect_box085,3,pitted_surface,<PROJECT_ROOT>\runs\neu_defect_box085_controlled\weights\best.pt,640,0.001,0.7,0.908541,0.632184,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.802931,0.428765
+neu_defect_box085,4,rolled-in_scale,<PROJECT_ROOT>\runs\neu_defect_box085_controlled\weights\best.pt,640,0.001,0.7,0.455116,0.626448,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.554324,0.23709
+neu_defect_box085,5,scratches,<PROJECT_ROOT>\runs\neu_defect_box085_controlled\weights\best.pt,640,0.001,0.7,0.652576,0.760647,Ultralytics per-class PR-curve operating point; not fixed-threshold P/R,0.787561,0.379137

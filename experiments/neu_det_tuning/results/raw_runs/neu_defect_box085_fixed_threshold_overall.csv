@@ -1,0 +1,19 @@
+﻿model,nms_iou,threshold_strategy,confidence_threshold,match_iou,GT,TP,FP,FN,micro_precision,micro_recall,micro_F1,macro_F1,per_class_thresholds
+neu_defect_clean,0.3,global,0.2,0.5,854,584,250,270,0.70024,0.683841,0.691943,0.681234,
+neu_defect_clean,0.3,global,0.2,0.75,854,343,491,511,0.411271,0.401639,0.406398,0.386859,
+neu_defect_clean,0.3,global,0.25,0.5,854,558,197,296,0.739073,0.653396,0.693599,0.678186,
+neu_defect_clean,0.3,global,0.25,0.75,854,331,424,523,0.438411,0.387588,0.411436,0.386764,
+neu_defect_clean,0.3,per_class_validation_candidate,,0.5,854,568,223,286,0.718078,0.665105,0.690578,0.691474,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_clean,0.3,per_class_validation_candidate,,0.75,854,334,457,520,0.42225,0.391101,0.406079,0.395927,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,global,0.2,0.5,854,598,268,256,0.690531,0.700234,0.695349,0.691465,
+neu_defect_mosaic000,0.3,global,0.2,0.75,854,354,512,500,0.408776,0.41452,0.411628,0.396492,
+neu_defect_mosaic000,0.3,global,0.25,0.5,854,572,210,282,0.731458,0.669789,0.699267,0.690368,
+neu_defect_mosaic000,0.3,global,0.25,0.75,854,350,432,504,0.44757,0.409836,0.427873,0.408357,
+neu_defect_mosaic000,0.3,per_class_validation_candidate,,0.5,854,592,227,262,0.722833,0.693208,0.707711,0.708724,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_mosaic000,0.3,per_class_validation_candidate,,0.75,854,350,469,504,0.42735,0.409836,0.41841,0.40981,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,global,0.2,0.5,854,577,218,277,0.725786,0.675644,0.699818,0.687217,
+neu_defect_box085,0.3,global,0.2,0.75,854,340,455,514,0.427673,0.398126,0.412371,0.387931,
+neu_defect_box085,0.3,global,0.25,0.5,854,548,168,306,0.765363,0.641686,0.698089,0.674752,
+neu_defect_box085,0.3,global,0.25,0.75,854,334,382,520,0.46648,0.391101,0.425478,0.394274,
+neu_defect_box085,0.3,per_class_validation_candidate,,0.5,854,554,173,300,0.762036,0.648712,0.700822,0.699331,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
+neu_defect_box085,0.3,per_class_validation_candidate,,0.75,854,324,403,530,0.445667,0.379391,0.409867,0.394118,crazing=0.15; inclusion=0.40; patches=0.40; pitted_surface=0.25; rolled-in_scale=0.25; scratches=0.30
