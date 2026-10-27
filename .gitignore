@@ -1,0 +1,25 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+
+# Local training outputs
+/runs/
+*.cache
+
+# Model weights and exported models
+*.pt
+*.onnx
+*.engine
+
+# Local environments
+.venv/
+venv/
+
+# ONNX consistency: pending organization
+/onnx_consistency/
+/verify_onnx_consistency.py
+
+# Local test images and generated results
+crazing_252.jpg
+test.jpg
+result.jpg
