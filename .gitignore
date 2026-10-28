@@ -23,3 +23,33 @@ venv/
 crazing_252.jpg
 test.jpg
 result.jpg
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+# Python/tool caches and build outputs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+# Local model artifacts / datasets / inference outputs
+/weights/
+/datasets/
+/NEU-DET/
+*.log
+# Duplicate local packaging bundles; keep canonical source files instead
+/onnx_inference_api_pluggable_v3_package/
+/onnx_inference_api_pluggable_v3_package.zip
+/onnx_inference_api_pluggable_v4_bundle.zip
+/onnx_inference_api_pluggable_v4_bundle/
+/onnx_inference_api_pluggable_v4_cpu_fix/
+/streamlit_frontend_package/
+/onnx_inference_api_pluggable_v4_cpu_fix.zip
+/streamlit_frontend_package.zip
+/README_onnx_inference_api_pluggable_v4.txt
+/mosaic000_validator_source.txt

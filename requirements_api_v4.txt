@@ -1,0 +1,7 @@
+# API-side dependencies only; existing torch/ultralytics/onnxruntime are not reinstalled here.
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+python-multipart>=0.0.9
+Pillow>=10.0
+httpx>=0.27,<1.0
+numpy>=1.24,<3.0
