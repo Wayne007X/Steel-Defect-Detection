@@ -43,7 +43,7 @@
 
 ### 检测效果示例
 
-![单图钢材缺陷检测效果](result.jpg)
+![单图钢材缺陷检测效果](picture/result.jpg)
 
 ### Streamlit 页面
 
