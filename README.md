@@ -109,7 +109,7 @@
 
 ### 2. Streamlit Web 界面
 
-![Web 端可视化界面](web_demo.png)
+![Web 端可视化界面](picture/web_demo.png)
 
 在线演示：[Steel Defect Detection](https://wayne-steel-defect.streamlit.app)
 
@@ -137,7 +137,7 @@ Windows PowerShell：
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+pip install -r txt/requirements.txt
 ```
 
 ### 2. 启动 Web 演示
@@ -217,13 +217,13 @@ python .\scripts\testing\verify_fastapi_live.py "D:\path\to\test.jpg" --base-url
 API ????????
 
 ```powershell
-python -m pip install -r .\requirements_api_v4.txt
+python -m pip install -r .\txt\requirements_api_v4.txt
 ```
 
 Streamlit ?????????
 
 ```powershell
-python -m pip install -r .\streamlit_frontend_requirements.txt
+python -m pip install -r .\txt\streamlit_frontend_requirements.txt
 ```
 
 `requirements_api_v4.txt` ????????????
@@ -238,4 +238,4 @@ python -m pip install -r .\streamlit_frontend_requirements.txt
 ???????????????????????
 
 ??????????????????????
-[????????????](DEPLOYMENT_AND_REGRESSION.md)?
+[????????????](onnx_fast_api_streamlit_docs/钢材表面缺陷检测系统：部署架构与端到端回归记录.md)?
