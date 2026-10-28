@@ -431,7 +431,14 @@ Invoke-RestMethod -Uri "http://127.0.0.1:8001/health" -TimeoutSec 10 |
     ConvertTo-Json -Depth 5
 ```
 
-重点确认 `status=ok`、`model=mosaic000`、`device=cpu`、`imgsz=640`，以及六类 `class_names` 均存在。也可以打开 [Swagger 文档](http://127.0.0.1:8001/docs)。
+
+重点检查 `/health` 返回结果中是否包含 `status=ok`、`model=mosaic000`、`device=cpu`、`imgsz=640` 和 `class_names` 等字段。
+
+本地启动 FastAPI 服务后，可在浏览器中打开以下地址查看 Swagger 接口文档：
+
+`http://127.0.0.1:8001/docs`
+
+注意：该地址仅用于本地运行和接口测试，并非公开的在线 API 地址。
 
 ### 3. 启动 Streamlit
 
