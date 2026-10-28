@@ -47,7 +47,15 @@
 
 ### Streamlit 页面
 
-![Streamlit Web 界面](picture/web_demo.png)
+![图片1：Streamlit 界面](picture/图片1.png)
+
+![图片2：图片上传与检测](picture/图片2.png)
+
+![图片2：检测过程展示](picture/图片2.png)
+
+![图片3：检测结果展示](picture/图片3.png)
+
+![图片4：完整界面展示](picture/图片4.png)
 
 在线演示与本地 FastAPI 部署链路是不同的运行入口。除非另行核对线上应用的配置，不应假定在线演示当前使用的权重、阈值和本地候选模型完全相同。
 
