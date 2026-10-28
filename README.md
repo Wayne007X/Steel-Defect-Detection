@@ -509,11 +509,11 @@ python .\scripts\testing\verify_fastapi_live.py `
 
 项目中保留了训练脚本、实验索引、CSV 指标、ONNX 排查记录、部署说明和回归测试记录。建议将这些资料与 README 一起维护，方便后续复核实验决策和继续开发。
 
-- [完整模型调优实验报告](reports/NEU-DET_model_tuning_report_stage4.md)
+- [完整模型调优实验报告](reports/NEU-DET_model_tuning_report.md)
 - [实验索引](experiments/neu_det_tuning/EXPERIMENT_INDEX.md)
 - [实验归档清单](experiments/neu_det_tuning/results/artifact_manifest.csv)
 - [三模型标准验证指标](deployment_model_comparison/three_model_standard_metrics.csv)
-- [ONNX 导出与一致性验证记录](onnx_fast_api_streamlit_docs/MOSAIC000_ONNX_导出与验证排查记录_最终版.md)
+- [ONNX 导出与一致性验证记录](onnx_fast_api_streamlit_docs/MOSAIC000_ONNX_导出与验证排查记录_补充部署决策.md)
 - [部署架构与端到端回归记录](onnx_fast_api_streamlit_docs/钢材表面缺陷检测系统：部署架构与端到端回归记录.md)
 - [四阶段完整项目记录与使用手册](onnx_fast_api_streamlit_docs/钢材表面缺陷检测系统：四阶段完整项目记录与使用手册.md)
 - [端到端回归测试记录](onnx_fast_api_streamlit_docs/钢材表面缺陷检测系统：端到端回归测试记录.md)
