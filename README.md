@@ -28,7 +28,7 @@
 - [为什么继续保留 mosaic000](#为什么继续保留-mosaic000)
 - [后处理与阈值选择](#后处理与阈值选择)
 - [ONNX 导出与验证](#onnx-导出与验证)
-- [FastAPI、DeepSeek 与 Streamlit](#fastapi-deepseek-与-streamlit)
+- [FastAPI、DeepSeek 与 Streamlit](#fastapideepseek-与-streamlit)
 - [部署决策：单模型与阈值工作模式](#部署决策单模型与阈值工作模式)
 - [本地运行指南](#本地运行指南)
 - [接口与回归测试](#接口与回归测试)
