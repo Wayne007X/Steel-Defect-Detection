@@ -54,3 +54,6 @@ dist/
 /README_onnx_inference_api_pluggable_v4.txt
 /mosaic000_validator_source.txt
 /我的命令历史.txt
+
+# ONNX model used by the cloud API
+!/models/mosaic000.onnx

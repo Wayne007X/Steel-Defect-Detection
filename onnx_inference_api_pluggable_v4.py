@@ -67,6 +67,9 @@ MODEL_LOCK = threading.Lock()
 # ---------------------------------------------------------------------------
 # Configurable DeepSeek settings. No API key is required for /predict.
 # ---------------------------------------------------------------------------
+ENABLE_DEEPSEEK = os.getenv(
+    "ENABLE_DEEPSEEK", "false"
+).strip().lower() in {"1", "true", "yes", "on"}
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "").strip()
 DEEPSEEK_BASE_URL = os.getenv(
     "DEEPSEEK_BASE_URL", "https://api.deepseek.com"
@@ -197,13 +200,18 @@ async def lifespan(app: FastAPI):
     print("[startup] ONNX backend initialized and warmed up.")
     print("[startup] Inference device is explicitly set to CPU.")
 
-    timeout = httpx.Timeout(
-        connect=DEEPSEEK_CONNECT_TIMEOUT,
-        read=DEEPSEEK_READ_TIMEOUT,
-        write=DEEPSEEK_WRITE_TIMEOUT,
-        pool=DEEPSEEK_POOL_TIMEOUT,
-    )
-    app.state.deepseek_client = httpx.AsyncClient(timeout=timeout)
+    app.state.deepseek_client = None
+    if ENABLE_DEEPSEEK:
+        timeout = httpx.Timeout(
+            connect=DEEPSEEK_CONNECT_TIMEOUT,
+            read=DEEPSEEK_READ_TIMEOUT,
+            write=DEEPSEEK_WRITE_TIMEOUT,
+            pool=DEEPSEEK_POOL_TIMEOUT,
+        )
+        app.state.deepseek_client = httpx.AsyncClient(timeout=timeout)
+        print("[startup] DeepSeek is ENABLED.")
+    else:
+        print("[startup] DeepSeek is DISABLED.")
 
     try:
         yield
@@ -417,6 +425,13 @@ async def analyze(payload: AnalyzeRequest, request: Request) -> AnalyzeResponse:
     This is a separate endpoint: a DeepSeek timeout/failure never changes the
     already-returned local detection result. Send the JSON from /predict as body.
     """
+    # Enforce the deployment switch before reading keys or sending any request.
+    if not ENABLE_DEEPSEEK:
+        raise HTTPException(
+            status_code=403,
+            detail="DeepSeek analysis is disabled in this deployment.",
+        )
+
     api_key = os.getenv("DEEPSEEK_API_KEY", "").strip()
     if not api_key:
         return _unavailable_analysis(

@@ -1,0 +1,15 @@
+﻿# CPU builds for cloud deployment
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+
+# Versions recorded from the working local environment
+fastapi==0.162.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+Pillow==12.3.0
+httpx==0.28.1
+numpy==2.2.6
+onnxruntime==1.23.2
+ultralytics==8.4.177
+opencv-python==5.0.0.93

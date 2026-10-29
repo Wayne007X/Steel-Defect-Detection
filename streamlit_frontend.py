@@ -21,6 +21,10 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps, UnidentifiedImageError
 
 
 DEFAULT_API_BASE_URL = os.getenv("FASTAPI_BASE_URL", "http://127.0.0.1:8000").strip().rstrip("/")
+# Disabled by default; enable explicitly in the local frontend process.
+ENABLE_DEEPSEEK = os.getenv(
+    "ENABLE_DEEPSEEK", "false"
+).strip().lower() in {"1", "true", "yes", "on"}
 PREDICT_TIMEOUT_SECONDS = 120
 ANALYZE_TIMEOUT_SECONDS = 35
 HEALTH_TIMEOUT_SECONDS = 3
@@ -152,11 +156,13 @@ for state_key, initial_value in (
 
 
 st.title("🔍 工业钢材表面缺陷检测系统")
-st.caption("mosaic000 ONNX · FastAPI 推理 · 可选 DeepSeek 辅助分析")
-st.write(
-    "上传一张钢材表面图片，系统会通过 FastAPI 调用当前配置的 ONNX 模型。"
-    "视觉检测与 AI 分析分开执行，检测结果以本地模型输出为准。"
+st.caption(
+    "mosaic000 ONNX · FastAPI 推理 · 可选 DeepSeek 辅助分析"
+    if ENABLE_DEEPSEEK else "mosaic000 ONNX · FastAPI 推理"
 )
+st.write("上传一张钢材表面图片，系统会通过 FastAPI 调用当前配置的 ONNX 模型。")
+if ENABLE_DEEPSEEK:
+    st.write("视觉检测与 AI 分析分开执行，检测结果以本地模型输出为准。")
 
 with st.sidebar:
     st.header("连接与检测设置")
@@ -316,51 +322,56 @@ if result_is_current:
     with st.expander("查看原始 /predict JSON"):
         st.json(prediction)
 
-    st.divider()
-    st.header("DeepSeek 辅助分析")
-    st.caption("这是独立请求；只分析检测器返回的结构化数据，不会直接查看原始图片。")
-    analyze_clicked = st.button("生成 AI 辅助分析", key="analyze_button", use_container_width=True)
+    if ENABLE_DEEPSEEK:
+        st.divider()
+        st.header("DeepSeek 辅助分析")
+        st.caption("这是独立请求；只分析检测器返回的结构化数据，不会直接查看原始图片。")
+        analyze_clicked = st.button("生成 AI 辅助分析", key="analyze_button", use_container_width=True)
 
-    if analyze_clicked:
-        try:
-            with st.spinner("正在调用 FastAPI /analyze，等待 DeepSeek 返回…"):
-                response = requests.post(
-                    f"{api_base_url}/analyze",
-                    json=prediction,
-                    timeout=ANALYZE_TIMEOUT_SECONDS,
-                )
-                if not response.ok:
-                    raise RuntimeError(response_error_message(response))
-                analysis = response.json()
-            st.session_state["analysis_result"] = analysis
-            st.session_state["analysis_key"] = current_key
-        except requests.Timeout:
-            st.session_state["analysis_result"] = {
-                "status": "unavailable",
-                "message": "前端等待 AI 分析超时。视觉检测结果仍然有效，可以稍后重新请求分析。",
-            }
-            st.session_state["analysis_key"] = current_key
-        except requests.RequestException as exc:
-            st.session_state["analysis_result"] = {
-                "status": "unavailable",
-                "message": f"无法连接 /analyze：{exc}。视觉检测结果仍然有效。",
-            }
-            st.session_state["analysis_key"] = current_key
-        except (ValueError, RuntimeError) as exc:
-            st.session_state["analysis_result"] = {
-                "status": "unavailable",
-                "message": f"AI 分析请求失败：{exc}。视觉检测结果仍然有效。",
-            }
-            st.session_state["analysis_key"] = current_key
+        if analyze_clicked:
+            try:
+                with st.spinner("正在调用 FastAPI /analyze，等待 DeepSeek 返回…"):
+                    response = requests.post(
+                        f"{api_base_url}/analyze",
+                        json=prediction,
+                        timeout=ANALYZE_TIMEOUT_SECONDS,
+                    )
+                    if not response.ok:
+                        raise RuntimeError(response_error_message(response))
+                    analysis = response.json()
+                st.session_state["analysis_result"] = analysis
+                st.session_state["analysis_key"] = current_key
+            except requests.Timeout:
+                st.session_state["analysis_result"] = {
+                    "status": "unavailable",
+                    "message": "前端等待 AI 分析超时。视觉检测结果仍然有效，可以稍后重新请求分析。",
+                }
+                st.session_state["analysis_key"] = current_key
+            except requests.RequestException as exc:
+                st.session_state["analysis_result"] = {
+                    "status": "unavailable",
+                    "message": f"无法连接 /analyze：{exc}。视觉检测结果仍然有效。",
+                }
+                st.session_state["analysis_key"] = current_key
+            except (ValueError, RuntimeError) as exc:
+                st.session_state["analysis_result"] = {
+                    "status": "unavailable",
+                    "message": f"AI 分析请求失败：{exc}。视觉检测结果仍然有效。",
+                }
+                st.session_state["analysis_key"] = current_key
 
-    if st.session_state["analysis_result"] is not None and st.session_state["analysis_key"] == current_key:
-        analysis = st.session_state["analysis_result"]
-        if analysis.get("status") == "ok" and analysis.get("analysis"):
-            st.success(analysis.get("message", "AI 分析完成。"))
-            st.markdown(analysis["analysis"])
-            if analysis.get("latency_ms") is not None:
-                st.caption(f"AI 接口耗时：{float(analysis['latency_ms']):.0f} ms")
-        else:
-            st.warning(analysis.get("message", "AI 分析暂不可用；视觉检测结果仍然有效。"))
+        if st.session_state["analysis_result"] is not None and st.session_state["analysis_key"] == current_key:
+            analysis = st.session_state["analysis_result"]
+            if analysis.get("status") == "ok" and analysis.get("analysis"):
+                st.success(analysis.get("message", "AI 分析完成。"))
+                st.markdown(analysis["analysis"])
+                if analysis.get("latency_ms") is not None:
+                    st.caption(f"AI 接口耗时：{float(analysis['latency_ms']):.0f} ms")
+            else:
+                st.warning(analysis.get("message", "AI 分析暂不可用；视觉检测结果仍然有效。"))
 
-st.caption("提示：模型路径在 FastAPI 后端通过 MODEL_PATH 配置；请勿在 Streamlit 前端重复加载模型或填写 DeepSeek API Key。")
+st.caption(
+    "提示：模型路径在 FastAPI 后端通过 MODEL_PATH 配置；"
+    + ("请勿在 Streamlit 前端重复加载模型或填写 DeepSeek API Key。"
+       if ENABLE_DEEPSEEK else "Streamlit 前端仅负责上传图片和展示检测结果。")
+)
