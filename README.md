@@ -1,7 +1,7 @@
 # Steel Defect Detection — 基于 YOLOv8 的钢材表面缺陷检测系统
 
 <p align="center">
-  <strong>NEU-DET · YOLOv8 · ONNX Runtime · FastAPI · Streamlit · Render</strong>
+  <strong>NEU-DET · YOLOv8 · ONNX Runtime · FastAPI · DeepSeek API（本地可选）· Streamlit · Render</strong>
 </p>
 
 <p align="center">
