@@ -1,11 +1,11 @@
 # Steel Defect Detection — 基于 YOLOv8 的钢材表面缺陷检测系统
 
 <p align="center">
-  <strong>NEU-DET · YOLOv8 · ONNX Runtime · FastAPI · DeepSeek API · Streamlit</strong>
+  <strong>NEU-DET · YOLOv8 · ONNX Runtime · FastAPI · Streamlit · Render</strong>
 </p>
 
 <p align="center">
-  <a href="https://wayne-steel-defect.streamlit.app">在线体验 Web 演示</a>
+  <a href="https://steel-defect-detection-52wcl85z79gio5qv82slyd.streamlit.app">在线体验 Web 演示</a>
   ·
   <a href="https://github.com/Wayne007X/Steel-Defect-Detection">GitHub 仓库</a>
   ·
@@ -16,7 +16,7 @@
 
 项目希望展示的不只是一个能画框的模型，还包括模型为什么这样选、哪些尝试没有达到目标、部署时遇到了什么问题、哪些结果已被验证，以及哪些风险仍然需要保留。本文中的结论尽量区分**标准验证指标、固定阈值诊断、单类别后处理实验和应用接口测试**，避免把不同评估口径的数字混为一谈。
 
-> **当前状态：** 本地主要应用链路已跑通；`mosaic000` 与 `clean` 均有 FastAPI 冒烟测试通过记录，Streamlit 检测展示和一次实际 DeepSeek 分析也已成功运行。项目尚未完成独立测试集评估、全面的六类别端到端回归、并发压力测试或工业现场验收。ONNX 的 `predict()` 对照非常接近 PyTorch，但原生 `model.val()` 指标仍存在差异，详见下文。
+> **当前状态（2026-10-29）：** 已完成 **Streamlit Community Cloud 前端 + Render FastAPI 后端**部署，在线使用 `mosaic000` ONNX 模型执行 CPU 推理，并通过真实图片的完整网页检测。**云端只提供视觉检测：DeepSeek 分析区域隐藏，`POST /analyze` 已实测返回 HTTP 403；本地保留可选 DeepSeek 能力。** 当前未实现用户输入 API Key 的云端分析功能。单图上线验收不等于完成独立测试集评估、六类别全面回归或工业现场验收；ONNX 原生验证指标差异仍保留为已知限制。
 
 ## 目录
 
@@ -30,6 +30,7 @@
 - [ONNX 导出与验证](#onnx-导出与验证)
 - [FastAPI、DeepSeek 与 Streamlit](#fastapideepseek-与-streamlit)
 - [部署决策：单模型与阈值工作模式](#部署决策单模型与阈值工作模式)
+- [云端部署与上线验收](#云端部署与上线验收)
 - [本地运行指南](#本地运行指南)
 - [接口与回归测试](#接口与回归测试)
 - [项目资料与复现入口](#项目资料与复现入口)
@@ -38,14 +39,16 @@
 
 ## 项目展示
 
-- **在线 Web 演示：** [Steel Defect Detection](https://wayne-steel-defect.streamlit.app)
+- **在线 Web 演示：** [Steel Defect Detection](https://steel-defect-detection-52wcl85z79gio5qv82slyd.streamlit.app)
+- **云端 API 健康检查：** [GET /health](https://steel-defect-api-ud3q.onrender.com/health)
+- **云端 API 文档：** [Swagger UI](https://steel-defect-api-ud3q.onrender.com/docs)
 - **候选 PyTorch 权重：** [GitHub Release — v1.0.0-models](https://github.com/Wayne007X/Steel-Defect-Detection/releases/tag/v1.0.0-models)
 
 ### 检测效果示例
 
 ![单图钢材缺陷检测效果](picture/result.jpg)
 
-### Streamlit 页面
+### Streamlit 页面（历史展示截图）
 
 ![图片1：Streamlit 界面](picture/图片1.png)
 
@@ -55,7 +58,9 @@
 
 ![图片4：完整界面展示](picture/图片4.png)
 
-在线演示与本地 FastAPI 部署链路是不同的运行入口。除非另行核对线上应用的配置，不应假定在线演示当前使用的权重、阈值和本地候选模型完全相同。
+以上 `picture/` 图片沿用仓库原有展示材料，不作为本次云端部署截图。当前已验收的在线系统使用 `models/mosaic000.onnx`，页面默认 `conf=0.25`、NMS IoU `0.70`；本地可以另行指定模型和参数。
+
+**在线使用：** 打开演示站点 → 上传图片 → 按需调整阈值 → 点击“开始视觉检测” → 查看检测框与结果 JSON。无需启动本地服务或填写 DeepSeek API Key。单张图片的应用校验上限为 **10 MiB**；上传控件若显示平台默认的 200 MB，不代表后端支持该大小。
 
 ## 项目目标与技术架构
 
@@ -77,7 +82,8 @@
 | 深度学习环境 | Python、PyTorch、Ultralytics | 模型训练和评估 |
 | 模型部署格式 | ONNX、ONNX Runtime | 将模型接入独立推理服务 |
 | 后端接口 | FastAPI、Uvicorn | 健康检查、视觉推理、可选 AI 分析 |
-| 辅助分析 | DeepSeek API | 解释检测器返回的结构化结果 |
+| 辅助分析（仅本地按需启用） | DeepSeek API | 解释检测器返回的结构化结果；云端关闭 |
+| 云端托管 | Render + Streamlit Community Cloud | 分别托管后端推理服务和交互前端 |
 | Web 前端 | Streamlit | 图片上传、阈值调整、结果可视化 |
 | 测试与分析 | Python 脚本、CSV、Markdown 报告 | 阈值扫描、错误分析、ONNX 对照与接口回归 |
 
@@ -85,19 +91,27 @@
 
 ```mermaid
 flowchart TD
-    U[用户 / 浏览器] --> UI[Streamlit 前端]
-    UI -->|上传图片、设置 conf / IoU| P[FastAPI POST /predict]
-    P --> V[输入校验与图片解码]
-    V --> M[已加载的 ONNX 模型]
+    U[用户浏览器] --> UI[Streamlit Community Cloud 前端]
+    UI -->|图片、conf、NMS IoU| API[Render FastAPI 后端]
+    API --> M[mosaic000 ONNX · CPU 推理]
     M --> R[结构化检测 JSON]
     R --> UI
-    UI -->|用户主动请求 AI 分析| A[FastAPI POST /analyze]
-    A --> D[DeepSeek API]
-    D --> AR[辅助分析结果]
-    AR --> UI
+    UI --> V[检测框、类别、置信度与耗时]
 ```
 
-视觉检测与 AI 分析是两个独立请求。DeepSeek 不负责识别原始图片，也不是 `/predict` 的前置依赖；它读取检测器输出的结构化 JSON，并生成辅助解读和复核建议。
+云端前后端通过 HTTPS 通信，前端不直接加载模型。后端启动时加载一次 ONNX 模型并完成 CPU 预热。
+
+本地仍保留独立的 `POST /analyze`：只有显式开启 DeepSeek 且后端配置有效密钥时，用户才能主动请求分析。DeepSeek 读取的是检测结果 JSON，不接收原始图片，也不是 `/predict` 的依赖。
+
+| 功能 | 云端演示 | 本地运行 |
+|---|---|---|
+| 图片上传、六类检测与结果展示 | 可用 | 可用 |
+| 置信度 / NMS IoU 调整 | 可用 | 可用 |
+| DeepSeek 分析区域 | 隐藏 | 开关开启时显示 |
+| `/analyze` | 关闭，合法分析请求返回 403 | 开关开启且配置密钥后可调用 |
+| 用户自行输入 API Key | 未实现 | 后端通过环境变量配置 |
+
+`ENABLE_DEEPSEEK` 默认关闭。云端前后端均显式配置为 `false`，不配置 `DEEPSEEK_API_KEY`。
 
 ## 检测类别与数据集
 
@@ -135,11 +149,11 @@ flowchart TD
 | Python | 3.10.11 |
 | PyTorch | 2.5.1+cu121 |
 | Ultralytics | 8.4.177 |
-| ONNX / ONNX Runtime | 1.23.2 |
+| ONNX Runtime | 1.23.2 |
 | 开发 GPU | NVIDIA GeForce RTX 3060 Laptop GPU，6 GB 显存 |
 | 当前 FastAPI 推理设备 | CPU |
 | ONNX 输入尺寸 | 640 |
-| API 端口示例 | 8001 |
+| 本地 API 端口 | 8000 |
 | Streamlit 端口示例 | 8501 |
 
 虽然训练环境中的 PyTorch 版本带有 CUDA 标记，当前经过验证的 ONNX 服务仍显式使用 CPU。当前运行时没有报告 `CUDAExecutionProvider`，因此这里不将其描述为 ONNX GPU 推理。
@@ -296,7 +310,7 @@ flowchart TD
 | 输入形状 | `(1, 3, 640, 640)` |
 | 输出形状 | `(1, 10, 8400)` |
 | ONNX opset | 18 |
-| 文件大小 | 约 12.16 MB |
+| 文件大小 | 12,751,171 字节，约 12.16 MiB |
 | 推理封装 | Ultralytics ONNX wrapper |
 | 当前服务设备 | CPU |
 
@@ -339,7 +353,7 @@ flowchart TD
 
 ### FastAPI：独立视觉推理服务
 
-正式推荐的本地后端入口为：
+当前本地和 Render 共用的后端入口为：
 
 `onnx_inference_api_pluggable_v4.py`
 
@@ -347,18 +361,22 @@ V3 作为历史版本备份；除非确认实际文件与测试结果，否则�
 
 后端在服务启动阶段加载指定 ONNX 模型，并通过环境变量控制模型路径和显示标签。它负责输入校验、推理、结构化 JSON 响应与健康检查。Streamlit 不直接加载模型，而是通过 HTTP 调用后端。
 
-### DeepSeek：可选的结构化结果辅助分析
+### DeepSeek：仅在本地按需启用
 
-`POST /analyze` 将视觉检测器返回的 JSON 发送给 DeepSeek，生成检测概览、结果解读和建议复核内容。当前设计**不会把原始图片传给 DeepSeek**，因此它不应声称自己直接观察或验证了图片中的缺陷。
+`POST /analyze` 将视觉检测器返回的 JSON 发送给 DeepSeek，生成检测概览、结果解读和建议复核内容。当前设计**不会把原始图片传给 DeepSeek**。
 
-这种拆分带来几个好处：
+本地启用需要同时满足：
 
-1. 用户可以先获得视觉检测结果，再决定是否请求 AI 分析。
-2. 未配置 `DEEPSEEK_API_KEY` 时，视觉检测接口仍可独立使用。
-3. AI 结果作为辅助信息展示，不覆盖检测器的原始输出。
-4. AI 服务响应较慢或不可用时，可以更清楚地显示分析状态。
+1. FastAPI 启动环境设置 `ENABLE_DEEPSEEK=true`。
+2. 后端配置有效的 `DEEPSEEK_API_KEY`。
+3. Streamlit 启动环境设置 `ENABLE_DEEPSEEK=true`，显示分析按钮。
+4. 用户主动点击分析，才发起请求；视觉检测不会自动触发 AI 调用。
 
-已经验证过未配置密钥时的结构化降级响应；也曾在 Streamlit 页面中观察到一次实际 AI 分析成功。真实网络超时、断网和服务端异常的完整故障注入仍待补充。
+**云端采用关闭策略：** 不创建 DeepSeek HTTP 客户端，在分析函数读取密钥和发送请求之前返回 403；前端同时隐藏分析区域。即使误配置密钥，开关关闭时也不会因此启用调用。
+
+原项目记录中曾有一次本地实际分析成功；本次上线流程验收的是关闭保护，没有重新进行真实 DeepSeek 调用。曾讨论“用户自带 API Key”的方案，但考虑到演示重点是视觉检测，本次未实现。
+
+开关开启但未配置密钥时，原有不可用回退逻辑仍保留；超时、断网和远端异常的完整故障注入测试仍待补充。
 
 ### Streamlit：浏览器交互界面
 
@@ -370,7 +388,7 @@ V3 作为历史版本备份；除非确认实际文件与测试结果，否则�
 - 查看服务连接状态、模型标签和设备信息；
 - 显示检测框、类别、置信度、检测数量、图片尺寸与推理耗时；
 - 展开查看检测条目及原始 `/predict` JSON；
-- 主动请求 DeepSeek 辅助分析，并展示分析状态、概览、解读与复核建议。
+- 本地启用开关后，主动请求 DeepSeek 辅助分析；云端不显示该区域。
 
 ## 部署决策：单模型与阈值工作模式
 
@@ -386,103 +404,204 @@ V3 作为历史版本备份；除非确认实际文件与测试结果，否则�
 |---|---|---|
 | `GET /health` | 服务状态、模型标签、设备、输入尺寸、类别名和运行时 provider | 否 |
 | `POST /predict` | 上传图片并返回检测框、类别、置信度、图片尺寸与耗时 | 否 |
-| `POST /analyze` | 对检测器输出的结构化 JSON 生成辅助解读 | 是 |
+| `POST /analyze` | 本地可选分析；云端关闭时返回 403 | 开启后依赖 |
 | `GET /docs` | FastAPI Swagger 交互文档 | 否 |
 
 `/predict` 返回的检测框使用原图像素坐标 `xyxy`。置信度是模型对预测框的评分，不等同于缺陷真实存在的概率。
 
+## 云端部署与上线验收
+
+### 交付文件与版本
+
+| 文件 | 用途 |
+|---|---|
+| `onnx_inference_api_pluggable_v4.py` | FastAPI 后端入口，包含 DeepSeek 开关保护 |
+| `streamlit_frontend.py` | 调用 FastAPI 的前端入口 |
+| `models/mosaic000.onnx` | 云端已验证的部署模型 |
+| `txt/requirements_api_cloud.txt` | Render CPU 推理服务依赖 |
+| `requirements.txt` | Streamlit 自动识别的前端依赖 |
+
+模型由 `runs/neu_defect_mosaic000/weights/best.onnx` 复制至部署目录，大小为 `12,751,171` 字节。源文件与副本 SHA256 一致：
+
+```text
+95F2EDB3735C896A8F83ECBA12E7D466582984CC87B1EE88C4216C84F3C5BA98
+```
+
+`.gitignore` 保留 `*.onnx` 忽略规则，只为该模型增加 `!/models/mosaic000.onnx` 例外。
+
+| 提交 | 内容 |
+|---|---|
+| `f147b1c` | 默认关闭的 DeepSeek 保护、部署模型、后端云端依赖与 Git 例外规则 |
+| `3f773ff` | 新增仓库根目录的 Streamlit 前端 `requirements.txt` |
+
+### Render 后端配置
+
+| 配置项 | 值 |
+|---|---|
+| Branch | `main` |
+| Runtime | Python 3 |
+| Root Directory | 留空 |
+| Build Command | `pip install -r txt/requirements_api_cloud.txt` |
+| Start Command | `python -m uvicorn onnx_inference_api_pluggable_v4:app --host 0.0.0.0 --port $PORT --workers 1` |
+| Health Check Path | `/health` |
+
+环境变量：
+
+```text
+PYTHON_VERSION=3.10.11
+MODEL_PATH=models/mosaic000.onnx
+ENABLE_DEEPSEEK=false
+YOLO_AUTOINSTALL=false
+CUDA_VISIBLE_DEVICES=-1
+```
+
+不配置 `DEEPSEEK_API_KEY`。启动命令中的 `$PORT` 由 Render 提供，不是本地 PowerShell 的端口写法。
+
+后端依赖使用 `torch==2.5.1+cpu`、`torchvision==0.20.1+cpu` 和 `onnxruntime==1.23.2`。虽然模型是 ONNX，现有代码仍通过 Ultralytics 封装调用，因此保留 CPU 版 PyTorch 依赖；不要将本地 CUDA 环境整套复制到云端。
+
+### Streamlit Community Cloud 配置
+
+| 配置项 | 值 |
+|---|---|
+| Repository | `Wayne007X/Steel-Defect-Detection` |
+| Branch | `main` |
+| Main file path | `streamlit_frontend.py` |
+| Python | 本次部署指导选择 3.12 |
+
+Advanced settings → Secrets：
+
+```toml
+FASTAPI_BASE_URL = "https://steel-defect-api-ud3q.onrender.com"
+ENABLE_DEEPSEEK = "false"
+```
+
+两项为顶层配置，不添加 DeepSeek 密钥。根目录 `requirements.txt` 只声明前端依赖：
+
+```text
+streamlit==1.65.0
+requests==2.34.2
+Pillow==12.3.0
+```
+
+### 2026-10-29 云端验收
+
+测试图片为 `crazing_252.jpg`，原图 `200 × 200`，参数为 `conf=0.25`、NMS IoU `0.70`、`imgsz=640`。
+
+| 验收项 | 实际结果 |
+|---|---|
+| Render 首次部署 | `Deploy succeeded`，部署源提交 `f147b1c` |
+| 公网 `/health` | `status=ok`、`model=mosaic000`、`device=cpu` |
+| 公网 `/predict` | HTTP 200，返回 2 个 `crazing` 框 |
+| 框置信度 | 0.433809、0.425217，与此前本地同图记录一致 |
+| 公网 `/analyze` | HTTP 403，提示当前部署禁用 DeepSeek |
+| Streamlit 云端连接 | 显示 FastAPI 已连接，模型和设备正确 |
+| 网页整体验收 | 图片上传、检测框、类别、置信度、数量和耗时正常展示 |
+| 云端分析区域 | 隐藏 |
+
+公网脚本测试中后端处理耗时约 `6254.224 ms`；网页验收中约 `5589.7 ms`。这些是两次单图观测值，不是平均性能或延迟承诺，也不包含完整浏览器请求耗时。
+
 ## 本地运行指南
 
-以下命令依据已验证的 Windows 开发环境编写。示例路径为 `E:\yolo_project`，Python 环境为 `E:\yolo_workspace`；在其他机器上需要替换为实际路径。
+以下命令使用已验证的 Windows 项目目录 `E:\yolo_project` 和解释器 `E:\yolo_workspace\Scripts\python.exe`。其他机器需替换路径。
 
-### 1. 准备环境
+### 1. 准备依赖
+
+如果使用当前已运行成功的本地环境，无需再次安装。全新 CPU 环境可在创建并激活独立虚拟环境后执行：
 
 ```powershell
 cd E:\yolo_project
-E:\yolo_workspace\Scripts\Activate.ps1
-
-python -m pip install -r .\requirements_api_v4.txt
-python -m pip install -r .\streamlit_frontend_requirements.txt
+python -m pip install -r .\txt\requirements_api_cloud.txt
+python -m pip install -r .\requirements.txt
 ```
 
-上述两个文件主要负责 API 层和 Streamlit 层依赖。全新环境还需要安装与 Python、Ultralytics 和 ONNX 模型兼容的核心推理依赖，包括 CPU 版 `onnxruntime`、`ultralytics` 等。请按项目实际依赖清单安装并在目标环境验证。当前 CPU-only 服务不需要为了消除提示而盲目安装 `onnxruntime-gpu`。
+该命令面向新的 CPU 环境，不建议直接在已有 CUDA 训练环境中覆盖安装。原有 API 侧依赖文件位于 `txt/requirements_api_v4.txt`，前端依赖文件位于 `txt/streamlit_frontend_requirements.txt`；它们与完整云端后端依赖清单的用途不同。
 
-### 2. 启动 FastAPI
+### 2. 启动本地 FastAPI：默认关闭 AI
 
-在第一个 PowerShell 终端中执行，并保持终端运行：
+在第一个 PowerShell 终端执行，并保持运行：
 
 ```powershell
 cd E:\yolo_project
-E:\yolo_workspace\Scripts\Activate.ps1
 
-$env:MODEL_PATH = "E:\yolo_project\runs\neu_defect_mosaic000\weights\best.onnx"
+$env:MODEL_PATH = "E:\yolo_project\models\mosaic000.onnx"
 $env:MODEL_NAME = "mosaic000"
+$env:ENABLE_DEEPSEEK = "false"
+Remove-Item Env:DEEPSEEK_API_KEY -ErrorAction SilentlyContinue
 
-# 只有需要 DeepSeek 分析时才设置密钥；不要将真实密钥写入源码或提交到 Git。
-# $env:DEEPSEEK_API_KEY = "你的实际 API Key"
-
-python -m uvicorn onnx_inference_api_pluggable_v4:app --host 127.0.0.1 --port 8001 --workers 1
+& "E:\yolo_workspace\Scripts\python.exe" -m uvicorn onnx_inference_api_pluggable_v4:app --host 127.0.0.1 --port 8000 --workers 1
 ```
 
-等待日志出现 `Application startup complete` 后，在另一个终端检查健康状态：
+等待 CPU 预热完成和 `Application startup complete`。检查：
 
 ```powershell
-Invoke-RestMethod -Uri "http://127.0.0.1:8001/health" -TimeoutSec 10 |
+Invoke-RestMethod "http://127.0.0.1:8000/health" |
     ConvertTo-Json -Depth 5
 ```
 
+应看到 `status=ok`、`model=mosaic000`、`device=cpu` 和六类名称。本地接口文档：<http://127.0.0.1:8000/docs>。
 
-重点检查 `/health` 返回结果中是否包含 `status=ok`、`model=mosaic000`、`device=cpu`、`imgsz=640` 和 `class_names` 等字段。
+### 3. 启动本地 Streamlit
 
-本地启动 FastAPI 服务后，可在浏览器中打开以下地址查看 Swagger 接口文档：
-
-`http://127.0.0.1:8001/docs`
-
-注意：该地址仅用于本地运行和接口测试，并非公开的在线 API 地址。
-
-### 3. 启动 Streamlit
-
-在第二个独立的 PowerShell 终端中执行：
+在第二个 PowerShell 终端执行：
 
 ```powershell
 cd E:\yolo_project
-E:\yolo_workspace\Scripts\Activate.ps1
 
-$env:FASTAPI_BASE_URL = "http://127.0.0.1:8001"
-python -m streamlit run .\streamlit_frontend.py
+$env:FASTAPI_BASE_URL = "http://127.0.0.1:8000"
+$env:ENABLE_DEEPSEEK = "false"
+
+& "E:\yolo_workspace\Scripts\python.exe" -m streamlit run .\streamlit_frontend.py --server.address 127.0.0.1 --server.port 8501
 ```
 
-按终端输出的地址打开页面，通常为 `http://localhost:8501`。前端的 `FASTAPI_BASE_URL` 必须与后端实际端口一致。
+浏览器打开 <http://127.0.0.1:8501>，上传图片并点击“开始视觉检测”。
 
-### 4. 配置 DeepSeek API Key
+### 4. 本地按需启用 DeepSeek
 
-密钥应在启动 FastAPI 的同一个 PowerShell 会话中设置，并在启动服务前完成。可用安全输入方式，避免把密钥直接写进命令历史：
+先分别停止本地前后端。在启动 FastAPI 的终端配置：
 
 ```powershell
+$env:ENABLE_DEEPSEEK = "true"
 $secure = Read-Host "请输入 DeepSeek API Key" -AsSecureString
 $env:DEEPSEEK_API_KEY = [System.Net.NetworkCredential]::new('', $secure).Password
+Remove-Variable secure
+
+& "E:\yolo_workspace\Scripts\python.exe" -m uvicorn onnx_inference_api_pluggable_v4:app --host 127.0.0.1 --port 8000 --workers 1
 ```
 
-随后启动或重启 FastAPI。已经运行的服务不会自动读取后来才设置的环境变量。没有配置密钥时，视觉检测仍可使用，AI 分析则应返回不可用/降级状态。
+上述命令沿用先前已配置的本地 `MODEL_PATH`。如果使用新终端，先按第 2 步配置模型路径和标签，再执行本段开启命令。
 
-### 5. 切换模型
+在启动 Streamlit 的另一个终端配置：
 
-先在 FastAPI 终端按 `Ctrl+C` 停止旧服务，再配置并重启。例如切换到 `clean`：
+```powershell
+cd E:\yolo_project
+$env:FASTAPI_BASE_URL = "http://127.0.0.1:8000"
+$env:ENABLE_DEEPSEEK = "true"
+
+& "E:\yolo_workspace\Scripts\python.exe" -m streamlit run .\streamlit_frontend.py --server.address 127.0.0.1 --server.port 8501
+```
+
+前端不配置密钥，只在后端配置。设置环境变量后必须启动或重启对应进程，已运行服务不会自动继承终端后续修改。
+
+开启后，完成检测再主动点击分析按钮。调用会消耗该密钥所属账户的额度；未配置密钥或分析失败不会覆盖已有视觉检测结果。恢复纯检测模式时，将两个终端开关设为 `false`、清除后端密钥并重启。
+
+### 5. 切换本地模型
+
+先在 FastAPI 终端按 `Ctrl+C` 停止服务，再配置新路径。例如已有 `clean` ONNX 文件时：
 
 ```powershell
 $env:MODEL_PATH = "E:\yolo_project\runs\neu_defect_clean\weights\best.onnx"
 $env:MODEL_NAME = "clean"
 
-python -m uvicorn onnx_inference_api_pluggable_v4:app --host 127.0.0.1 --port 8001 --workers 1
+& "E:\yolo_workspace\Scripts\python.exe" -m uvicorn onnx_inference_api_pluggable_v4:app --host 127.0.0.1 --port 8000 --workers 1
 ```
 
-重启后重新访问 `/health` 确认 `model=clean`。只修改当前 PowerShell 环境变量不会使已经加载模型的进程自动切换权重。
+重启后访问 `/health` 确认模型标签。阈值滑块不会切换模型权重；其他候选 ONNX 文件需要自行准备。
 
 ## 接口与回归测试
 
-### 已有回归记录
+### 历史本地回归记录
 
-测试图片为 `crazing_253.jpg`（200 × 200），主要用于验证接口契约与基本推理路径。
+以下为原项目保留的本地测试记录，主要测试图片为 `crazing_253.jpg`（200 × 200）。这些历史成绩不应表述为本次云端重新执行的结果。当前版本在关闭开关时直接返回 403，旧版“未配置密钥时降级”的测试预期需要相应调整。
 
 | 测试项 | 已记录结果 | 说明 |
 |---|---|---|
@@ -504,11 +623,11 @@ python -m uvicorn onnx_inference_api_pluggable_v4:app --host 127.0.0.1 --port 80
 ```powershell
 python .\scripts\testing\verify_fastapi_live.py `
   "D:\yolov8\NEU-DET\validation\images\crazing\crazing_253.jpg" `
-  --base-url "http://127.0.0.1:8001" `
+  --base-url "http://127.0.0.1:8000" `
   --expected-model mosaic000
 ```
 
-需要检查 `/analyze` 契约时，可追加 `--test-analyze`。此选项可能触发真实 AI 请求并消耗 API 额度；如果没有配置密钥，测试验证的可能是降级路径，而非在线分析成功。
+历史脚本的 `--test-analyze` 选项需要先核对与当前开关策略是否兼容。当前关闭模式应断言 HTTP 403；本地开启但无密钥时才进入不可用回退；本地开启且有密钥时测试可能触发真实调用并消耗额度。不要把旧版契约通过次数直接套用于新版云端。
 
 单张测试图片上的检测数、置信度与耗时仅是该次运行的观测值，不代表六类总体性能或固定的性能承诺。
 
@@ -525,7 +644,7 @@ python .\scripts\testing\verify_fastapi_live.py `
 - [四阶段完整项目记录与使用手册](onnx_fast_api_streamlit_docs/钢材表面缺陷检测系统：四阶段完整项目记录与使用手册.md)
 - [端到端回归测试记录](onnx_fast_api_streamlit_docs/钢材表面缺陷检测系统：端到端回归测试记录.md)
 
-> 提交 README 前，请核对上述相对路径与 GitHub 中的实际目录、文件名一致。如果某份报告尚未提交或已经改名，应同步修正链接。模型权重、数据集、`runs/` 产物、虚拟环境、缓存和密钥不应混入普通源码提交；候选权重可继续通过 GitHub Releases 分发。
+> 提交 README 前，请核对上述相对路径与 GitHub 中的实际目录、文件名一致。如果某份报告尚未提交或已经改名，应同步修正链接。本次仅将明确用于部署的 `models/mosaic000.onnx` 纳入 Git，并为它配置忽略例外；其他模型权重继续按发布策略管理。数据集、`runs/` 产物、虚拟环境、缓存和密钥不应混入源码提交；候选 PyTorch 权重可继续通过 GitHub Releases 分发。
 
 ## 已知限制与下一步
 
@@ -539,6 +658,8 @@ python .\scripts\testing\verify_fastapi_live.py `
 6. **AI 网络异常测试不足。** 已验证未配置密钥时的降级路径，也观察到一次真实 AI 分析成功；但超时、断网和远端服务异常仍需专门测试。
 7. **当前服务走 CPU 路径。** GPU provider 未在当前运行时中得到验证。
 8. **尚未完成生产级验收。** 还需要真实采集批次、不同光照和相机条件、并发吞吐量、人工复核成本与业务验收标准。
+
+9. **云端性能验证有限。** 已完成真实单图网页验收，尚未完成并发、持续运行、冷启动和耗时分布测试。
 
 ### 建议的后续工作
 
@@ -554,7 +675,8 @@ python .\scripts\testing\verify_fastapi_live.py `
 
 - 不要把 `DEEPSEEK_API_KEY` 或其他凭据写入代码、README、截图或公开仓库。
 - 本地路径是开发环境示例，其他机器需按实际路径调整。
-- 当前 API 示例监听 `127.0.0.1`，适用于本地使用。若对外开放，应另行配置认证、HTTPS、访问控制、限流和部署安全措施。
+- 本地示例监听 `127.0.0.1`；云端 Render 监听 `0.0.0.0:$PORT` 并提供 HTTPS 入口。本次没有新增检测接口鉴权或限流，公开演示不等于生产级服务验收。
+- 云端 `ENABLE_DEEPSEEK=false`，不设置共享密钥、不支持用户自带密钥；本地启用时仅在后端环境中配置密钥。
 - 检测置信度是模型评分，不是缺陷真实存在的概率。
 - DeepSeek 只读取检测器的结构化输出，不直接查看原图；其解释应作为辅助信息。
 - 工业质量判定应结合原图、人工复核、经过验证的业务规则和适用的质量标准，不应由当前模型或 AI 文本单独决定放行、降级或报废。
@@ -563,8 +685,8 @@ python .\scripts\testing\verify_fastapi_live.py `
 
 本项目的完整路径是：
 
-**NEU-DET 数据准备 → YOLOv8 基线训练 → 受控调优与错误分析 → 候选模型选择 → 阈值扫描与专项后处理 → ONNX 导出和一致性核查 → FastAPI 视觉推理 → DeepSeek 辅助分析 → Streamlit 交互展示 → 端到端回归测试。**
+**NEU-DET 数据准备 → YOLOv8 基线训练 → 受控调优与错误分析 → 候选模型选择 → 阈值扫描与专项后处理 → ONNX 导出和一致性核查 → FastAPI 视觉推理与本地可选 AI 分析 → Render 后端部署 → Streamlit 前端部署 → 云端图片检测与 DeepSeek 禁用验收。**
 
-项目的价值不只在于形成了可交互演示的应用，也在于把模型选择和部署排查过程沉淀成可复核记录：哪些方案有效、哪些没有达到验收标准、为什么保留两个候选、ONNX 与 PyTorch 还存在哪些差异，以及哪些工程风险尚未覆盖。当前最合理的方向是保留已经跑通的应用链路，以明确的证据推进下一阶段验证，而不是为了追求更多实验次数而反复修改模型。
+项目已完成云端前后端的真实图片功能验收，并保留本地按需启用 AI 的使用方式。项目的价值不只在于形成了可交互演示的应用，也在于把模型选择和部署排查过程沉淀成可复核记录：哪些方案有效、哪些没有达到验收标准、为什么保留两个候选、ONNX 与 PyTorch 还存在哪些差异，以及哪些工程风险尚未覆盖。当前最合理的方向是保留已经跑通的应用链路，以明确的证据推进下一阶段验证，而不是为了追求更多实验次数而反复修改模型。
 
 ---
