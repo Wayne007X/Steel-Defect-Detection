@@ -12,8 +12,11 @@ from __future__ import annotations
 
 import hashlib
 import io
+import ipaddress
 import os
+import time
 from typing import Any
+from urllib.parse import urlsplit
 
 import requests
 import streamlit as st
@@ -27,7 +30,10 @@ ENABLE_DEEPSEEK = os.getenv(
 ).strip().lower() in {"1", "true", "yes", "on"}
 PREDICT_TIMEOUT_SECONDS = 120
 ANALYZE_TIMEOUT_SECONDS = 35
-HEALTH_TIMEOUT_SECONDS = 3
+HEALTH_TIMEOUT_SECONDS = 15
+HEALTH_RETRY_TIMEOUT_SECONDS = 60
+HEALTH_SUCCESS_TTL_SECONDS = 60
+HEALTH_FAILURE_TTL_SECONDS = 10
 MAX_UPLOAD_BYTES = 10 * 1024 * 1024  # Keep consistent with the FastAPI upload limit.
 ALLOWED_EXTENSIONS = ("jpg", "jpeg", "png", "webp", "bmp", "tif", "tiff")
 
@@ -38,18 +44,80 @@ st.set_page_config(
 )
 
 
-@st.cache_data(ttl=10, show_spinner=False)
-def get_health(api_base_url: str) -> tuple[bool, dict[str, Any] | str]:
-    """Check the FastAPI backend without loading a model in Streamlit."""
+def is_local_backend(api_base_url: str) -> bool:
+    """Identify loopback URLs without making DNS or network requests."""
     try:
-        response = requests.get(f"{api_base_url}/health", timeout=HEALTH_TIMEOUT_SECONDS)
+        hostname = (urlsplit(api_base_url).hostname or "").lower()
+    except ValueError:
+        return False
+    if hostname == "localhost":
+        return True
+    try:
+        return ipaddress.ip_address(hostname).is_loopback
+    except ValueError:
+        return False
+
+
+def get_health(
+    api_base_url: str, timeout_seconds: int = HEALTH_TIMEOUT_SECONDS
+) -> tuple[bool, dict[str, Any] | str]:
+    """Fetch health once; the timeout is not evidence of a crashed service."""
+    try:
+        parsed = urlsplit(api_base_url)
+        if parsed.scheme not in {"http", "https"} or not parsed.hostname:
+            return False, "地址格式不正确，请输入完整的 http:// 或 https:// 地址。"
+        response = requests.get(
+            f"{api_base_url}/health", timeout=(5, timeout_seconds)
+        )
         response.raise_for_status()
         data = response.json()
+        if not isinstance(data, dict) or data.get("status") not in ("ok", "not_ready"):
+            return False, "后端已响应，但 /health 内容不符合预期，请检查 API 地址或部署日志。"
         return True, data
-    except requests.RequestException as exc:
-        return False, f"无法连接 FastAPI：{exc}"
+    except requests.Timeout:
+        return False, (
+            f"本次健康检查等待响应超时（读取等待上限 {timeout_seconds} 秒）。"
+            "后端可能正在启动或繁忙，暂不能据此判断服务已停止。"
+        )
+    except requests.HTTPError as exc:
+        code = exc.response.status_code if exc.response is not None else "unknown"
+        return False, f"健康接口返回 HTTP {code}，请检查后端状态。"
+    except requests.ConnectionError:
+        return False, "暂时无法建立后端连接，请检查地址、网络和服务运行状态。"
+    except requests.RequestException:
+        return False, "健康检查请求未完成，请检查 API 地址和网络后重试。"
     except ValueError:
-        return False, "FastAPI /health 返回的不是有效 JSON。"
+        return False, "地址格式不正确，或 /health 未返回有效 JSON，请检查后端。"
+
+
+def get_session_health(
+    api_base_url: str, force: bool = False
+) -> tuple[bool, dict[str, Any] | str, float]:
+    """Cache per session and URL; manual retry always performs a fresh GET."""
+    cached = st.session_state.get("backend_health_check")
+    now = time.monotonic()
+    if not force and cached is not None and cached["url"] == api_base_url:
+        ok, info = cached["result"]
+        ready = ok and isinstance(info, dict) and info.get("status") == "ok"
+        ttl = HEALTH_SUCCESS_TTL_SECONDS if ready else HEALTH_FAILURE_TTL_SECONDS
+        if now - cached["checked_at"] < ttl:
+            return ok, info, cached["checked_at"]
+
+    local = is_local_backend(api_base_url)
+    timeout = HEALTH_RETRY_TIMEOUT_SECONDS if force and not local else HEALTH_TIMEOUT_SECONDS
+    if local:
+        message = "正在检查本地 FastAPI 连接…"
+    elif force:
+        message = "正在重新连接云端后端；如正在唤醒，本次将延长等待，请稍候…"
+    else:
+        message = "正在检查云端后端；首次访问可能需要等待启动…"
+    with st.spinner(message):
+        result = get_health(api_base_url, timeout_seconds=timeout)
+    checked_at = time.monotonic()
+    st.session_state["backend_health_check"] = {
+        "url": api_base_url, "result": result, "checked_at": checked_at
+    }
+    return result[0], result[1], checked_at
 
 
 def make_request_key(api_base_url: str, image_bytes: bytes, conf: float, iou: float) -> str:
@@ -188,17 +256,51 @@ with st.sidebar:
         help="该参数传给后端 /predict，不在前端重新执行 NMS。",
     )
     st.divider()
+    retry_health = st.button(
+        "重新检查连接",
+        key="retry_backend_health",
+        disabled=not api_base_url,
+        use_container_width=True,
+        help="立即重新请求健康接口；云端手动重试会延长等待，不使用上次检查结果。",
+    )
     if api_base_url:
-        backend_ok, health_info = get_health(api_base_url)
+        try:
+            local_backend = is_local_backend(api_base_url)
+        except ValueError:
+            local_backend = False
+        backend_ok, health_info, checked_at = get_session_health(
+            api_base_url, force=retry_health
+        )
         if backend_ok and isinstance(health_info, dict) and health_info.get("status") == "ok":
             st.success("FastAPI 已连接")
             st.caption(f"模型：{health_info.get('model') or '后端已就绪'}")
             st.caption(f"设备：{health_info.get('device') or '由后端决定'}")
         elif backend_ok:
-            st.warning(f"FastAPI 已响应，但模型未就绪：{health_info}")
+            st.warning("FastAPI 已响应，但模型尚未就绪。请稍后重新检查连接。")
         else:
-            st.error(str(health_info))
-            st.caption("请先在另一个终端启动 FastAPI，再点击检测。")
+            st.warning(str(health_info))
+
+        elapsed = max(0, int(time.monotonic() - checked_at))
+        st.caption(f"最近检查：{elapsed} 秒前；点击上方按钮可立即更新。")
+        if not backend_ok or not isinstance(health_info, dict) or health_info.get("status") != "ok":
+            if local_backend:
+                st.caption(
+                    "本地模式：请确认另一个终端中的 FastAPI 已启动并完成模型预热，"
+                    "且端口与这里的地址一致，再点击“重新检查连接”。"
+                )
+            else:
+                st.caption(
+                    "云端模式：后端可能正在唤醒、部署或繁忙。请稍后点击“重新检查连接”；"
+                    "若持续失败，请查看 Render 的服务状态和 Logs，无需启动本机 FastAPI。"
+                )
+                try:
+                    parsed = urlsplit(api_base_url)
+                    if parsed.scheme in {"http", "https"} and parsed.hostname:
+                        st.link_button("打开后端健康接口", f"{api_base_url}/health")
+                except ValueError:
+                    pass
+    else:
+        st.info("请先填写 FastAPI 地址。")
 
 uploaded_file = st.file_uploader(
     "上传钢材表面图片",
@@ -261,7 +363,10 @@ if predict_clicked and uploaded_bytes is not None and current_key is not None:
         st.session_state["analysis_key"] = None
         st.success("视觉检测完成。")
     except requests.Timeout:
-        st.error("调用 /predict 超时。请确认后端仍在运行后重试。")
+        st.warning(
+            "本次检测请求超时，后端可能正在启动、繁忙或处理图片。"
+            "请先在侧栏重新检查连接，再决定是否重试检测；无需重启整个页面。"
+        )
     except requests.RequestException as exc:
         st.error(f"无法连接 FastAPI /predict：{exc}")
     except (ValueError, RuntimeError) as exc:
