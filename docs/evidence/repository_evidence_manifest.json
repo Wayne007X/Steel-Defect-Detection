@@ -2,8 +2,8 @@
   "base_commit": "0d570a4cdeaf16c22e7054bcde5448d35b202df7",
   "experiment_final_freeze": "6f9bf021dfaf65de4239358f2ff0970ab22ff0ef144dfb1b3c93ddae45c0bb1d",
   "purpose": "Repository evidence and recorded-statistic verification; not a full model/data bundle",
-  "version": "repository-evidence-v3",
-  "created_at": "2026-11-01T08:44:50.784940+00:00",
+  "version": "repository-evidence-v4",
+  "created_at": "2026-11-01T08:50:24.548927+00:00",
   "files": {
     ".gitignore": "0d2dae2936347acec02ac1732ef4b4df3d68ec689b65cea2a71c9eef39531393",
     "README.md": "50b880dd74dc1facc6efa4aa5365a658eb1887ec444628cefa6738892afa18a4",
@@ -583,13 +583,14 @@
     "txt/mosaic000_validator_source.txt": "3790699f56faf0780c2529751fda0193e1dca70a05425de4a7c1f8ed2f767676",
     "txt/streamlit_frontend_requirements.txt": "5eb74bd25c5d9e42abf875557567f3bde2a013fa3dda09d588c66d0429102aeb",
     "docs/evidence/environment_versions.json": "9d2458ca586dbe54e6208e9bd59085b9d2c6c8b6610643b1fbe3700a038420c0",
-    "docs/evidence/local_review_inventory.json": "810baac428a2acc8ef36e26db4e966859bc7b1df9c250eb06b4f318c9b2104e9",
+    "docs/evidence/local_review_inventory.json": "d559b42090289e4fbd776f20739cc5bcf225655d3ee5ac1bbdddcb80f0dd398d",
     "docs/钢材缺陷检测项目_五阶段完整脉络与模型选择总结.md": "1cb43bc8e90a2cb3b757b24f6603f81603e830eb6e5c4a534de4834f871c912a",
     "docs/五阶段对话原文.md": "a9d9a42b8ce0dcd896c795440820ac3cf371eecef7ed933e656aebcd37117303",
-    ".gitattributes": "b83a0e28a5bd86da6cf42ca45b8d74c5c4066c6af0f33ad92cfbaec48886cb45"
+    ".gitattributes": "a86c992f50d001773007ee2a987e5c13be0390a60bc55cd28a0a829c65a4e78b",
+    "钢材缺陷检测系统_本地启动与使用指南.md": "22d536153274b1ccab48993b5c2f0e731a11522a95251dcb796372519f90b341"
   },
-  "supersedes": "f69522b0039010523c5e8e40cf49079d8f879eea635908caf98fcc80baa6fe20",
-  "revision_reason": "Preserve new evidence bytes using Git attributes; retain baseline cloud entrypoint blobs unchanged and exclude legacy normalized checkout files from exact-byte evidence scope.",
+  "supersedes": "dffd99c4d56adc74f4809dc99cc5a9328a7b2d0e987a241e533d932f1e399d6c",
+  "revision_reason": "Include the legacy local startup guide referenced by the published document index.",
   "legacy_git_normalized_paths": [
     "app.py",
     "convert_only.py",
@@ -666,5 +667,5 @@
     "txt/requirements_api_cloud.txt",
     "txt/requirements_api_v4.txt"
   ],
-  "id": "dffd99c4d56adc74f4809dc99cc5a9328a7b2d0e987a241e533d932f1e399d6c"
+  "id": "89cf8b25a1c1e9e0e62e0cd47399f520277d3776b74ef55391db90c7709d2764"
 }

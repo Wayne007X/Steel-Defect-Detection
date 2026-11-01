@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-11-01T08:44:50.779742+00:00",
+  "created_at": "2026-11-01T08:50:24.544174+00:00",
   "base_commit": "0d570a4cdeaf16c22e7054bcde5448d35b202df7",
   "staged": false,
   "committed": false,
@@ -7,9 +7,9 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 41547,
-      "sha256": "b83a0e28a5bd86da6cf42ca45b8d74c5c4066c6af0f33ad92cfbaec48886cb45",
-      "already_tracked": false
+      "bytes": 41612,
+      "sha256": "a86c992f50d001773007ee2a987e5c13be0390a60bc55cd28a0a829c65a4e78b",
+      "already_tracked": true
     },
     {
       "path": ".gitignore",
@@ -3928,6 +3928,12 @@
       "bytes": 54,
       "sha256": "5eb74bd25c5d9e42abf875557567f3bde2a013fa3dda09d588c66d0429102aeb",
       "already_tracked": true
+    },
+    {
+      "path": "钢材缺陷检测系统_本地启动与使用指南.md",
+      "bytes": 7491,
+      "sha256": "22d536153274b1ccab48993b5c2f0e731a11522a95251dcb796372519f90b341",
+      "already_tracked": false
     }
   ],
   "existing_deleted_paths": [
