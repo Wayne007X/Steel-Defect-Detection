@@ -1,0 +1,2614 @@
+{
+  "scope": "Post-Test descriptive analysis; not used to retune the archived experiment",
+  "seed": 42,
+  "mode": "balanced",
+  "threshold": 0.35,
+  "images": 124,
+  "full_test_workpoint": {
+    "threshold": 0.35,
+    "TP": 614,
+    "FP": 193,
+    "FN": 244,
+    "precision": 0.7608426270136307,
+    "recall": 0.7156177156177156,
+    "F1": 0.7375375375375376,
+    "per_class": [
+      {
+        "class_id": 0,
+        "name": "crazing",
+        "TP": 55,
+        "FP": 30,
+        "FN": 95,
+        "precision": 0.6470588235294118,
+        "recall": 0.36666666666666664,
+        "F1": 0.46808510638297873
+      },
+      {
+        "class_id": 1,
+        "name": "inclusion",
+        "TP": 153,
+        "FP": 57,
+        "FN": 47,
+        "precision": 0.7285714285714285,
+        "recall": 0.765,
+        "F1": 0.7463414634146341
+      },
+      {
+        "class_id": 2,
+        "name": "patches",
+        "TP": 163,
+        "FP": 34,
+        "FN": 13,
+        "precision": 0.8274111675126904,
+        "recall": 0.9261363636363636,
+        "F1": 0.8739946380697051
+      },
+      {
+        "class_id": 3,
+        "name": "pitted_surface",
+        "TP": 62,
+        "FP": 10,
+        "FN": 31,
+        "precision": 0.8611111111111112,
+        "recall": 0.6666666666666666,
+        "F1": 0.7515151515151515
+      },
+      {
+        "class_id": 4,
+        "name": "rolled-in_scale",
+        "TP": 79,
+        "FP": 47,
+        "FN": 45,
+        "precision": 0.626984126984127,
+        "recall": 0.6370967741935484,
+        "F1": 0.632
+      },
+      {
+        "class_id": 5,
+        "name": "scratches",
+        "TP": 102,
+        "FP": 15,
+        "FN": 13,
+        "precision": 0.8717948717948718,
+        "recall": 0.8869565217391304,
+        "F1": 0.8793103448275862
+      }
+    ]
+  },
+  "events": [
+    {
+      "image": "crazing_100.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_100.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_104.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_105.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_105.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_105.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_108.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_109.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_109.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_109.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_109.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.3998960256576538
+    },
+    {
+      "image": "crazing_113.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_123.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 1,
+      "confidence": 0.492681086063385
+    },
+    {
+      "image": "crazing_124.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_124.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_125.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_125.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_125.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_127.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_127.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.4954192638397217
+    },
+    {
+      "image": "crazing_127.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 2,
+      "confidence": 0.35056063532829285
+    },
+    {
+      "image": "crazing_128.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_128.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_128.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_128.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.36495864391326904
+    },
+    {
+      "image": "crazing_13.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_137.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_137.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_142.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_142.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_142.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_143.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_155.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_155.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_155.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_155.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.5608429312705994
+    },
+    {
+      "image": "crazing_157.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_157.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_157.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7884715795516968
+    },
+    {
+      "image": "crazing_160.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_160.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7813148498535156
+    },
+    {
+      "image": "crazing_160.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.43602898716926575
+    },
+    {
+      "image": "crazing_163.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_163.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_163.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_169.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_169.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_169.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_169.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.3691479563713074
+    },
+    {
+      "image": "crazing_170.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_174.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_174.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_176.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_177.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_177.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_18.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_18.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.4373769164085388
+    },
+    {
+      "image": "crazing_186.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_186.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_186.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_186.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7096805572509766
+    },
+    {
+      "image": "crazing_186.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.6894516348838806
+    },
+    {
+      "image": "crazing_192.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_197.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_197.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_197.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.43767380714416504
+    },
+    {
+      "image": "crazing_197.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.4311417043209076
+    },
+    {
+      "image": "crazing_2.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_2.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_2.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7370798587799072
+    },
+    {
+      "image": "crazing_201.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_201.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_201.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.4174457788467407
+    },
+    {
+      "image": "crazing_209.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_209.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.3610999584197998
+    },
+    {
+      "image": "crazing_219.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_225.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_225.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_231.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_235.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_235.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 3
+    },
+    {
+      "image": "crazing_243.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_243.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_243.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 3
+    },
+    {
+      "image": "crazing_243.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.45497187972068787
+    },
+    {
+      "image": "crazing_246.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_246.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_246.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 3
+    },
+    {
+      "image": "crazing_246.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.465215265750885
+    },
+    {
+      "image": "crazing_246.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.41604042053222656
+    },
+    {
+      "image": "crazing_248.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_248.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_248.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.36580294370651245
+    },
+    {
+      "image": "crazing_249.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_249.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.3717760145664215
+    },
+    {
+      "image": "crazing_267.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_267.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_267.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_273.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_273.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_273.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.6565030813217163
+    },
+    {
+      "image": "crazing_274.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_274.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 3
+    },
+    {
+      "image": "crazing_276.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_291.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_292.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_300.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_300.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "crazing_38.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_38.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_38.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.4041898250579834
+    },
+    {
+      "image": "crazing_4.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_4.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.5423524975776672
+    },
+    {
+      "image": "crazing_51.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_51.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_51.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.4041726589202881
+    },
+    {
+      "image": "crazing_58.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_61.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_7.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_7.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "crazing_7.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.5419668555259705
+    },
+    {
+      "image": "crazing_7.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.408324271440506
+    },
+    {
+      "image": "crazing_76.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "crazing_87.jpg",
+      "kind": "FN",
+      "class_id": 0,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "patches_260.jpg",
+      "kind": "FP",
+      "class_id": 0,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 2,
+      "confidence": 0.42129799723625183
+    },
+    {
+      "image": "rolled-in_scale_1.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_103.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_130.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_130.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.5427446961402893
+    },
+    {
+      "image": "rolled-in_scale_131.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_131.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "rolled-in_scale_131.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.6955798864364624
+    },
+    {
+      "image": "rolled-in_scale_139.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_142.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 1,
+      "confidence": 0.48898595571517944
+    },
+    {
+      "image": "rolled-in_scale_142.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 2,
+      "confidence": 0.3722928762435913
+    },
+    {
+      "image": "rolled-in_scale_150.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_150.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.41171252727508545
+    },
+    {
+      "image": "rolled-in_scale_152.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_152.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.5755419135093689
+    },
+    {
+      "image": "rolled-in_scale_156.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_156.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7563280463218689
+    },
+    {
+      "image": "rolled-in_scale_156.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.5248861312866211
+    },
+    {
+      "image": "rolled-in_scale_156.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 3,
+      "confidence": 0.43541309237480164
+    },
+    {
+      "image": "rolled-in_scale_160.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "rolled-in_scale_160.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.4152522087097168
+    },
+    {
+      "image": "rolled-in_scale_170.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_171.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_180.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 2,
+      "confidence": 0.5504128932952881
+    },
+    {
+      "image": "rolled-in_scale_194.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_194.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_194.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7419705986976624
+    },
+    {
+      "image": "rolled-in_scale_194.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.6623231172561646
+    },
+    {
+      "image": "rolled-in_scale_194.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.6580647230148315
+    },
+    {
+      "image": "rolled-in_scale_197.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 4,
+      "confidence": 0.3971860706806183
+    },
+    {
+      "image": "rolled-in_scale_197.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 5,
+      "confidence": 0.3935299217700958
+    },
+    {
+      "image": "rolled-in_scale_204.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_204.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 1,
+      "confidence": 0.6907631158828735
+    },
+    {
+      "image": "rolled-in_scale_204.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 2,
+      "confidence": 0.4052013158798218
+    },
+    {
+      "image": "rolled-in_scale_205.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_205.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "rolled-in_scale_205.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.7759409546852112
+    },
+    {
+      "image": "rolled-in_scale_210.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_215.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.45959043502807617
+    },
+    {
+      "image": "rolled-in_scale_220.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 0,
+      "confidence": 0.5842028856277466
+    },
+    {
+      "image": "rolled-in_scale_220.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类重叠GT已被其他预测匹配",
+      "pred_index": 2,
+      "confidence": 0.35460615158081055
+    },
+    {
+      "image": "rolled-in_scale_222.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_236.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_243.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_248.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_264.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "rolled-in_scale_266.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_266.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_266.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.6032677888870239
+    },
+    {
+      "image": "rolled-in_scale_271.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_273.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_273.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_273.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.5590294599533081
+    },
+    {
+      "image": "rolled-in_scale_273.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 1,
+      "confidence": 0.41998594999313354
+    },
+    {
+      "image": "rolled-in_scale_28.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_28.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.5765806436538696
+    },
+    {
+      "image": "rolled-in_scale_28.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 1,
+      "confidence": 0.46591418981552124
+    },
+    {
+      "image": "rolled-in_scale_281.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_281.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 2
+    },
+    {
+      "image": "rolled-in_scale_297.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_38.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_38.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_38.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7855955958366394
+    },
+    {
+      "image": "rolled-in_scale_38.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.7789657115936279
+    },
+    {
+      "image": "rolled-in_scale_38.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.5297112464904785
+    },
+    {
+      "image": "rolled-in_scale_48.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_48.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 2
+    },
+    {
+      "image": "rolled-in_scale_48.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7537772059440613
+    },
+    {
+      "image": "rolled-in_scale_48.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 2,
+      "confidence": 0.4858383536338806
+    },
+    {
+      "image": "rolled-in_scale_48.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 3,
+      "confidence": 0.40125375986099243
+    },
+    {
+      "image": "rolled-in_scale_52.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_52.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_52.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7981874942779541
+    },
+    {
+      "image": "rolled-in_scale_53.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_53.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.37542280554771423
+    },
+    {
+      "image": "rolled-in_scale_53.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.3505331873893738
+    },
+    {
+      "image": "rolled-in_scale_55.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "无充分重叠的工作点候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_55.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.4300508201122284
+    },
+    {
+      "image": "rolled-in_scale_55.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.39334672689437866
+    },
+    {
+      "image": "rolled-in_scale_57.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_57.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.6472171545028687
+    },
+    {
+      "image": "rolled-in_scale_7.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 0
+    },
+    {
+      "image": "rolled-in_scale_7.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_7.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.7553442716598511
+    },
+    {
+      "image": "rolled-in_scale_77.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.44965559244155884
+    },
+    {
+      "image": "rolled-in_scale_77.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 2,
+      "confidence": 0.3856678903102875
+    },
+    {
+      "image": "rolled-in_scale_80.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.39895668625831604
+    },
+    {
+      "image": "rolled-in_scale_86.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "工作点候选定位重叠不足",
+      "gt_index": 1
+    },
+    {
+      "image": "rolled-in_scale_86.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 0,
+      "confidence": 0.8755540251731873
+    },
+    {
+      "image": "rolled-in_scale_86.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 1,
+      "confidence": 0.7796100378036499
+    },
+    {
+      "image": "rolled-in_scale_86.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "同类GT定位重叠不足",
+      "pred_index": 3,
+      "confidence": 0.5129343271255493
+    },
+    {
+      "image": "rolled-in_scale_95.jpg",
+      "kind": "FN",
+      "class_id": 4,
+      "reason": "低于固定工作点的同类候选",
+      "gt_index": 0
+    },
+    {
+      "image": "scratches_276.jpg",
+      "kind": "FP",
+      "class_id": 4,
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "pred_index": 2,
+      "confidence": 0.5056712627410889
+    }
+  ],
+  "reason_counts": [
+    {
+      "class_name": "crazing",
+      "kind": "FN",
+      "reason": "低于固定工作点的同类候选",
+      "count": 57
+    },
+    {
+      "class_name": "crazing",
+      "kind": "FN",
+      "reason": "工作点候选定位重叠不足",
+      "count": 25
+    },
+    {
+      "class_name": "crazing",
+      "kind": "FN",
+      "reason": "无充分重叠的工作点候选",
+      "count": 13
+    },
+    {
+      "class_name": "crazing",
+      "kind": "FP",
+      "reason": "同类GT定位重叠不足",
+      "count": 27
+    },
+    {
+      "class_name": "crazing",
+      "kind": "FP",
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "count": 3
+    },
+    {
+      "class_name": "rolled-in_scale",
+      "kind": "FN",
+      "reason": "低于固定工作点的同类候选",
+      "count": 24
+    },
+    {
+      "class_name": "rolled-in_scale",
+      "kind": "FN",
+      "reason": "工作点候选定位重叠不足",
+      "count": 17
+    },
+    {
+      "class_name": "rolled-in_scale",
+      "kind": "FN",
+      "reason": "无充分重叠的工作点候选",
+      "count": 4
+    },
+    {
+      "class_name": "rolled-in_scale",
+      "kind": "FP",
+      "reason": "同类GT定位重叠不足",
+      "count": 33
+    },
+    {
+      "class_name": "rolled-in_scale",
+      "kind": "FP",
+      "reason": "同类重叠GT已被其他预测匹配",
+      "count": 1
+    },
+    {
+      "class_name": "rolled-in_scale",
+      "kind": "FP",
+      "reason": "无充分重叠GT，需复核背景或范围",
+      "count": 13
+    }
+  ],
+  "cards": [
+    {
+      "image": "crazing_100.jpg",
+      "path": "crazing_100.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_104.jpg",
+      "path": "crazing_104.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_105.jpg",
+      "path": "crazing_105.jpg",
+      "events": 3,
+      "FN": 3,
+      "FP": 0
+    },
+    {
+      "image": "crazing_108.jpg",
+      "path": "crazing_108.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_109.jpg",
+      "path": "crazing_109.jpg",
+      "events": 4,
+      "FN": 3,
+      "FP": 1
+    },
+    {
+      "image": "crazing_113.jpg",
+      "path": "crazing_113.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_123.jpg",
+      "path": "crazing_123.jpg",
+      "events": 1,
+      "FN": 0,
+      "FP": 1
+    },
+    {
+      "image": "crazing_124.jpg",
+      "path": "crazing_124.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_125.jpg",
+      "path": "crazing_125.jpg",
+      "events": 3,
+      "FN": 3,
+      "FP": 0
+    },
+    {
+      "image": "crazing_127.jpg",
+      "path": "crazing_127.jpg",
+      "events": 3,
+      "FN": 1,
+      "FP": 2
+    },
+    {
+      "image": "crazing_128.jpg",
+      "path": "crazing_128.jpg",
+      "events": 4,
+      "FN": 3,
+      "FP": 1
+    },
+    {
+      "image": "crazing_13.jpg",
+      "path": "crazing_13.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_137.jpg",
+      "path": "crazing_137.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_142.jpg",
+      "path": "crazing_142.jpg",
+      "events": 3,
+      "FN": 3,
+      "FP": 0
+    },
+    {
+      "image": "crazing_143.jpg",
+      "path": "crazing_143.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_155.jpg",
+      "path": "crazing_155.jpg",
+      "events": 4,
+      "FN": 3,
+      "FP": 1
+    },
+    {
+      "image": "crazing_157.jpg",
+      "path": "crazing_157.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "crazing_160.jpg",
+      "path": "crazing_160.jpg",
+      "events": 3,
+      "FN": 1,
+      "FP": 2
+    },
+    {
+      "image": "crazing_163.jpg",
+      "path": "crazing_163.jpg",
+      "events": 3,
+      "FN": 3,
+      "FP": 0
+    },
+    {
+      "image": "crazing_169.jpg",
+      "path": "crazing_169.jpg",
+      "events": 4,
+      "FN": 3,
+      "FP": 1
+    },
+    {
+      "image": "crazing_170.jpg",
+      "path": "crazing_170.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_174.jpg",
+      "path": "crazing_174.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_176.jpg",
+      "path": "crazing_176.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_177.jpg",
+      "path": "crazing_177.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_18.jpg",
+      "path": "crazing_18.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "crazing_186.jpg",
+      "path": "crazing_186.jpg",
+      "events": 5,
+      "FN": 3,
+      "FP": 2
+    },
+    {
+      "image": "crazing_192.jpg",
+      "path": "crazing_192.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_197.jpg",
+      "path": "crazing_197.jpg",
+      "events": 4,
+      "FN": 2,
+      "FP": 2
+    },
+    {
+      "image": "crazing_2.jpg",
+      "path": "crazing_2.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "crazing_201.jpg",
+      "path": "crazing_201.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "crazing_209.jpg",
+      "path": "crazing_209.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "crazing_210.jpg",
+      "path": "crazing_210.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "crazing_219.jpg",
+      "path": "crazing_219.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_225.jpg",
+      "path": "crazing_225.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_231.jpg",
+      "path": "crazing_231.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_235.jpg",
+      "path": "crazing_235.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_243.jpg",
+      "path": "crazing_243.jpg",
+      "events": 4,
+      "FN": 3,
+      "FP": 1
+    },
+    {
+      "image": "crazing_246.jpg",
+      "path": "crazing_246.jpg",
+      "events": 5,
+      "FN": 3,
+      "FP": 2
+    },
+    {
+      "image": "crazing_248.jpg",
+      "path": "crazing_248.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "crazing_249.jpg",
+      "path": "crazing_249.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "crazing_267.jpg",
+      "path": "crazing_267.jpg",
+      "events": 3,
+      "FN": 3,
+      "FP": 0
+    },
+    {
+      "image": "crazing_273.jpg",
+      "path": "crazing_273.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "crazing_274.jpg",
+      "path": "crazing_274.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_276.jpg",
+      "path": "crazing_276.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_279.jpg",
+      "path": "crazing_279.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "crazing_280.jpg",
+      "path": "crazing_280.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "crazing_281.jpg",
+      "path": "crazing_281.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "crazing_291.jpg",
+      "path": "crazing_291.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_292.jpg",
+      "path": "crazing_292.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_300.jpg",
+      "path": "crazing_300.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "crazing_38.jpg",
+      "path": "crazing_38.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "crazing_4.jpg",
+      "path": "crazing_4.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "crazing_46.jpg",
+      "path": "crazing_46.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "crazing_51.jpg",
+      "path": "crazing_51.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "crazing_58.jpg",
+      "path": "crazing_58.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_61.jpg",
+      "path": "crazing_61.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_63.jpg",
+      "path": "crazing_63.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "crazing_69.jpg",
+      "path": "crazing_69.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "crazing_7.jpg",
+      "path": "crazing_7.jpg",
+      "events": 4,
+      "FN": 2,
+      "FP": 2
+    },
+    {
+      "image": "crazing_76.jpg",
+      "path": "crazing_76.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "crazing_87.jpg",
+      "path": "crazing_87.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "patches_260.jpg",
+      "path": "patches_260.jpg",
+      "events": 1,
+      "FN": 0,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_1.jpg",
+      "path": "rolled-in_scale_1.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_103.jpg",
+      "path": "rolled-in_scale_103.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_116.jpg",
+      "path": "rolled-in_scale_116.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_120.jpg",
+      "path": "rolled-in_scale_120.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_128.jpg",
+      "path": "rolled-in_scale_128.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_130.jpg",
+      "path": "rolled-in_scale_130.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_131.jpg",
+      "path": "rolled-in_scale_131.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_138.jpg",
+      "path": "rolled-in_scale_138.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_139.jpg",
+      "path": "rolled-in_scale_139.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_142.jpg",
+      "path": "rolled-in_scale_142.jpg",
+      "events": 2,
+      "FN": 0,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_150.jpg",
+      "path": "rolled-in_scale_150.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_152.jpg",
+      "path": "rolled-in_scale_152.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_155.jpg",
+      "path": "rolled-in_scale_155.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_156.jpg",
+      "path": "rolled-in_scale_156.jpg",
+      "events": 4,
+      "FN": 1,
+      "FP": 3
+    },
+    {
+      "image": "rolled-in_scale_160.jpg",
+      "path": "rolled-in_scale_160.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_170.jpg",
+      "path": "rolled-in_scale_170.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_171.jpg",
+      "path": "rolled-in_scale_171.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_173.jpg",
+      "path": "rolled-in_scale_173.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_180.jpg",
+      "path": "rolled-in_scale_180.jpg",
+      "events": 1,
+      "FN": 0,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_194.jpg",
+      "path": "rolled-in_scale_194.jpg",
+      "events": 5,
+      "FN": 2,
+      "FP": 3
+    },
+    {
+      "image": "rolled-in_scale_197.jpg",
+      "path": "rolled-in_scale_197.jpg",
+      "events": 2,
+      "FN": 0,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_204.jpg",
+      "path": "rolled-in_scale_204.jpg",
+      "events": 3,
+      "FN": 1,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_205.jpg",
+      "path": "rolled-in_scale_205.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_208.jpg",
+      "path": "rolled-in_scale_208.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_210.jpg",
+      "path": "rolled-in_scale_210.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_215.jpg",
+      "path": "rolled-in_scale_215.jpg",
+      "events": 1,
+      "FN": 0,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_220.jpg",
+      "path": "rolled-in_scale_220.jpg",
+      "events": 2,
+      "FN": 0,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_222.jpg",
+      "path": "rolled-in_scale_222.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_230.jpg",
+      "path": "rolled-in_scale_230.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_236.jpg",
+      "path": "rolled-in_scale_236.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_243.jpg",
+      "path": "rolled-in_scale_243.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_248.jpg",
+      "path": "rolled-in_scale_248.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_251.jpg",
+      "path": "rolled-in_scale_251.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_264.jpg",
+      "path": "rolled-in_scale_264.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_266.jpg",
+      "path": "rolled-in_scale_266.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_271.jpg",
+      "path": "rolled-in_scale_271.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_273.jpg",
+      "path": "rolled-in_scale_273.jpg",
+      "events": 4,
+      "FN": 2,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_28.jpg",
+      "path": "rolled-in_scale_28.jpg",
+      "events": 3,
+      "FN": 1,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_281.jpg",
+      "path": "rolled-in_scale_281.jpg",
+      "events": 2,
+      "FN": 2,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_283.jpg",
+      "path": "rolled-in_scale_283.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_296.jpg",
+      "path": "rolled-in_scale_296.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_297.jpg",
+      "path": "rolled-in_scale_297.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_38.jpg",
+      "path": "rolled-in_scale_38.jpg",
+      "events": 5,
+      "FN": 2,
+      "FP": 3
+    },
+    {
+      "image": "rolled-in_scale_42.jpg",
+      "path": "rolled-in_scale_42.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_48.jpg",
+      "path": "rolled-in_scale_48.jpg",
+      "events": 5,
+      "FN": 2,
+      "FP": 3
+    },
+    {
+      "image": "rolled-in_scale_52.jpg",
+      "path": "rolled-in_scale_52.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_53.jpg",
+      "path": "rolled-in_scale_53.jpg",
+      "events": 3,
+      "FN": 1,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_55.jpg",
+      "path": "rolled-in_scale_55.jpg",
+      "events": 3,
+      "FN": 1,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_57.jpg",
+      "path": "rolled-in_scale_57.jpg",
+      "events": 2,
+      "FN": 1,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_65.jpg",
+      "path": "rolled-in_scale_65.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_7.jpg",
+      "path": "rolled-in_scale_7.jpg",
+      "events": 3,
+      "FN": 2,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_70.jpg",
+      "path": "rolled-in_scale_70.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_71.jpg",
+      "path": "rolled-in_scale_71.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_72.jpg",
+      "path": "rolled-in_scale_72.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_76.jpg",
+      "path": "rolled-in_scale_76.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_77.jpg",
+      "path": "rolled-in_scale_77.jpg",
+      "events": 2,
+      "FN": 0,
+      "FP": 2
+    },
+    {
+      "image": "rolled-in_scale_79.jpg",
+      "path": "rolled-in_scale_79.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_80.jpg",
+      "path": "rolled-in_scale_80.jpg",
+      "events": 1,
+      "FN": 0,
+      "FP": 1
+    },
+    {
+      "image": "rolled-in_scale_86.jpg",
+      "path": "rolled-in_scale_86.jpg",
+      "events": 4,
+      "FN": 1,
+      "FP": 3
+    },
+    {
+      "image": "rolled-in_scale_87.jpg",
+      "path": "rolled-in_scale_87.jpg",
+      "events": 0,
+      "FN": 0,
+      "FP": 0
+    },
+    {
+      "image": "rolled-in_scale_95.jpg",
+      "path": "rolled-in_scale_95.jpg",
+      "events": 1,
+      "FN": 1,
+      "FP": 0
+    },
+    {
+      "image": "scratches_276.jpg",
+      "path": "scratches_276.jpg",
+      "events": 1,
+      "FN": 0,
+      "FP": 1
+    }
+  ]
+}

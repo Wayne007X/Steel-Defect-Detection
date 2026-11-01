@@ -1,0 +1,117 @@
+{
+  "xml_checked": 1800,
+  "missing_xml": [],
+  "xml_issues": [],
+  "near_duplicate_candidates": [],
+  "note": "pHash candidates are similarity-screening results, not proof of duplicate images or shared acquisition batches.",
+  "box_sizes": [
+    {
+      "split": "train",
+      "class_name": "crazing",
+      "boxes": 527,
+      "median_width_px": 122.0,
+      "median_height_px": 70.0,
+      "median_area_fraction": 0.2037,
+      "small_area_lt_32px_square": 0
+    },
+    {
+      "split": "train",
+      "class_name": "patches",
+      "boxes": 688,
+      "median_width_px": 52.0,
+      "median_height_px": 73.0,
+      "median_area_fraction": 0.0940625,
+      "small_area_lt_32px_square": 42
+    },
+    {
+      "split": "train",
+      "class_name": "inclusion",
+      "boxes": 852,
+      "median_width_px": 25.0,
+      "median_height_px": 64.0,
+      "median_area_fraction": 0.0392375,
+      "small_area_lt_32px_square": 285
+    },
+    {
+      "split": "train",
+      "class_name": "pitted_surface",
+      "boxes": 345,
+      "median_width_px": 124.0,
+      "median_height_px": 192.0,
+      "median_area_fraction": 0.5395500000000001,
+      "small_area_lt_32px_square": 3
+    },
+    {
+      "split": "train",
+      "class_name": "rolled-in_scale",
+      "boxes": 496,
+      "median_width_px": 66.0,
+      "median_height_px": 66.5,
+      "median_area_fraction": 0.113425,
+      "small_area_lt_32px_square": 15
+    },
+    {
+      "split": "train",
+      "class_name": "scratches",
+      "boxes": 427,
+      "median_width_px": 19.0,
+      "median_height_px": 159.0,
+      "median_area_fraction": 0.0736,
+      "small_area_lt_32px_square": 37
+    },
+    {
+      "split": "val",
+      "class_name": "crazing",
+      "boxes": 162,
+      "median_width_px": 141.5,
+      "median_height_px": 68.0,
+      "median_area_fraction": 0.24227500000000002,
+      "small_area_lt_32px_square": 0
+    },
+    {
+      "split": "val",
+      "class_name": "inclusion",
+      "boxes": 159,
+      "median_width_px": 24.0,
+      "median_height_px": 69.0,
+      "median_area_fraction": 0.041475,
+      "small_area_lt_32px_square": 44
+    },
+    {
+      "split": "val",
+      "class_name": "patches",
+      "boxes": 193,
+      "median_width_px": 53.0,
+      "median_height_px": 69.0,
+      "median_area_fraction": 0.0875,
+      "small_area_lt_32px_square": 14
+    },
+    {
+      "split": "val",
+      "class_name": "pitted_surface",
+      "boxes": 87,
+      "median_width_px": 137.0,
+      "median_height_px": 184.0,
+      "median_area_fraction": 0.5838249999999999,
+      "small_area_lt_32px_square": 0
+    },
+    {
+      "split": "val",
+      "class_name": "rolled-in_scale",
+      "boxes": 132,
+      "median_width_px": 78.5,
+      "median_height_px": 85.0,
+      "median_area_fraction": 0.18932500000000002,
+      "small_area_lt_32px_square": 1
+    },
+    {
+      "split": "val",
+      "class_name": "scratches",
+      "boxes": 121,
+      "median_width_px": 170.0,
+      "median_height_px": 23.0,
+      "median_area_fraction": 0.08864999999999999,
+      "small_area_lt_32px_square": 6
+    }
+  ]
+}

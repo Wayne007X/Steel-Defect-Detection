@@ -1,0 +1,6 @@
+{
+  "api_source": "E:\\yolo_project\\onnx_inference_api_pluggable_v4.py",
+  "api_source_sha256": "36a5e9814ef8b4688ee1464043dfdb098cd4fdf770f16c493ccda41964741d05",
+  "contract_adjustment": "PredictSettings.device accepts CPU/GPU; copied CPU-only CUDA mask removed. Reused /analyze only; original service untouched.",
+  "frontend_source": "E:\\yolo_project\\streamlit_frontend.py"
+}

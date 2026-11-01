@@ -1,0 +1,15 @@
+{
+  "hypothesis": "Adjacent weak-class defects may be suppressed at NMS .30; relax weak classes to .50.",
+  "class_nms": [
+    0.5,
+    0.3,
+    0.3,
+    0.3,
+    0.5,
+    0.3
+  ],
+  "conf": 0.25,
+  "unchanged": "clean+texture seed42, native TTA, fusion IoU .55, score aggregation and geometry",
+  "gate": "mAP50 +.003, weak-class macro recall +.02, overall F1 loss no worse than .005; no class AP50 loss >.02",
+  "warning": "Exploratory comparison on repeatedly-used validation data, not independent confirmation."
+}

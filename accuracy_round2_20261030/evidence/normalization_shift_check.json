@@ -1,0 +1,22 @@
+{
+  "crazing": {
+    "train": {
+      "original_mean": 135.60468135416664,
+      "normalized_mean": 116.82334197916667
+    },
+    "val": {
+      "original_mean": 163.11685375,
+      "normalized_mean": 121.92869666666667
+    }
+  },
+  "rolled-in_scale": {
+    "train": {
+      "original_mean": 126.43274614583332,
+      "normalized_mean": 122.30970375
+    },
+    "val": {
+      "original_mean": 83.83205375000001,
+      "normalized_mean": 123.62942583333333
+    }
+  }
+}

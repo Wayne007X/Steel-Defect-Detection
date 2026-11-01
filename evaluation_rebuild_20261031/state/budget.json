@@ -1,0 +1,805 @@
+{
+  "jobs": [
+    {
+      "name": "train:A_seed42",
+      "status": "completed",
+      "started": "2026-10-31T13:58:51.234160+00:00",
+      "started_unix": 1793455131.2341604,
+      "seconds": 2135.218999999999,
+      "token": "20b5ecc041fcdbd33168c228582c94f61bf0d56527c4381182c8bebd51819560",
+      "ended": "2026-10-31T14:34:26.456624+00:00"
+    },
+    {
+      "name": "train:A_seed7",
+      "status": "completed",
+      "started": "2026-10-31T14:34:26.467839+00:00",
+      "started_unix": 1793457266.4678392,
+      "seconds": 2172.9220000000005,
+      "token": "ce8bbb3b05a01edf8369e420a3e4afb8d8f994b8dc019c0cbc4bfe84aac06ad4",
+      "ended": "2026-10-31T15:10:39.404295+00:00"
+    },
+    {
+      "name": "train:A_seed123",
+      "status": "completed",
+      "started": "2026-10-31T15:10:39.414318+00:00",
+      "started_unix": 1793459439.4143188,
+      "seconds": 3381.8900000000012,
+      "token": "f27870682da61059d721649d87e3fcbf80857e0a91c3ade64de803ab59c465e4",
+      "ended": "2026-10-31T16:07:01.303744+00:00"
+    },
+    {
+      "name": "train:B_seed42",
+      "status": "completed",
+      "started": "2026-10-31T16:07:01.310373+00:00",
+      "started_unix": 1793462821.3103733,
+      "seconds": 2506.0159999999996,
+      "token": "114d4998732b37a29fd682d219420f49ea370f119659bfeddba9abe7c7ffbc05",
+      "ended": "2026-10-31T16:48:47.318610+00:00"
+    },
+    {
+      "name": "train:B_seed7",
+      "status": "completed",
+      "started": "2026-10-31T16:48:47.337852+00:00",
+      "started_unix": 1793465327.3378525,
+      "seconds": 2173.9840000000004,
+      "token": "e48553c9d09011aa1d5fc114bd3c8becac3a888a2bad6ed59122dc75cad619e1",
+      "ended": "2026-10-31T17:25:01.325038+00:00"
+    },
+    {
+      "name": "train:B_seed123",
+      "status": "completed",
+      "started": "2026-10-31T17:25:01.334208+00:00",
+      "started_unix": 1793467501.333208,
+      "seconds": 1897.1870000000017,
+      "token": "7675ae2fc49e3614a9f78f998e04b020ca673abf3aa82d9f4fa0cfea546beb1a",
+      "ended": "2026-10-31T17:56:38.518094+00:00"
+    },
+    {
+      "name": "train:C_seed42",
+      "status": "completed",
+      "started": "2026-10-31T17:56:38.535335+00:00",
+      "started_unix": 1793469398.5343347,
+      "seconds": 491.2179999999971,
+      "token": "72dfe38e4885967e2c27444dc82dfa81268987c99126f181d54d8128ed52a6be",
+      "ended": "2026-10-31T18:04:49.761544+00:00"
+    },
+    {
+      "name": "train:C_seed7",
+      "status": "completed",
+      "started": "2026-10-31T18:04:49.778697+00:00",
+      "started_unix": 1793469889.7766962,
+      "seconds": 515.6719999999987,
+      "token": "d13069236d883a0d9b9fdfd9a605cf7d7689227c4aff53b1d8d8185143f86f30",
+      "ended": "2026-10-31T18:13:25.443981+00:00"
+    },
+    {
+      "name": "train:C_seed123",
+      "status": "completed",
+      "started": "2026-10-31T18:13:25.463216+00:00",
+      "started_unix": 1793470405.4601283,
+      "seconds": 759.75,
+      "token": "78fc45ccbfa76c94387e549ed81818b3e8924720c825208c697cd550c81d0ba0",
+      "ended": "2026-10-31T18:26:05.205748+00:00"
+    },
+    {
+      "name": "train:D_seed42",
+      "status": "completed",
+      "started": "2026-10-31T18:26:05.222962+00:00",
+      "started_unix": 1793471165.2209616,
+      "seconds": 444.7970000000023,
+      "token": "87d201d40b799c26f92a8c286ac26ae87a39e39e4fa4c9be5a940cdded9d6fae",
+      "ended": "2026-10-31T18:33:30.017731+00:00"
+    },
+    {
+      "name": "train:D_seed7",
+      "status": "completed",
+      "started": "2026-10-31T18:33:30.034128+00:00",
+      "started_unix": 1793471610.0318687,
+      "seconds": 442.40599999999904,
+      "token": "bb73ad6e167055ae0ba14dbd117607adebf094b98c36b2268fc97134e8ca5fc3",
+      "ended": "2026-10-31T18:40:52.445446+00:00"
+    },
+    {
+      "name": "train:D_seed123",
+      "status": "completed",
+      "started": "2026-10-31T18:40:52.461552+00:00",
+      "started_unix": 1793472052.4594967,
+      "seconds": 712.6870000000017,
+      "token": "4a7b1354186e1bc12ddb147bbb519e9a878dcc17c029d4bd7dc3e662ca546cce",
+      "ended": "2026-10-31T18:52:45.148194+00:00"
+    },
+    {
+      "name": "capture:val:A_seed42_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:53:08.473141+00:00",
+      "started_unix": 1793472788.4711406,
+      "seconds": 7.860000000000582,
+      "token": "a8e3b8b639143a0e51ae0cf73bfdcf08f81f50ae2907e329713a31f0ec896eea",
+      "ended": "2026-10-31T18:53:16.327550+00:00"
+    },
+    {
+      "name": "capture:val:A_seed42_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:53:16.372434+00:00",
+      "started_unix": 1793472796.3703928,
+      "seconds": 15.59400000000096,
+      "token": "737f10a435c16eeee1c9de9c92c5699bdc83d6e077187ccc6e8f4210186cad92",
+      "ended": "2026-10-31T18:53:31.966535+00:00"
+    },
+    {
+      "name": "capture:val:A_seed7_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:53:32.009679+00:00",
+      "started_unix": 1793472812.0076718,
+      "seconds": 7.265999999999622,
+      "token": "beca3f81e2603e23661a76ef80300dd07a8a28fa4421c2f4d2305f1f318f141d",
+      "ended": "2026-10-31T18:53:39.291737+00:00"
+    },
+    {
+      "name": "capture:val:A_seed7_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:53:39.368739+00:00",
+      "started_unix": 1793472819.3660376,
+      "seconds": 15.46900000000096,
+      "token": "7c0c5e398e55d5e701319c3bd64a1ae7af00f1cdce0e16b4c3907b8289212b99",
+      "ended": "2026-10-31T18:53:54.837640+00:00"
+    },
+    {
+      "name": "capture:val:A_seed123_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:53:54.895869+00:00",
+      "started_unix": 1793472834.8948624,
+      "seconds": 7.312999999998283,
+      "token": "3193b5a6da8705cf118c2aef48a751de99f8f1ce4833a0d138f674bbef2947de",
+      "ended": "2026-10-31T18:54:02.202364+00:00"
+    },
+    {
+      "name": "capture:val:A_seed123_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:54:02.259620+00:00",
+      "started_unix": 1793472842.2575753,
+      "seconds": 15.43800000000192,
+      "token": "873a827c935a35be7a2e84a1ceb4b80acc4f9a66600f79dea32c215f5939c40c",
+      "ended": "2026-10-31T18:54:17.692272+00:00"
+    },
+    {
+      "name": "capture:val:B_seed42_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:54:17.733797+00:00",
+      "started_unix": 1793472857.7315958,
+      "seconds": 7.21900000000096,
+      "token": "1f0dc516f9c7902dd2d57c948d01f9a4a828790b84be6e4937f5094b5c67647d",
+      "ended": "2026-10-31T18:54:24.961847+00:00"
+    },
+    {
+      "name": "capture:val:B_seed42_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:54:25.004101+00:00",
+      "started_unix": 1793472865.0031016,
+      "seconds": 15.43800000000192,
+      "token": "821ca6a5f69fa38d4180a14b2b6ebb237d9c2c60bb3ad5bd51cad5d144e83a3d",
+      "ended": "2026-10-31T18:54:40.451137+00:00"
+    },
+    {
+      "name": "capture:val:B_seed7_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:54:40.525530+00:00",
+      "started_unix": 1793472880.5236766,
+      "seconds": 7.35899999999674,
+      "token": "77d14f8e49f414cc08b6b7270752007c479719575646667ec6136af36fe89081",
+      "ended": "2026-10-31T18:54:47.877680+00:00"
+    },
+    {
+      "name": "capture:val:B_seed7_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:54:47.949494+00:00",
+      "started_unix": 1793472887.94649,
+      "seconds": 16.17199999999866,
+      "token": "48a1a987783c2a2cce272c4cdda4d592e56cd5fb80439fb9dc9bb494883583ff",
+      "ended": "2026-10-31T18:55:04.110661+00:00"
+    },
+    {
+      "name": "capture:val:B_seed123_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:55:04.152057+00:00",
+      "started_unix": 1793472904.1510448,
+      "seconds": 7.390999999999622,
+      "token": "f2350ab6a10638bea351ded3f4fe38f861e3dfb5025d086a3da1f40878c7915e",
+      "ended": "2026-10-31T18:55:11.532404+00:00"
+    },
+    {
+      "name": "capture:val:B_seed123_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:55:11.574851+00:00",
+      "started_unix": 1793472911.57312,
+      "seconds": 15.71900000000096,
+      "token": "066593165b110a958181d184551916385d0dbc85cae8ce03ecb83790275d0048",
+      "ended": "2026-10-31T18:55:27.295139+00:00"
+    },
+    {
+      "name": "capture:val:C_seed42_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:55:27.359581+00:00",
+      "started_unix": 1793472927.356536,
+      "seconds": 7.312000000001717,
+      "token": "f62b5e9f7fe4cec9bf31acbbd359eca7f9c09bdbc2a5888a7bf0ba8ab684b727",
+      "ended": "2026-10-31T18:55:34.673021+00:00"
+    },
+    {
+      "name": "capture:val:C_seed42_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:55:34.714513+00:00",
+      "started_unix": 1793472934.713451,
+      "seconds": 15.562000000001717,
+      "token": "0cae36fd7283a640153185b30ab9c9608d28c60d1cf9b077caf57f3f560a1925",
+      "ended": "2026-10-31T18:55:50.269862+00:00"
+    },
+    {
+      "name": "capture:val:C_seed7_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:55:50.330270+00:00",
+      "started_unix": 1793472950.32825,
+      "seconds": 7.359000000000378,
+      "token": "b4311f44bb094505ccaa08283e66db1185f969141943372d99e8e98c196dec07",
+      "ended": "2026-10-31T18:55:57.686792+00:00"
+    },
+    {
+      "name": "capture:val:C_seed7_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:55:57.745612+00:00",
+      "started_unix": 1793472957.7446005,
+      "seconds": 15.437000000001717,
+      "token": "eafef6758839c170f62559a0e4b61451c19e82e0620455bcf9277f76abef91e1",
+      "ended": "2026-10-31T18:56:13.184142+00:00"
+    },
+    {
+      "name": "capture:val:C_seed123_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:56:13.243083+00:00",
+      "started_unix": 1793472973.2420366,
+      "seconds": 7.203000000001339,
+      "token": "0ba8f92a51a5eb53d37f34dcb19214cf4da79a14b80cdb487f9616f29a1ba3a7",
+      "ended": "2026-10-31T18:56:20.450370+00:00"
+    },
+    {
+      "name": "capture:val:C_seed123_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:56:20.492739+00:00",
+      "started_unix": 1793472980.4915628,
+      "seconds": 15.389999999999418,
+      "token": "b258d798d3128ae514afb1692d8567011d922f3cf2050dc99246c88ea845e6a9",
+      "ended": "2026-10-31T18:56:35.885926+00:00"
+    },
+    {
+      "name": "capture:val:D_seed42_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:56:35.926777+00:00",
+      "started_unix": 1793472995.9258044,
+      "seconds": 7.140999999999622,
+      "token": "f953ba3a900b7a5cabb80dfe40ade98f99454084c0ea9faf7c86ba51795c7ce0",
+      "ended": "2026-10-31T18:56:43.063542+00:00"
+    },
+    {
+      "name": "capture:val:D_seed42_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:56:43.129532+00:00",
+      "started_unix": 1793473003.1254535,
+      "seconds": 15.454000000001543,
+      "token": "373a83af29e205106f1b71738abdee7860882c687d90e8e51a3c98e501a5c20c",
+      "ended": "2026-10-31T18:56:58.590278+00:00"
+    },
+    {
+      "name": "capture:val:D_seed7_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:56:58.632026+00:00",
+      "started_unix": 1793473018.6310482,
+      "seconds": 7.26600000000326,
+      "token": "857979277802993eaf305cc7e0191e0198641ea6aa60e8a5ad27c7189b3beadb",
+      "ended": "2026-10-31T18:57:05.889621+00:00"
+    },
+    {
+      "name": "capture:val:D_seed7_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:57:05.949706+00:00",
+      "started_unix": 1793473025.9486964,
+      "seconds": 15.640999999999622,
+      "token": "5d7ed94a636d350cce52ccc841db4af620a08ca679a568e334fd7cd164474de3",
+      "ended": "2026-10-31T18:57:21.576993+00:00"
+    },
+    {
+      "name": "capture:val:D_seed123_plain",
+      "status": "completed",
+      "started": "2026-10-31T18:57:21.624839+00:00",
+      "started_unix": 1793473041.6232324,
+      "seconds": 7.297000000002299,
+      "token": "a7b057b50d6c3fd08acbc7dc6614d0172e1c6737d24edd141bf0d374ae9b629f",
+      "ended": "2026-10-31T18:57:28.924410+00:00"
+    },
+    {
+      "name": "capture:val:D_seed123_tta",
+      "status": "completed",
+      "started": "2026-10-31T18:57:29.005544+00:00",
+      "started_unix": 1793473049.002304,
+      "seconds": 15.5470000000023,
+      "token": "46e6906b4b57519057cdc8032d7164beef33c8d9721b9c5aeb61f8e94a79f1bd",
+      "ended": "2026-10-31T18:57:44.550778+00:00"
+    },
+    {
+      "name": "Val finite-grid selection",
+      "status": "completed",
+      "started": "2026-10-31T18:57:44.554788+00:00",
+      "started_unix": 1793473064.552788,
+      "seconds": 59.54699999999866,
+      "token": "e835e42bc7e2c90ffc8d7752c8c9656270c0b8dd5c327aa7940dd1a12a804374",
+      "ended": "2026-10-31T18:58:44.092888+00:00"
+    },
+    {
+      "name": "Val real-runtime and ONNX verification",
+      "status": "completed",
+      "started": "2026-10-31T18:59:00.163299+00:00",
+      "started_unix": 1793473140.1613092,
+      "seconds": 220.125,
+      "token": "04a9c1b9e314c420b648e216f6589bc935afe2a9646d3bace854ee2c99bd33c1",
+      "ended": "2026-10-31T19:02:40.285402+00:00"
+    },
+    {
+      "name": "capture:test:A_seed42_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:38:48.797593+00:00",
+      "started_unix": 1793507928.7955933,
+      "seconds": 8.860000000000582,
+      "token": "009e686ed048de061e2103ed8886c3ca317e116a40b17f69ca9607e0fbefa603",
+      "ended": "2026-11-01T04:38:57.667897+00:00"
+    },
+    {
+      "name": "Test metrics:A_t0_native:42",
+      "status": "completed",
+      "started": "2026-11-01T04:38:57.680354+00:00",
+      "started_unix": 1793507937.6782405,
+      "seconds": 0.17199999999866122,
+      "token": "959b33e78618b590b9a40ac5dff43c7ce8d701b22c09eef78913139f9c0b7a1d",
+      "ended": "2026-11-01T04:38:57.848070+00:00"
+    },
+    {
+      "name": "capture:test:A_seed7_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:39:05.887777+00:00",
+      "started_unix": 1793507945.885658,
+      "seconds": 7.578000000001339,
+      "token": "45bd431247763489986a192db4d51e33e69987ab8c5b2d1d5772f6150b7c59a2",
+      "ended": "2026-11-01T04:39:13.481959+00:00"
+    },
+    {
+      "name": "Test metrics:A_t0_native:7",
+      "status": "completed",
+      "started": "2026-11-01T04:39:13.494209+00:00",
+      "started_unix": 1793507953.4924335,
+      "seconds": 0.18699999999807915,
+      "token": "4097103a826778e83cbe8614dfbbdc633aa211d9cdf2779f34c847d6d8a65261",
+      "ended": "2026-11-01T04:39:13.674452+00:00"
+    },
+    {
+      "name": "capture:test:A_seed123_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:39:21.923666+00:00",
+      "started_unix": 1793507961.9224758,
+      "seconds": 7.485000000000582,
+      "token": "c46d92c3419b0474bdb6874ccbc4bc460a54f4a166bedc7b59441476d56e59f3",
+      "ended": "2026-11-01T04:39:29.416283+00:00"
+    },
+    {
+      "name": "Test metrics:A_t0_native:123",
+      "status": "completed",
+      "started": "2026-11-01T04:39:29.427538+00:00",
+      "started_unix": 1793507969.4264452,
+      "seconds": 0.18800000000192085,
+      "token": "d6ad7ef6cf43e50a3b7d237833bd7a488d4d0ee512729bf4eee1b2ce320befdc",
+      "ended": "2026-11-01T04:39:29.617124+00:00"
+    },
+    {
+      "name": "capture:test:B_seed42_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:39:37.905533+00:00",
+      "started_unix": 1793507977.901248,
+      "seconds": 7.639999999999418,
+      "token": "a08fc8f0bb12ad355d320b0db02185c12e3c68861b356eb120bd0c270ad7a075",
+      "ended": "2026-11-01T04:39:45.555993+00:00"
+    },
+    {
+      "name": "Test metrics:B_t0_native:42",
+      "status": "completed",
+      "started": "2026-11-01T04:39:45.568209+00:00",
+      "started_unix": 1793507985.5672092,
+      "seconds": 0.062000000005355105,
+      "token": "02ac8141576db8b4b28d2ebff2c191bfb4ad633225704e67ab7a7de4faae4b81",
+      "ended": "2026-11-01T04:39:45.627526+00:00"
+    },
+    {
+      "name": "capture:test:B_seed7_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:39:53.840141+00:00",
+      "started_unix": 1793507993.8391802,
+      "seconds": 7.5310000000026776,
+      "token": "ee2703053840e1d0caea8fee0c6fa2fc23d0bc5335ede97a80aea2ab019f9c9e",
+      "ended": "2026-11-01T04:40:01.364974+00:00"
+    },
+    {
+      "name": "Test metrics:B_t0_native:7",
+      "status": "completed",
+      "started": "2026-11-01T04:40:01.377549+00:00",
+      "started_unix": 1793508001.3755507,
+      "seconds": 0.1569999999992433,
+      "token": "f4a50558ea58b8209106fc75b077ec5bdd701a3b989a08829d339aca05df9f9c",
+      "ended": "2026-11-01T04:40:01.545462+00:00"
+    },
+    {
+      "name": "capture:test:B_seed123_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:40:07.721005+00:00",
+      "started_unix": 1793508007.720006,
+      "seconds": 7.26600000000326,
+      "token": "0c6848edc9db6e913de3e1e0f3e4b853dfd443625a3fa7692c7b4d6f2587b5d4",
+      "ended": "2026-11-01T04:40:14.995900+00:00"
+    },
+    {
+      "name": "Test metrics:B_t0_native:123",
+      "status": "completed",
+      "started": "2026-11-01T04:40:15.008844+00:00",
+      "started_unix": 1793508015.0078435,
+      "seconds": 0.14099999999598367,
+      "token": "fdc68a032670ea555d28eb659c5267c3e6f0b4d0559403b029a6c2f64ce1eed1",
+      "ended": "2026-11-01T04:40:15.149105+00:00"
+    },
+    {
+      "name": "capture:test:C_seed42_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:40:22.964017+00:00",
+      "started_unix": 1793508022.9630578,
+      "seconds": 7.5,
+      "token": "f2cc07ac67a88021eed3696dcd5dc167d7547227fc52fbd341a5497272a8b5ab",
+      "ended": "2026-11-01T04:40:30.457203+00:00"
+    },
+    {
+      "name": "Test metrics:C_t0_native:42",
+      "status": "completed",
+      "started": "2026-11-01T04:40:30.467895+00:00",
+      "started_unix": 1793508030.4667137,
+      "seconds": 0.14100000000325963,
+      "token": "a0a046d4e73022d5e2af9752d2f441342352e8bbe75931bad7b0bd2820f7c551",
+      "ended": "2026-11-01T04:40:30.615374+00:00"
+    },
+    {
+      "name": "capture:test:C_seed7_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:40:36.897473+00:00",
+      "started_unix": 1793508036.8954735,
+      "seconds": 7.14100000000326,
+      "token": "d8020c2930e48a8d439564673fb067fa675793146ab062ef0bcc4206fecf8d9e",
+      "ended": "2026-11-01T04:40:44.038001+00:00"
+    },
+    {
+      "name": "Test metrics:C_t0_native:7",
+      "status": "completed",
+      "started": "2026-11-01T04:40:44.048122+00:00",
+      "started_unix": 1793508044.047123,
+      "seconds": 0.17199999999866122,
+      "token": "7a1d2d9f43cf76044b32222c180b480ccc27bd21a532041bef5e35738377e73c",
+      "ended": "2026-11-01T04:40:44.226904+00:00"
+    },
+    {
+      "name": "capture:test:C_seed123_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:40:50.475064+00:00",
+      "started_unix": 1793508050.4730551,
+      "seconds": 7.203000000001339,
+      "token": "782ddc7f0755c6fc2a2c08930be3f301afd2a85d91d046292c913f2e3c246458",
+      "ended": "2026-11-01T04:40:57.684743+00:00"
+    },
+    {
+      "name": "Test metrics:C_t0_native:123",
+      "status": "completed",
+      "started": "2026-11-01T04:40:57.697262+00:00",
+      "started_unix": 1793508057.6956131,
+      "seconds": 0.17200000000593718,
+      "token": "06f4de016933bd9addd8b89fa440b0632e7e6d6f0b92095a75fb3f2f7f425304",
+      "ended": "2026-11-01T04:40:57.867597+00:00"
+    },
+    {
+      "name": "capture:test:D_seed42_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:41:04.089216+00:00",
+      "started_unix": 1793508064.0860987,
+      "seconds": 7.5,
+      "token": "0ef22c814e0cac541c83662817b85774cefed3bfe755b9db3c7107a3dbc8c64d",
+      "ended": "2026-11-01T04:41:11.577524+00:00"
+    },
+    {
+      "name": "Test metrics:D_t0_native:42",
+      "status": "completed",
+      "started": "2026-11-01T04:41:11.589352+00:00",
+      "started_unix": 1793508071.5883312,
+      "seconds": 0.15600000000267755,
+      "token": "7133856501be5baa23ee1fb29d1ed56a0b363a4276e7960430582d8eb869999b",
+      "ended": "2026-11-01T04:41:11.748306+00:00"
+    },
+    {
+      "name": "capture:test:D_seed7_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:41:18.978611+00:00",
+      "started_unix": 1793508078.9766018,
+      "seconds": 7.39100000000326,
+      "token": "ba71fc0cbc7bf7d3452b843f23c66ff55d3fc16973ceab939104d2e33d6309ad",
+      "ended": "2026-11-01T04:41:26.361103+00:00"
+    },
+    {
+      "name": "Test metrics:D_t0_native:7",
+      "status": "completed",
+      "started": "2026-11-01T04:41:26.389386+00:00",
+      "started_unix": 1793508086.3863869,
+      "seconds": 0.17199999999866122,
+      "token": "745d005bca0c014b7326c60beaa0159aa65fbf722cc32d186511bcf3b8db52f4",
+      "ended": "2026-11-01T04:41:26.574759+00:00"
+    },
+    {
+      "name": "capture:test:D_seed123_plain",
+      "status": "completed",
+      "started": "2026-11-01T04:41:32.694487+00:00",
+      "started_unix": 1793508092.6934872,
+      "seconds": 7.234000000004016,
+      "token": "3a7bd1012c93dd8e86afd637ce6cb6472ec1f42cca0abfa33c348ecaabd645b7",
+      "ended": "2026-11-01T04:41:39.922970+00:00"
+    },
+    {
+      "name": "Test metrics:D_t0_native:123",
+      "status": "completed",
+      "started": "2026-11-01T04:41:39.934132+00:00",
+      "started_unix": 1793508099.933119,
+      "seconds": 0.07800000000133878,
+      "token": "ce8c4869553770dc142e3467e69200f1b75cb59781d9cc70f691ac23c60a8ee1",
+      "ended": "2026-11-01T04:41:40.000460+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t0_native:42",
+      "status": "completed",
+      "started": "2026-11-01T04:41:55.246877+00:00",
+      "started_unix": 1793508115.2436476,
+      "seconds": 0.13999999999941792,
+      "token": "6c8f614c71669bf56df784507290e339626dfdb57e1a5048c982bf319c0ce4bc",
+      "ended": "2026-11-01T04:41:55.376213+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t0_native:7",
+      "status": "completed",
+      "started": "2026-11-01T04:42:10.951947+00:00",
+      "started_unix": 1793508130.9499478,
+      "seconds": 0.125,
+      "token": "a0ab1640da5a789376340e081de75d20d8a2ebb37152a8a2f0b81ceee3b738bc",
+      "ended": "2026-11-01T04:42:11.087091+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t0_native:123",
+      "status": "completed",
+      "started": "2026-11-01T04:42:23.953367+00:00",
+      "started_unix": 1793508143.9512448,
+      "seconds": 0.15600000000267755,
+      "token": "b1c803e80ed9acfa42cbcfa0191165248556ac68d2905bfb86cb048ad324f66a",
+      "ended": "2026-11-01T04:42:24.111593+00:00"
+    },
+    {
+      "name": "capture:test:A_seed42_tta",
+      "status": "completed",
+      "started": "2026-11-01T04:42:30.393493+00:00",
+      "started_unix": 1793508150.391495,
+      "seconds": 15.453000000001339,
+      "token": "0000924f922a9eb204fc3f2865703f1fecfe03c4264c4e3d8468452da5c7f08b",
+      "ended": "2026-11-01T04:42:45.852348+00:00"
+    },
+    {
+      "name": "capture:test:C_seed42_tta",
+      "status": "completed",
+      "started": "2026-11-01T04:42:52.041323+00:00",
+      "started_unix": 1793508172.0393233,
+      "seconds": 15.389999999999418,
+      "token": "29158b7906bb19e8f5bc9ffaf8fffcf27fa8363ae6eba6dc4ffb04958a77ad19",
+      "ended": "2026-11-01T04:43:07.422164+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_native:42",
+      "status": "completed",
+      "started": "2026-11-01T04:43:08.101840+00:00",
+      "started_unix": 1793508188.0986104,
+      "seconds": 0.15600000000267755,
+      "token": "b2ad6c9cf6b4b4b50bd1903d1755dfc729033213e3e39e7e602bad232c92c6fc",
+      "ended": "2026-11-01T04:43:08.259735+00:00"
+    },
+    {
+      "name": "capture:test:A_seed7_tta",
+      "status": "completed",
+      "started": "2026-11-01T04:43:14.171363+00:00",
+      "started_unix": 1793508194.1700168,
+      "seconds": 15.953000000001339,
+      "token": "be88b1e3d10af4011cc537cec2b0197d8e13c7eedfc256b31225545c26b9a419",
+      "ended": "2026-11-01T04:43:30.128348+00:00"
+    },
+    {
+      "name": "capture:test:C_seed7_tta",
+      "status": "completed",
+      "started": "2026-11-01T04:43:36.469175+00:00",
+      "started_unix": 1793508216.4680486,
+      "seconds": 15.906000000002678,
+      "token": "c548848db10f0d170c63bfc877f8183768bd6665842a9bfa805f90294554e958",
+      "ended": "2026-11-01T04:43:52.388367+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_native:7",
+      "status": "completed",
+      "started": "2026-11-01T04:43:53.048571+00:00",
+      "started_unix": 1793508233.04555,
+      "seconds": 0.07800000000133878,
+      "token": "be8bdf78a5ac38b214973cd3ea3640a207ab29e5c3b1b4a98e74602866be5ae3",
+      "ended": "2026-11-01T04:43:53.133182+00:00"
+    },
+    {
+      "name": "capture:test:A_seed123_tta",
+      "status": "completed",
+      "started": "2026-11-01T04:43:59.326613+00:00",
+      "started_unix": 1793508239.3249843,
+      "seconds": 15.343000000000757,
+      "token": "053c59937eb8ad7a28d1801e0e36dd64190134c419dc9a619c2e3ff8fef893a3",
+      "ended": "2026-11-01T04:44:14.684268+00:00"
+    },
+    {
+      "name": "capture:test:C_seed123_tta",
+      "status": "completed",
+      "started": "2026-11-01T04:44:20.771433+00:00",
+      "started_unix": 1793508260.768769,
+      "seconds": 15.844000000004598,
+      "token": "143461fae2113f494708293a0b85a66fd9e45360fd22bc02ddfbb50dfbddb7c5",
+      "ended": "2026-11-01T04:44:36.618028+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_native:123",
+      "status": "completed",
+      "started": "2026-11-01T04:44:37.406812+00:00",
+      "started_unix": 1793508277.4052842,
+      "seconds": 0.17199999999866122,
+      "token": "144fed82b3d13656f06a1ab22e0fcf6df8475c804e17e676085ae5adc9d492be",
+      "ended": "2026-11-01T04:44:37.584999+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_standard:42",
+      "status": "completed",
+      "started": "2026-11-01T04:44:51.876246+00:00",
+      "started_unix": 1793508291.873924,
+      "seconds": 0.09399999999732245,
+      "token": "ed0c87f366fcd7fddee32511181af9a0232d2a94c6c4d64452335217e6baeb0d",
+      "ended": "2026-11-01T04:44:51.980102+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_standard:7",
+      "status": "completed",
+      "started": "2026-11-01T04:45:08.597502+00:00",
+      "started_unix": 1793508308.595408,
+      "seconds": 0.125,
+      "token": "13f1baafe84238d8a6d768e206e66640122ce1aec70dc7d0463d8dedf0765d08",
+      "ended": "2026-11-01T04:45:08.719786+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_standard:123",
+      "status": "completed",
+      "started": "2026-11-01T04:45:21.789154+00:00",
+      "started_unix": 1793508321.7868865,
+      "seconds": 0.125,
+      "token": "1481a30dd70df1bba879efa4f86390755c8a2f74b95b73b674a87a595e63416a",
+      "ended": "2026-11-01T04:45:21.916172+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_adaptive:42",
+      "status": "completed",
+      "started": "2026-11-01T04:45:35.418352+00:00",
+      "started_unix": 1793508335.4168816,
+      "seconds": 0.07800000000133878,
+      "token": "4d0e866984af0e81cea48e032c47d46a9c2c6573c0520ba625cda6002b2d5052",
+      "ended": "2026-11-01T04:45:35.491598+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_adaptive:7",
+      "status": "completed",
+      "started": "2026-11-01T04:45:52.081643+00:00",
+      "started_unix": 1793508352.0800285,
+      "seconds": 0.10899999999674037,
+      "token": "32b65825f260da93c5f9c69c19a1d38a0ea54f7f7950e45d8299ea9718002c04",
+      "ended": "2026-11-01T04:45:52.193981+00:00"
+    },
+    {
+      "name": "Test metrics:AC_t1_adaptive:123",
+      "status": "completed",
+      "started": "2026-11-01T04:46:08.831053+00:00",
+      "started_unix": 1793508368.8288264,
+      "seconds": 0.06199999999807915,
+      "token": "1bc2c329590dbe6a11fe4e1c7eaaa3b7347cd1767348700ed8cb714ec4a00fe0",
+      "ended": "2026-11-01T04:46:08.895792+00:00"
+    },
+    {
+      "name": "Test metrics:selected_research:42",
+      "status": "completed",
+      "started": "2026-11-01T04:46:23.554392+00:00",
+      "started_unix": 1793508383.5527203,
+      "seconds": 0.1569999999992433,
+      "token": "11e1e921632147c177760ad5e230b86f46d33bfa18172ba6f2af2929df48c575",
+      "ended": "2026-11-01T04:46:23.703538+00:00"
+    },
+    {
+      "name": "Test metrics:selected_research:7",
+      "status": "completed",
+      "started": "2026-11-01T04:46:37.005583+00:00",
+      "started_unix": 1793508397.0040233,
+      "seconds": 0.125,
+      "token": "f83b10920d9c7058f07b8b9b0bb37b9922e6a2affb36403cc041819913da3e5b",
+      "ended": "2026-11-01T04:46:37.127882+00:00"
+    },
+    {
+      "name": "Test metrics:selected_research:123",
+      "status": "completed",
+      "started": "2026-11-01T04:46:50.430153+00:00",
+      "started_unix": 1793508410.4280608,
+      "seconds": 0.17199999999866122,
+      "token": "d5d7ff4d40ec361733f215026d5b206fff3ff38cf299ca220dcd6f783f0abbde",
+      "ended": "2026-11-01T04:46:50.593021+00:00"
+    },
+    {
+      "name": "Test metrics:selected_balanced:42",
+      "status": "completed",
+      "started": "2026-11-01T04:47:06.523092+00:00",
+      "started_unix": 1793508426.5206747,
+      "seconds": 0.125,
+      "token": "819c2a87aaee56aa4dba3fea05dcccd801f382b928123024a56ab30913274fb3",
+      "ended": "2026-11-01T04:47:06.646933+00:00"
+    },
+    {
+      "name": "Test metrics:selected_balanced:7",
+      "status": "completed",
+      "started": "2026-11-01T04:47:23.308348+00:00",
+      "started_unix": 1793508443.3022306,
+      "seconds": 0.07800000000133878,
+      "token": "e393d01d6d3f4704f623379dde00b085e7593e3c576fc08cba6ea88984858739",
+      "ended": "2026-11-01T04:47:23.379115+00:00"
+    },
+    {
+      "name": "Test metrics:selected_balanced:123",
+      "status": "completed",
+      "started": "2026-11-01T04:47:36.999662+00:00",
+      "started_unix": 1793508456.9978096,
+      "seconds": 0.046999999998661224,
+      "token": "be730c08b7e9bdc598b3d9c14df56b629dabafafcf4eed457287d9736a6eb1ea",
+      "ended": "2026-11-01T04:47:37.046769+00:00"
+    },
+    {
+      "name": "Test metrics:selected_recall:42",
+      "status": "completed",
+      "started": "2026-11-01T04:47:51.576603+00:00",
+      "started_unix": 1793508471.574414,
+      "seconds": 0.10899999999674037,
+      "token": "00a8f722aa60b5ce1b16384e412f4622bafc52a2555d1393cc5375c1d598521f",
+      "ended": "2026-11-01T04:47:51.695372+00:00"
+    },
+    {
+      "name": "Test metrics:selected_recall:7",
+      "status": "completed",
+      "started": "2026-11-01T04:48:04.613280+00:00",
+      "started_unix": 1793508484.611278,
+      "seconds": 0.09399999999732245,
+      "token": "d281eaa23b4207eeabe2e0a5292f4228397cc50ef6643b144f52ab712e3523a1",
+      "ended": "2026-11-01T04:48:04.710402+00:00"
+    },
+    {
+      "name": "Test metrics:selected_recall:123",
+      "status": "completed",
+      "started": "2026-11-01T04:48:19.256622+00:00",
+      "started_unix": 1793508499.2543702,
+      "seconds": 0.125,
+      "token": "760f45969c53fe555f39806f5d34e7e3f8be82532eb6360a2be4e1a41f28da68",
+      "ended": "2026-11-01T04:48:19.383889+00:00"
+    }
+  ]
+}

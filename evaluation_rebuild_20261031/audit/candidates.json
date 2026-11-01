@@ -1,0 +1,154 @@
+[
+  {
+    "a": "patches/patches_101.jpg",
+    "b": "patches/patches_105.jpg",
+    "hamming": 0,
+    "ssim": 1.0,
+    "exact_pixels": true,
+    "pair_id": "P001"
+  },
+  {
+    "a": "inclusion/inclusion_88.jpg",
+    "b": "inclusion/inclusion_125.jpg",
+    "hamming": 8,
+    "ssim": 0.7756234922171387,
+    "exact_pixels": false,
+    "pair_id": "P002"
+  },
+  {
+    "a": "pitted_surface/pitted_surface_171.jpg",
+    "b": "pitted_surface/pitted_surface_292.jpg",
+    "hamming": 8,
+    "ssim": 0.5577001508535429,
+    "exact_pixels": false,
+    "pair_id": "P003"
+  },
+  {
+    "a": "inclusion/inclusion_187.jpg",
+    "b": "patches/patches_140.jpg",
+    "hamming": 10,
+    "ssim": 0.2862681192267123,
+    "exact_pixels": false,
+    "pair_id": "P004"
+  },
+  {
+    "a": "patches/patches_80.jpg",
+    "b": "patches/patches_103.jpg",
+    "hamming": 10,
+    "ssim": 0.14942132618601656,
+    "exact_pixels": false,
+    "pair_id": "P005"
+  },
+  {
+    "a": "pitted_surface/pitted_surface_154.jpg",
+    "b": "scratches/scratches_127.jpg",
+    "hamming": 10,
+    "ssim": 0.5204047810470336,
+    "exact_pixels": false,
+    "pair_id": "P006"
+  },
+  {
+    "a": "scratches/scratches_22.jpg",
+    "b": "scratches/scratches_112.jpg",
+    "hamming": 10,
+    "ssim": 0.7570995486948415,
+    "exact_pixels": false,
+    "pair_id": "P007"
+  },
+  {
+    "a": "inclusion/inclusion_123.jpg",
+    "b": "inclusion/inclusion_186.jpg",
+    "hamming": 12,
+    "ssim": 0.7566992043692201,
+    "exact_pixels": false,
+    "pair_id": "P008"
+  },
+  {
+    "a": "inclusion/inclusion_188.jpg",
+    "b": "inclusion/inclusion_210.jpg",
+    "hamming": 12,
+    "ssim": 0.8859972381994312,
+    "exact_pixels": false,
+    "pair_id": "P009"
+  },
+  {
+    "a": "inclusion/inclusion_188.jpg",
+    "b": "inclusion/inclusion_242.jpg",
+    "hamming": 12,
+    "ssim": 0.5420411976352512,
+    "exact_pixels": false,
+    "pair_id": "P010"
+  },
+  {
+    "a": "inclusion/inclusion_210.jpg",
+    "b": "inclusion/inclusion_242.jpg",
+    "hamming": 12,
+    "ssim": 0.5289471099302392,
+    "exact_pixels": false,
+    "pair_id": "P011"
+  },
+  {
+    "a": "inclusion/inclusion_96.jpg",
+    "b": "pitted_surface/pitted_surface_21.jpg",
+    "hamming": 12,
+    "ssim": 0.4685126612027193,
+    "exact_pixels": false,
+    "pair_id": "P012"
+  },
+  {
+    "a": "inclusion/inclusion_96.jpg",
+    "b": "scratches/scratches_284.jpg",
+    "hamming": 12,
+    "ssim": 0.7019454992349216,
+    "exact_pixels": false,
+    "pair_id": "P013"
+  },
+  {
+    "a": "patches/patches_109.jpg",
+    "b": "patches/patches_156.jpg",
+    "hamming": 12,
+    "ssim": 0.13833493341917774,
+    "exact_pixels": false,
+    "pair_id": "P014"
+  },
+  {
+    "a": "patches/patches_199.jpg",
+    "b": "patches/patches_201.jpg",
+    "hamming": 12,
+    "ssim": 0.1337909279178911,
+    "exact_pixels": false,
+    "pair_id": "P015"
+  },
+  {
+    "a": "patches/patches_2.jpg",
+    "b": "patches/patches_5.jpg",
+    "hamming": 12,
+    "ssim": 0.20237539709468017,
+    "exact_pixels": false,
+    "pair_id": "P016"
+  },
+  {
+    "a": "pitted_surface/pitted_surface_127.jpg",
+    "b": "scratches/scratches_107.jpg",
+    "hamming": 12,
+    "ssim": 0.6746461379023354,
+    "exact_pixels": false,
+    "pair_id": "P017"
+  },
+  {
+    "a": "rolled-in_scale/rolled-in_scale_134.jpg",
+    "b": "scratches/scratches_22.jpg",
+    "hamming": 12,
+    "ssim": 0.3425051224531281,
+    "exact_pixels": false,
+    "pair_id": "P018"
+  },
+  {
+    "a": "rolled-in_scale/rolled-in_scale_248.jpg",
+    "b": "scratches/scratches_50.jpg",
+    "hamming": 12,
+    "ssim": 0.4354905778676833,
+    "exact_pixels": false,
+    "pair_id": "P019"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "version": "supplement-v1",
+  "created_at": "2026-11-01T04:30:45.909609+00:00",
+  "original_final_freeze": "6f9bf021dfaf65de4239358f2ff0970ab22ff0ef144dfb1b3c93ddae45c0bb1d",
+  "original_final_json_sha256": "03c58948ca5dff6c2701c32cf44241a548706f3c83ea4d1dc237ed9382f4b8f4",
+  "no_retraining": true,
+  "no_model_or_threshold_changes": true,
+  "test_authorization": false,
+  "files": {
+    "reports/supplement_v1/Val结果与执行偏差补充报告.md": "6b242bc4d680c629e9a7215d5468779807ecd367a074574f6fae20401520b9e6",
+    "reports/supplement_v1/补充结果与核验.json": "175705f9d58073ba6574ce044349e9c9986a3ed7ca2e9c616ce0f7b55787b26d"
+  },
+  "original_freeze_files_verified": 144,
+  "user_instruction": "完成三项报告补充；C/D 不重训，保留实际配置；继续流程，Test 前仍按原约定确认完整报告。",
+  "id": "e236cc4c511066f99e6543980956920284e2df9b7c69e6cd0129548f726998b3"
+}

@@ -1,0 +1,103 @@
+{
+  "verified_at": "2026-10-31T13:18:58.086947+00:00",
+  "unit_tests": 29,
+  "unit_tests_passed": true,
+  "actual_initial_stage_guard_checks": [
+    {
+      "command": [
+        "train"
+      ],
+      "exit_code": 2,
+      "message": "PROTOCOL BLOCKED: BLOCKED: human review and explicit split approval are required before training."
+    },
+    {
+      "command": [
+        "select-val"
+      ],
+      "exit_code": 2,
+      "message": "PROTOCOL BLOCKED: BLOCKED: human review and explicit split approval are required before training."
+    },
+    {
+      "command": [
+        "verify-export"
+      ],
+      "exit_code": 2,
+      "message": "PROTOCOL BLOCKED: BLOCKED: human review and explicit split approval are required before training."
+    },
+    {
+      "command": [
+        "freeze-final"
+      ],
+      "exit_code": 2,
+      "message": "PROTOCOL BLOCKED: BLOCKED: human review and explicit split approval are required before training."
+    },
+    {
+      "command": [
+        "test"
+      ],
+      "exit_code": 2,
+      "message": "PROTOCOL BLOCKED: BLOCKED: human review and explicit split approval are required before training."
+    },
+    {
+      "command": [
+        "approve-test",
+        "--freeze-sha",
+        "unapproved-fixture",
+        "--reviewer",
+        "guard-check-not-approval"
+      ],
+      "exit_code": 2,
+      "message": "PROTOCOL BLOCKED: BLOCKED: human review and explicit split approval are required before training."
+    },
+    {
+      "command": [
+        "propose-split"
+      ],
+      "exit_code": 2,
+      "message": "PROTOCOL BLOCKED: BLOCKED: all human grouping decisions are required"
+    },
+    {
+      "command": [
+        "import-review",
+        "--file",
+        "review/decisions_template.json"
+      ],
+      "exit_code": 2,
+      "message": "PROTOCOL BLOCKED: Human reviewer and review date are required"
+    }
+  ],
+  "state": {
+    "protocol": "neu-rebuild-20261031-v1",
+    "audit_complete": true,
+    "human_review_imported": false,
+    "split_proposed": false,
+    "split_frozen": false,
+    "completed_training_jobs": [],
+    "required_training_jobs": 12,
+    "compute_seconds_used": 0,
+    "final_frozen": false,
+    "test_authorized": false,
+    "test_complete": false
+  },
+  "source_integrity_passed": true,
+  "audited_images": 1800,
+  "candidate_pairs": 19,
+  "official_weight_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "code": {
+    "neu_protocol/__init__.py": "0687aee41b72aad99bf37df3ecc53d95657ea6fec2e1155dda388f45118f290d",
+    "neu_protocol/cli.py": "0c9117299aa8b3173b5a5d4af605f064023ebbc1c3866d2f74fe0bc1bccc8406",
+    "neu_protocol/core.py": "ce73d2f2ad1206e99fe5d93a4e37ef319d57e9cf822c898881e4e9d069805f49",
+    "neu_protocol/data.py": "a3deac9c7f5f8b1c9cfcb84cce771c1a19410e2db1dccbc563ebd9d086efedc4",
+    "neu_protocol/evaluation.py": "c2d9dab307f62182c63e5fff27cf00d26a887e9f19d4161eca8195899d876fce",
+    "neu_protocol/fusion_reference.py": "5c9b285ee7fd85acad8961bd0b07b183c205d17fa03a8cc71d363799b7abc030",
+    "neu_protocol/prediction.py": "c5a0204e3ff9b2bab4fb2b2bed11cab5061096e6d1af455f1c5c3b59c3ed9cd9",
+    "neu_protocol/split_worker.py": "270a33c9abe3383a41909722cc01be1e3be6c1fbdf1793abefee436b6a889f1f",
+    "neu_protocol/training.py": "4d19d1514a3adae5b0da42bf329a448ba35ec8cabb68dff577e6d802f5e4cf2d",
+    "protocol.json": "85bb05c47d1181c612bc3bb6d526d91f864157488600e68493b50cf941ee50b3",
+    "requirements-split.txt": "788e92fd5e347dfdaa2d446c5184630477b20fe13952b22d6a5edd37dc168ac1",
+    "run_protocol.py": "472186edeab8146a573a3318a37d099652d8ee8538f31b571d90de077a92942d"
+  },
+  "real_NEU_training_executed": false,
+  "real_Test_predictions_executed": false,
+  "remaining_validation": "Actual 12-task training, Val runtime/export parity and final Test reporting remain gated by the specified human approvals."
+}

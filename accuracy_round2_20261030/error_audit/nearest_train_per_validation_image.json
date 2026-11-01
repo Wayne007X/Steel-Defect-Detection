@@ -1,0 +1,2162 @@
+[
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_241.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_140.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.10910414904356003
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_242.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_162.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.19711871445178986
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_243.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_211.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.20167124271392822
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_244.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_62.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.19125865399837494
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_245.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_40.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.7201658487319946
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_246.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_120.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.05793469771742821
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_247.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_128.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.2153589129447937
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_248.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_111.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.006023455411195755
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_249.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_21.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.2326284945011139
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_250.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_60.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.15448683500289917
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_251.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_27.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.39971816539764404
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_252.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_17.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.19720587134361267
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_253.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_113.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.6282229423522949
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_254.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_134.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.005224950611591339
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_255.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_160.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.10135863721370697
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_256.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_6.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.031065907329320908
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_257.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_168.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.355183482170105
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_258.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_150.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.03157845139503479
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_259.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_81.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.22964870929718018
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_260.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_192.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.22273625433444977
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_261.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_11.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.2601194679737091
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_262.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_12.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.4148411154747009
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_263.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_175.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.3582131862640381
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_264.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_187.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.1274171769618988
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_265.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_2.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.24843908846378326
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_266.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_233.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.08714821934700012
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_267.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_100.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.056860409677028656
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_268.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_220.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.2090279757976532
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_269.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_196.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.27388250827789307
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_270.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_148.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.17309285700321198
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_271.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_210.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.5178676843643188
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_272.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_109.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.013639156706631184
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_273.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_139.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.04157201573252678
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_274.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_15.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.1757517009973526
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_275.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_141.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.24728354811668396
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_276.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_71.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.012297581881284714
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_277.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_158.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.13083744049072266
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_278.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_142.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.2672608494758606
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_279.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_156.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.17068582773208618
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_280.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_114.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.4386299252510071
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_281.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_63.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.47813680768013
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_282.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_150.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.2607560455799103
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_283.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_142.jpg",
+    "phash_hamming": 24,
+    "aligned_correlation": -0.6165618300437927
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_284.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_83.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.20417852699756622
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_285.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_105.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.043601155281066895
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_286.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_115.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.12211297452449799
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_287.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_95.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.08635910600423813
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_288.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_221.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.0865192860364914
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_289.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_159.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.056210704147815704
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_290.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_106.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.42873135209083557
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_291.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_30.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.36683720350265503
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_292.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_135.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.1160062849521637
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_293.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_174.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.412280410528183
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_294.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_183.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.5707591772079468
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_295.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_142.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.08739933371543884
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_296.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_109.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.3360878825187683
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_297.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_35.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.12977196276187897
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_298.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_215.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.19310887157917023
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_299.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_100.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.0034569688141345978
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_300.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\crazing\\crazing_10.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.0284854918718338
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_241.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_239.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.571019172668457
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_242.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_188.jpg",
+    "phash_hamming": 12,
+    "aligned_correlation": 0.45056822896003723
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_243.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_56.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": -0.5990753173828125
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_244.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_230.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.7285536527633667
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_245.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_235.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.29302412271499634
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_246.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_12.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7731215953826904
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_247.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_104.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.5544191598892212
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_248.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_229.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.9418390393257141
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_249.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_143.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.7340868711471558
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_250.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_127.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.6912969946861267
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_251.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_54.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.8654994964599609
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_252.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_232.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.9031475782394409
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_253.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_2.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.3363993167877197
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_254.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_130.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.2653871178627014
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_255.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_235.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.9265729188919067
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_256.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_144.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7772702574729919
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_257.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_107.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.8705383539199829
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_258.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_132.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.39614930748939514
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_259.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_132.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.6693173050880432
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_260.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_166.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.07455331087112427
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_261.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_119.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.14122343063354492
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_262.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_30.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.34671109914779663
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_263.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_172.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.6061486005783081
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_264.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_205.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.4699716567993164
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_265.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_239.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.8201426863670349
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_266.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_147.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.32862454652786255
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_267.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_192.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7267375588417053
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_268.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_229.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.8359102010726929
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_269.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_135.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.8178226351737976
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_270.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_193.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.14267490804195404
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_271.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_141.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.831468939781189
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_272.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_129.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7009285092353821
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_273.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_73.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.8605235815048218
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_274.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_92.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.5498397350311279
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_275.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_167.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.827482283115387
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_276.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_131.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7621747255325317
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_277.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_76.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": -0.6482114791870117
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_278.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_205.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.2895562946796417
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_279.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_182.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7059078216552734
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_280.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_156.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.2265956997871399
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_281.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_205.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.7827600240707397
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_282.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_138.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.7191814184188843
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_283.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_156.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.23367927968502045
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_284.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_130.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.2625987231731415
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_285.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_126.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.13676276803016663
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_286.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_209.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5119040608406067
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_287.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_143.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.20433734357357025
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_288.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_194.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.9046716094017029
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_289.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_230.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.9145909547805786
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_290.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_218.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.35775285959243774
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_291.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_136.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.19497919082641602
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_292.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_210.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5113005042076111
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_293.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_129.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7402639985084534
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_294.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_144.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.8867881894111633
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_295.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_154.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.4232516288757324
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_296.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_179.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.8688856363296509
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_297.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_85.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.8326096534729004
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_298.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_147.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.4764546751976013
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_299.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_121.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.4402504563331604
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_300.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\inclusion\\inclusion_238.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.03793423995375633
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_241.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_177.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.30473509430885315
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_242.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_68.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.4611196517944336
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_243.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_202.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.5879974961280823
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_244.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_86.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5041982531547546
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_245.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_113.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.29428744316101074
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_246.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_130.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5020507574081421
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_247.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_182.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.038167212158441544
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_248.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_49.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.6138358116149902
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_249.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_114.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.009260764345526695
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_250.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_28.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.04931329935789108
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_251.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_133.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7884609699249268
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_252.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_124.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.40925145149230957
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_253.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_32.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.8382591605186462
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_254.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_133.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.7583045959472656
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_255.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_129.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5484216809272766
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_256.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_71.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.4649222493171692
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_257.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_140.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.49176710844039917
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_258.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_117.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.6759284734725952
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_259.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_130.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.6143773198127747
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_260.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_140.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.5416314601898193
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_261.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_130.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.11874474585056305
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_262.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_195.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.2994605600833893
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_263.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_165.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.6382373571395874
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_264.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_98.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.6645620465278625
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_265.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_41.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.25875765085220337
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_266.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_146.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.4516673684120178
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_267.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_227.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.1926836520433426
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_268.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_129.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.30228400230407715
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_269.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_195.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.1517060250043869
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_270.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_118.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.15630653500556946
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_271.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_154.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.4155440926551819
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_272.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_51.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.07354903221130371
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_273.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_71.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5092568397521973
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_274.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_64.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.537601888179779
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_275.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_5.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.23454949259757996
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_276.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_10.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.3692410886287689
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_277.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_6.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.06516213715076447
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_278.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_3.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": -0.004927325993776321
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_279.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_226.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.635356605052948
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_280.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_123.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.6975187063217163
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_281.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_195.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.04351065307855606
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_282.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_155.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5196858644485474
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_283.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_37.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": -0.07453729212284088
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_284.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_214.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.6783456802368164
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_285.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_229.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.27952101826667786
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_286.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_118.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.34042829275131226
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_287.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_119.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.039888106286525726
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_288.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_209.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.3456425070762634
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_289.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_70.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.32535338401794434
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_290.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_108.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.10892148315906525
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_291.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_227.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.42194461822509766
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_292.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_138.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.24550199508666992
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_293.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_136.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.027873601764440536
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_294.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_128.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.4352332651615143
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_295.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_175.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.30177605152130127
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_296.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_220.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.36413562297821045
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_297.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_119.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.4732402265071869
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_298.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_203.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.5861892104148865
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_299.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_134.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.3185020387172699
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_300.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_79.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.23822340369224548
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_241.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_185.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.29605627059936523
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_242.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_198.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.8227564692497253
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_243.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_203.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.7488077878952026
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_244.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_239.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7303600311279297
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_245.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_127.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.8226041793823242
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_246.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_137.jpg",
+    "phash_hamming": 14,
+    "aligned_correlation": 0.8477652668952942
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_247.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_43.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.27156752347946167
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_248.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_183.jpg",
+    "phash_hamming": 14,
+    "aligned_correlation": 0.30267947912216187
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_249.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_38.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.007906575687229633
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_250.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_74.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.6073896884918213
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_251.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_146.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.21839696168899536
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_252.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_127.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.9737890958786011
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_253.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_19.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.2469562143087387
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_254.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_145.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.5156015157699585
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_255.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_155.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.49953803420066833
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_256.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_134.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5882130265235901
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_257.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_142.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.9607887864112854
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_258.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_147.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.21685227751731873
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_259.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_185.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.6237152814865112
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_260.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_189.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7695435285568237
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_261.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_119.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.15756027400493622
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_262.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_104.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.7242394685745239
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_263.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_30.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.4969360828399658
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_264.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_106.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.17252326011657715
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_265.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_116.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.5877788066864014
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_266.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_36.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.10251970589160919
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_267.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_151.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.588908314704895
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_268.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_233.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.9268288612365723
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_269.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_106.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.754065990447998
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_270.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_238.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.5823894739151001
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_271.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_201.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.4498586654663086
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_272.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_136.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.08552655577659607
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_273.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_76.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.5730923414230347
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_274.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_107.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.02423401176929474
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_275.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_221.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7796422243118286
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_276.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_100.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.631110429763794
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_277.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_149.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.4305903911590576
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_278.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_105.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.568625807762146
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_279.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_102.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.28264883160591125
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_280.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_113.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.5100792646408081
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_281.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_189.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.6046981811523438
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_282.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_14.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.8115475177764893
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_283.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_11.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.854790449142456
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_284.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_162.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.31554925441741943
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_285.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_36.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.9628908038139343
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_286.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_145.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.861241340637207
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_287.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_107.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7545883655548096
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_288.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_143.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.8931580781936646
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_289.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_193.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.05478036403656006
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_290.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_109.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5401280522346497
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_291.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_162.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.6908566355705261
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_292.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_171.jpg",
+    "phash_hamming": 8,
+    "aligned_correlation": 0.9444500803947449
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_293.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_137.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.7953110933303833
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_294.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_64.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.3648964464664459
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_295.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_178.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": -0.018282825127243996
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_296.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_21.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.7635318040847778
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_297.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_135.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.28276294469833374
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_298.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_155.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.7956806421279907
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_299.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_194.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.988153874874115
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_300.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_22.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.78957200050354
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_241.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_232.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.3373943269252777
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_242.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_151.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.19978824257850647
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_243.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_179.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": -0.09136353433132172
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_244.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_125.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.048974499106407166
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_245.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_131.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.005250133574008942
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_246.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_100.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.009873144328594208
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_247.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_41.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.5629645586013794
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_248.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_42.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.0347321480512619
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_249.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_114.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.3679821789264679
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_250.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_154.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.3746151030063629
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_251.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_26.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.11022321879863739
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_252.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_47.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.20819450914859772
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_253.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_146.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.49514803290367126
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_254.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_152.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.09246646612882614
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_255.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_43.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.06223176792263985
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_256.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_58.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.1046186238527298
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_257.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_211.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.022088006138801575
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_258.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_194.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.30181264877319336
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_259.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_178.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.41124528646469116
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_260.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_226.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.6207534074783325
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_261.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_127.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.2768239974975586
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_262.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_166.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.12984216213226318
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_263.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_45.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.0929730162024498
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_264.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_230.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.4324573874473572
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_265.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_207.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.6684281229972839
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_266.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_205.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.3733009099960327
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_267.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_2.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.05822785943746567
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_268.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_15.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.1236305981874466
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_269.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_139.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.08519045263528824
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_270.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_226.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.6212369203567505
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_271.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_223.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5945174694061279
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_272.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_134.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.02435433119535446
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_273.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_52.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.31517285108566284
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_274.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_184.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.2648333013057709
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_275.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_12.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.5247520208358765
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_276.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_114.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.23834288120269775
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_277.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_4.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.4260970652103424
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_278.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_145.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.3704599142074585
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_279.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_21.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.279432475566864
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_280.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_129.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.36063873767852783
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_281.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_23.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.14068102836608887
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_282.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_180.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.021990511566400528
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_283.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_213.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.0737491250038147
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_284.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_183.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.025241531431674957
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_285.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_234.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.43978697061538696
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_286.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_53.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.40268996357917786
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_287.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_139.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.01529871765524149
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_288.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_132.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.2846181392669678
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_289.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_129.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.36418211460113525
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_290.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_131.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.0973162055015564
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_291.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_209.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.09168767184019089
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_292.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_233.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.20243871212005615
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_293.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_125.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.017928648740053177
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_294.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_25.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.34778016805648804
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_295.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_117.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.4705333709716797
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_296.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_103.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.18939456343650818
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_297.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_184.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.29673904180526733
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_298.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_228.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.3870079517364502
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_299.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_180.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.23987847566604614
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_300.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_46.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.36255812644958496
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_241.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_106.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.6280732154846191
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_242.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_121.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.4171220064163208
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_243.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_167.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.2009110152721405
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_244.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_96.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.40512824058532715
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_245.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_126.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.2733175754547119
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_246.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_115.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.17927098274230957
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_247.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_158.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.37162017822265625
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_248.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_167.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.4468735158443451
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_249.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_194.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.0981636568903923
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_250.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_115.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.0411984920501709
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_251.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_199.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.05927601456642151
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_252.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_148.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.08776498585939407
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_253.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_225.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.18071717023849487
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_254.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_217.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.026567570865154266
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_255.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_13.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.24584418535232544
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_256.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_169.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.0622594989836216
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_257.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_119.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.021223360672593117
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_258.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_81.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.14703722298145294
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_259.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_195.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.07907220721244812
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_260.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_171.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.03516099229454994
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_261.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_237.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.25142666697502136
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_262.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_44.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.4618699252605438
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_263.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_22.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.33381742238998413
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_264.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_208.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.12055505812168121
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_265.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_110.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.11172705143690109
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_266.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_92.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.23885312676429749
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_267.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_170.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.23182494938373566
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_268.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_122.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.4376763701438904
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_269.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_222.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.06665893644094467
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_270.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_102.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.471835732460022
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_271.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_219.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": -0.19813178479671478
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_272.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_195.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.1934407502412796
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_273.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_107.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.35178142786026
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_274.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_12.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.24573102593421936
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_275.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_29.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.12279605865478516
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_276.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_225.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.42359939217567444
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_277.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_88.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.429526686668396
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_278.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_23.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.022351447492837906
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_279.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_107.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.13459064066410065
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_280.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_1.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.40908166766166687
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_281.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_106.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.650920569896698
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_282.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_133.jpg",
+    "phash_hamming": 24,
+    "aligned_correlation": -0.3169376254081726
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_283.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_2.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.44769400358200073
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_284.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_100.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.2123241126537323
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_285.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_120.jpg",
+    "phash_hamming": 16,
+    "aligned_correlation": 0.033604104071855545
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_286.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_127.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.5262665748596191
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_287.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_148.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.5316246747970581
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_288.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_212.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.16921588778495789
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_289.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_175.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.7477372884750366
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_290.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_114.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": -0.0864488035440445
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_291.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_156.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.06116097792983055
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_292.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_161.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.1861019879579544
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_293.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_224.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.46256887912750244
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_294.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_23.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.019315293058753014
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_295.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_101.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": 0.07020284235477448
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_296.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_182.jpg",
+    "phash_hamming": 22,
+    "aligned_correlation": 0.17060983180999756
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_297.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_186.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": 0.021184582263231277
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_298.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_18.jpg",
+    "phash_hamming": 14,
+    "aligned_correlation": 0.8218992948532104
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_299.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_149.jpg",
+    "phash_hamming": 18,
+    "aligned_correlation": -0.14481738209724426
+  },
+  {
+    "val": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_300.jpg",
+    "train": "D:\\yolov8\\NEU-DET\\train\\images\\scratches\\scratches_138.jpg",
+    "phash_hamming": 20,
+    "aligned_correlation": -0.13293343782424927
+  }
+]

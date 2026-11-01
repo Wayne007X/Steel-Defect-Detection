@@ -1,0 +1,13 @@
+{
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "initialization": "E:\\yolo_project\\runs\\neu_defect_mosaic000\\weights\\best.pt",
+  "changes": "Only seed changes relative to texture_ft seed42.",
+  "acceptance": "Median mAP50-95 >= original mosaic000 + .005; report all seeds and per-class changes.",
+  "maximum_epochs_per_run": 40,
+  "patience": 12,
+  "independent_test": false
+}

@@ -57,3 +57,15 @@ dist/
 
 # ONNX model used by the cloud API
 !/models/mosaic000.onnx
+
+# Repository presentation: local archives, runtime state and installed dependencies
+/backups/
+/old/
+.ultralytics/
+.matplotlib/
+.test_work/
+*.npy
+/evaluation_rebuild_20261031/state/*.lock
+/evaluation_rebuild_20261031/tools/split_deps/
+/evaluation_rebuild_20261031/runtime_weights/
+/evaluation_rebuild_20261031/post_test_delivery/web/running_services.json

@@ -1,0 +1,43 @@
+{
+  "source": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_285.jpg",
+  "models": [
+    "E:\\yolo_project\\runs\\neu_defect_clean\\weights\\best.pt",
+    "E:\\yolo_project\\accuracy_round2_20261030\\models\\texture_ft_best.pt"
+  ],
+  "tta": true,
+  "conf": 0.25,
+  "iou": null,
+  "class_nms": [
+    0.5,
+    0.3,
+    0.3,
+    0.3,
+    0.5,
+    0.3
+  ],
+  "processing_ms": 349.01480000007723,
+  "detections": [
+    {
+      "name": "rolled-in_scale",
+      "class": 4,
+      "confidence": 0.36842,
+      "box": {
+        "x1": 40.94729,
+        "y1": 48.084,
+        "x2": 169.02893,
+        "y2": 193.71371
+      }
+    },
+    {
+      "name": "rolled-in_scale",
+      "class": 4,
+      "confidence": 0.25136,
+      "box": {
+        "x1": 32.77764,
+        "y1": 0.31328,
+        "x2": 170.40053,
+        "y2": 87.33238
+      }
+    }
+  ]
+}

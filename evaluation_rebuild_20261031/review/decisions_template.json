@@ -1,0 +1,103 @@
+{
+  "reviewer": "",
+  "reviewed_at": "",
+  "note": "same/different/uncertain; exact duplicates must remain same",
+  "candidates_sha256": "0b2455a3e2b6d73b5b82794e9ee28549c1ce54a7865475b8af54383bb4744327",
+  "decisions": [
+    {
+      "pair_id": "P001",
+      "decision": "same",
+      "reason": "exact pixels"
+    },
+    {
+      "pair_id": "P002",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P003",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P004",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P005",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P006",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P007",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P008",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P009",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P010",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P011",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P012",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P013",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P014",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P015",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P016",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P017",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P018",
+      "decision": null,
+      "reason": ""
+    },
+    {
+      "pair_id": "P019",
+      "decision": null,
+      "reason": ""
+    }
+  ]
+}

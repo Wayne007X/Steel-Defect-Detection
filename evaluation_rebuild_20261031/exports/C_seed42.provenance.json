@@ -1,0 +1,15 @@
+{
+  "source": "runs\\C_seed42\\weights\\best.pt",
+  "source_sha256": "09d0eb7d4ab715f719fb7c65c28fa52e0841f7ad636b7da143589c14e6084201",
+  "onnx_sha256": "d2bbc36aaed1a21c2a898fe410dd0c0a0eb8eed35fcf02b8e2bb129f338cb64c",
+  "options": {
+    "format": "onnx",
+    "imgsz": 640,
+    "batch": 1,
+    "opset": 17,
+    "dynamic": false,
+    "simplify": false,
+    "half": false,
+    "device": "cpu"
+  }
+}

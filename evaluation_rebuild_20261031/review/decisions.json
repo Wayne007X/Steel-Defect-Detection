@@ -1,0 +1,103 @@
+{
+  "reviewer": "用户（聊天人工复核）",
+  "reviewed_at": "2026-10-31",
+  "note": "依据用户本轮逐对复核回复录入；same 表示人工判断同源或近重复，不等于像素完全一致。P005 原话“相似但有不同”，按无法确定保守同组；用户未另提供细部判据，不补造理由。",
+  "candidates_sha256": "0b2455a3e2b6d73b5b82794e9ee28549c1ce54a7865475b8af54383bb4744327",
+  "decisions": [
+    {
+      "pair_id": "P001",
+      "decision": "same",
+      "reason": "像素审计完全相同，按协议固定同组。"
+    },
+    {
+      "pair_id": "P002",
+      "decision": "same",
+      "reason": "用户视觉复核判断完全重复（P002/P003 原话：完全重复感觉）；记录为同源或近重复，非像素一致性结论。"
+    },
+    {
+      "pair_id": "P003",
+      "decision": "same",
+      "reason": "用户视觉复核判断完全重复（P002/P003 原话：完全重复感觉）；记录为同源或近重复，非像素一致性结论。"
+    },
+    {
+      "pair_id": "P004",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P005",
+      "decision": "uncertain",
+      "reason": "用户原话：相似但有不同。未明确排除近重复或同源，按协议保守同组。"
+    },
+    {
+      "pair_id": "P006",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P007",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P008",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P009",
+      "decision": "same",
+      "reason": "用户视觉复核判断完全重复（P002/P003 原话：完全重复感觉）；记录为同源或近重复，非像素一致性结论。"
+    },
+    {
+      "pair_id": "P010",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P011",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P012",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P013",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P014",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P015",
+      "decision": "same",
+      "reason": "用户视觉复核判断完全重复（P002/P003 原话：完全重复感觉）；记录为同源或近重复，非像素一致性结论。"
+    },
+    {
+      "pair_id": "P016",
+      "decision": "same",
+      "reason": "用户视觉复核判断完全重复（P002/P003 原话：完全重复感觉）；记录为同源或近重复，非像素一致性结论。"
+    },
+    {
+      "pair_id": "P017",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P018",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    },
+    {
+      "pair_id": "P019",
+      "decision": "different",
+      "reason": "用户逐对视觉复核判断：不同。未提供进一步细部理由。"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "plan": {
+    "seeds": [
+      42,
+      7,
+      123
+    ],
+    "initialization": "E:\\yolo_project\\runs\\neu_defect_mosaic000\\weights\\best.pt",
+    "changes": "Only seed changes relative to texture_ft seed42.",
+    "acceptance": "Median mAP50-95 >= original mosaic000 + .005; report all seeds and per-class changes.",
+    "maximum_epochs_per_run": 40,
+    "patience": 12,
+    "independent_test": false
+  },
+  "results": [
+    {
+      "name": "texture_ft",
+      "weights": "C:\\Users\\32077\\Documents\\ChatGPT\\yolov8\\accuracy_experiments\\training\\mosaic000_texture_ft_seed42\\weights\\best.pt",
+      "augment": false,
+      "imgsz": 640,
+      "precision": 0.6919580017563224,
+      "recall": 0.6715422475123498,
+      "mAP50": 0.725440570472292,
+      "mAP50_95": 0.36998763800391604,
+      "speed": {
+        "preprocess": 0.21405499998460678,
+        "inference": 2.558615277757781,
+        "loss": 0.0007016666636951009,
+        "postprocess": 0.5827911110979282
+      },
+      "per_class": [
+        {
+          "Class": "crazing",
+          "Images": 60,
+          "Instances": 162,
+          "Box-P": 0.60856,
+          "Box-R": 0.30247,
+          "Box-F1": 0.40409,
+          "mAP50": 0.47694,
+          "mAP75": 0.14513,
+          "mAP50-95": 0.20636
+        },
+        {
+          "Class": "inclusion",
+          "Images": 71,
+          "Instances": 159,
+          "Box-P": 0.71266,
+          "Box-R": 0.77994,
+          "Box-F1": 0.74478,
+          "mAP50": 0.79138,
+          "mAP75": 0.388,
+          "mAP50-95": 0.42111
+        },
+        {
+          "Class": "patches",
+          "Images": 73,
+          "Instances": 193,
+          "Box-P": 0.83573,
+          "Box-R": 0.87565,
+          "Box-F1": 0.85522,
+          "mAP50": 0.91415,
+          "mAP75": 0.58434,
+          "mAP50-95": 0.55543
+        },
+        {
+          "Class": "pitted_surface",
+          "Images": 60,
+          "Instances": 87,
+          "Box-P": 0.77859,
+          "Box-R": 0.68966,
+          "Box-F1": 0.73143,
+          "mAP50": 0.77097,
+          "mAP75": 0.32149,
+          "mAP50-95": 0.39608
+        },
+        {
+          "Class": "rolled-in_scale",
+          "Images": 60,
+          "Instances": 132,
+          "Box-P": 0.52224,
+          "Box-R": 0.5303,
+          "Box-F1": 0.52624,
+          "mAP50": 0.55133,
+          "mAP75": 0.16706,
+          "mAP50-95": 0.23736
+        },
+        {
+          "Class": "scratches",
+          "Images": 60,
+          "Instances": 121,
+          "Box-P": 0.69397,
+          "Box-R": 0.85124,
+          "Box-F1": 0.7646,
+          "mAP50": 0.84789,
+          "mAP75": 0.37275,
+          "mAP50-95": 0.40358
+        }
+      ],
+      "torch": "2.5.1+cu121",
+      "ultralytics": "8.4.177",
+      "settings": {
+        "batch": 8,
+        "conf": 0.001,
+        "nms_iou": 0.7,
+        "rect": false,
+        "device": 0
+      }
+    },
+    {
+      "name": "texture_ft_seed7",
+      "weights": "C:\\Users\\32077\\Documents\\ChatGPT\\yolov8\\accuracy_experiments\\training\\mosaic000_texture_ft_seed7\\weights\\best.pt",
+      "augment": false,
+      "imgsz": 640,
+      "precision": 0.700042464139175,
+      "recall": 0.6880142219672208,
+      "mAP50": 0.7238363237048625,
+      "mAP50_95": 0.36966454676356614,
+      "speed": {
+        "preprocess": 0.2357547222042437,
+        "inference": 2.671168333330974,
+        "loss": 0.0008536110979346429,
+        "postprocess": 0.6322491666701859
+      },
+      "per_class": [
+        {
+          "Class": "crazing",
+          "Images": 60,
+          "Instances": 162,
+          "Box-P": 0.60393,
+          "Box-R": 0.3765,
+          "Box-F1": 0.46384,
+          "mAP50": 0.46559,
+          "mAP75": 0.11096,
+          "mAP50-95": 0.18527
+        },
+        {
+          "Class": "inclusion",
+          "Images": 71,
+          "Instances": 159,
+          "Box-P": 0.68661,
+          "Box-R": 0.75472,
+          "Box-F1": 0.71905,
+          "mAP50": 0.76487,
+          "mAP75": 0.43345,
+          "mAP50-95": 0.4087
+        },
+        {
+          "Class": "patches",
+          "Images": 73,
+          "Instances": 193,
+          "Box-P": 0.80774,
+          "Box-R": 0.8601,
+          "Box-F1": 0.8331,
+          "mAP50": 0.8968,
+          "mAP75": 0.60793,
+          "mAP50-95": 0.5578
+        },
+        {
+          "Class": "pitted_surface",
+          "Images": 60,
+          "Instances": 87,
+          "Box-P": 0.79607,
+          "Box-R": 0.7628,
+          "Box-F1": 0.77908,
+          "mAP50": 0.83348,
+          "mAP75": 0.40358,
+          "mAP50-95": 0.4498
+        },
+        {
+          "Class": "rolled-in_scale",
+          "Images": 60,
+          "Instances": 132,
+          "Box-P": 0.57016,
+          "Box-R": 0.52273,
+          "Box-F1": 0.54541,
+          "mAP50": 0.52447,
+          "mAP75": 0.15998,
+          "mAP50-95": 0.21673
+        },
+        {
+          "Class": "scratches",
+          "Images": 60,
+          "Instances": 121,
+          "Box-P": 0.73574,
+          "Box-R": 0.85124,
+          "Box-F1": 0.78929,
+          "mAP50": 0.85779,
+          "mAP75": 0.32472,
+          "mAP50-95": 0.39969
+        }
+      ],
+      "torch": "2.5.1+cu121",
+      "ultralytics": "8.4.177",
+      "settings": {
+        "batch": 8,
+        "conf": 0.001,
+        "nms_iou": 0.7,
+        "rect": false,
+        "device": 0
+      }
+    },
+    {
+      "name": "texture_ft_seed123",
+      "weights": "C:\\Users\\32077\\Documents\\ChatGPT\\yolov8\\accuracy_experiments\\training\\mosaic000_texture_ft_seed123\\weights\\best.pt",
+      "augment": false,
+      "imgsz": 640,
+      "precision": 0.6665553724208886,
+      "recall": 0.7051788421840711,
+      "mAP50": 0.7213999638619918,
+      "mAP50_95": 0.36796825983241893,
+      "speed": {
+        "preprocess": 0.24187638888280263,
+        "inference": 2.6380549999834737,
+        "loss": 0.000949166693923568,
+        "postprocess": 0.6507499999922098
+      },
+      "per_class": [
+        {
+          "Class": "crazing",
+          "Images": 60,
+          "Instances": 162,
+          "Box-P": 0.5505,
+          "Box-R": 0.42593,
+          "Box-F1": 0.48027,
+          "mAP50": 0.42411,
+          "mAP75": 0.13382,
+          "mAP50-95": 0.18197
+        },
+        {
+          "Class": "inclusion",
+          "Images": 71,
+          "Instances": 159,
+          "Box-P": 0.71562,
+          "Box-R": 0.75472,
+          "Box-F1": 0.73465,
+          "mAP50": 0.78043,
+          "mAP75": 0.38992,
+          "mAP50-95": 0.41283
+        },
+        {
+          "Class": "patches",
+          "Images": 73,
+          "Instances": 193,
+          "Box-P": 0.80102,
+          "Box-R": 0.91775,
+          "Box-F1": 0.85542,
+          "mAP50": 0.9261,
+          "mAP75": 0.62832,
+          "mAP50-95": 0.57684
+        },
+        {
+          "Class": "pitted_surface",
+          "Images": 60,
+          "Instances": 87,
+          "Box-P": 0.70912,
+          "Box-R": 0.72857,
+          "Box-F1": 0.71871,
+          "mAP50": 0.80976,
+          "mAP75": 0.37682,
+          "mAP50-95": 0.42038
+        },
+        {
+          "Class": "rolled-in_scale",
+          "Images": 60,
+          "Instances": 132,
+          "Box-P": 0.51399,
+          "Box-R": 0.53788,
+          "Box-F1": 0.52566,
+          "mAP50": 0.53098,
+          "mAP75": 0.14976,
+          "mAP50-95": 0.21383
+        },
+        {
+          "Class": "scratches",
+          "Images": 60,
+          "Instances": 121,
+          "Box-P": 0.70909,
+          "Box-R": 0.86623,
+          "Box-F1": 0.77982,
+          "mAP50": 0.85703,
+          "mAP75": 0.32827,
+          "mAP50-95": 0.40197
+        }
+      ],
+      "torch": "2.5.1+cu121",
+      "ultralytics": "8.4.177",
+      "settings": {
+        "batch": 8,
+        "conf": 0.001,
+        "nms_iou": 0.7,
+        "rect": false,
+        "device": 0
+      }
+    }
+  ],
+  "median_mAP50_95": 0.36966454676356614,
+  "mean_mAP50": 0.7235589526797154,
+  "std_mAP50": 0.002034533474532646,
+  "baseline_mAP50_95": 0.3605258588160976,
+  "passed_median_gate": true
+}

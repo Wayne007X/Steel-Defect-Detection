@@ -1,0 +1,27 @@
+{
+  "method": "5000 paired image bootstrap draws, stratified by six image classes; fixed trained seed42 models.",
+  "limitation": "Conditional uncertainty on this validation sample; does not account for model selection, training seeds, shared batches or deployment shift.",
+  "candidate_minus_baseline": {
+    "precision": {
+      "mean": -0.02314327762044792,
+      "ci95": [
+        -0.032833869560481135,
+        -0.014136265125627287
+      ]
+    },
+    "recall": {
+      "mean": 0.016432238055534547,
+      "ci95": [
+        0.007025555692509971,
+        0.02616670729725338
+      ]
+    },
+    "F1": {
+      "mean": -0.0033133689053374583,
+      "ci95": [
+        -0.009979747362190174,
+        0.003231168629910239
+      ]
+    }
+  }
+}

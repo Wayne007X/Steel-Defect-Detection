@@ -1,0 +1,50 @@
+[
+  {
+    "tta": false,
+    "mode": "native",
+    "images": 360,
+    "bitwise_identical": true,
+    "original_fusion_ms_per_image": 2.5755513888877126,
+    "vectorized_fusion_ms_per_image": 0.8607599999979558
+  },
+  {
+    "tta": false,
+    "mode": "standard",
+    "images": 360,
+    "bitwise_identical": true,
+    "original_fusion_ms_per_image": 0.32615722222241555,
+    "vectorized_fusion_ms_per_image": 0.26414388888851037
+  },
+  {
+    "tta": false,
+    "mode": "adaptive",
+    "images": 360,
+    "bitwise_identical": true,
+    "original_fusion_ms_per_image": 0.6209177777792421,
+    "vectorized_fusion_ms_per_image": 0.34962444444520063
+  },
+  {
+    "tta": true,
+    "mode": "native",
+    "images": 360,
+    "bitwise_identical": true,
+    "original_fusion_ms_per_image": 4.206021388886762,
+    "vectorized_fusion_ms_per_image": 1.217898333334233
+  },
+  {
+    "tta": true,
+    "mode": "standard",
+    "images": 360,
+    "bitwise_identical": true,
+    "original_fusion_ms_per_image": 0.3737602777770614,
+    "vectorized_fusion_ms_per_image": 0.2783466666642198
+  },
+  {
+    "tta": true,
+    "mode": "adaptive",
+    "images": 360,
+    "bitwise_identical": true,
+    "original_fusion_ms_per_image": 0.7945441666682503,
+    "vectorized_fusion_ms_per_image": 0.4262447222218826
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "hypothesis": "Per-image grayscale normalization reduces the observed train/val brightness shift, especially rolled-in_scale.",
+  "method": "Map each image's own 1st and 99th grayscale percentiles to 0/255; clip outside, preserve coordinates.",
+  "source_labels_edited": false,
+  "dataset_statistics_fitted": false,
+  "initialization": "E:\\yolo_project\\runs\\neu_defect_mosaic000\\weights\\best.pt",
+  "seed": 42,
+  "maximum_epochs": 40,
+  "patience": 12,
+  "control": "Same texture fine-tune profile/optimizer as prior seed42; preprocessing is the changed factor.",
+  "gate": "Weak-class mean AP50 improves >=.03 over texture seed42; overall AP50 >= control+.003, AP50-95 >= control-.005; no other-class AP50 loss >.03.",
+  "limitation": "Same validation images, deterministic different preprocessing; exploratory, not an independent test."
+}

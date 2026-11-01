@@ -1,0 +1,11 @@
+path: E:\yolo_project\evaluation_rebuild_20261031\dataset
+train: train.txt
+val: val.txt
+nc: 6
+names:
+- crazing
+- inclusion
+- patches
+- pitted_surface
+- rolled-in_scale
+- scratches

@@ -1,0 +1,127 @@
+{
+  "status": "passed",
+  "val_only": true,
+  "samples": [
+    "E:\\yolo_project\\evaluation_rebuild_20261031\\dataset\\images\\crazing\\crazing_9.jpg",
+    "E:\\yolo_project\\evaluation_rebuild_20261031\\dataset\\images\\rolled-in_scale\\rolled-in_scale_3.jpg"
+  ],
+  "real_http_predictions": [
+    {
+      "mode": "balanced",
+      "image": "crazing_9.jpg",
+      "count": 3,
+      "http_ms": 242.50540000502951,
+      "processing_ms": 227.046,
+      "device": "cuda:0"
+    },
+    {
+      "mode": "balanced",
+      "image": "rolled-in_scale_3.jpg",
+      "count": 2,
+      "http_ms": 77.89790000242647,
+      "processing_ms": 73.035,
+      "device": "cuda:0"
+    },
+    {
+      "mode": "recall",
+      "image": "crazing_9.jpg",
+      "count": 3,
+      "http_ms": 282.88590000011027,
+      "processing_ms": 278.178,
+      "device": "cuda:0"
+    },
+    {
+      "mode": "recall",
+      "image": "rolled-in_scale_3.jpg",
+      "count": 2,
+      "http_ms": 79.60470000398345,
+      "processing_ms": 75.026,
+      "device": "cuda:0"
+    },
+    {
+      "mode": "cpu_balanced",
+      "image": "crazing_9.jpg",
+      "count": 1,
+      "http_ms": 477.51149999385234,
+      "processing_ms": 472.77,
+      "device": "cpu"
+    },
+    {
+      "mode": "cpu_balanced",
+      "image": "rolled-in_scale_3.jpg",
+      "count": 2,
+      "http_ms": 245.71999999898253,
+      "processing_ms": 241.14,
+      "device": "cpu"
+    },
+    {
+      "mode": "cpu_single",
+      "image": "crazing_9.jpg",
+      "count": 4,
+      "http_ms": 198.8543999977992,
+      "processing_ms": 193.59,
+      "device": "cpu"
+    },
+    {
+      "mode": "cpu_single",
+      "image": "rolled-in_scale_3.jpg",
+      "count": 4,
+      "http_ms": 125.50099999498343,
+      "processing_ms": 120.824,
+      "device": "cpu"
+    },
+    {
+      "mode": "legacy_onnx",
+      "image": "crazing_9.jpg",
+      "count": 1,
+      "http_ms": 432.11470000096597,
+      "processing_ms": 427.335,
+      "device": "cpu"
+    },
+    {
+      "mode": "legacy_onnx",
+      "image": "rolled-in_scale_3.jpg",
+      "count": 4,
+      "http_ms": 240.1319999989937,
+      "processing_ms": 235.198,
+      "device": "cpu"
+    }
+  ],
+  "negative_requests": [
+    {
+      "params": {
+        "mode": "no_such_mode"
+      },
+      "status": 422
+    },
+    {
+      "params": {
+        "mode": "cpu_single",
+        "iou": 0.3
+      },
+      "status": 422
+    },
+    {
+      "params": {
+        "mode": "cpu_single"
+      },
+      "status": 422
+    },
+    {
+      "params": {
+        "mode": "cpu_single"
+      },
+      "status": 413
+    }
+  ],
+  "custom_threshold_labeled": true,
+  "deepseek_disabled_response": 403,
+  "streamlit": {
+    "initial_load": true,
+    "simulated_upload_and_real_backend": true,
+    "balanced_to_recall": true,
+    "stale_result_hidden": true,
+    "legacy_fallback": true
+  },
+  "limits": "Two Val images per mode; HTTP times include first mode load and are not throughput estimates. Streamlit upload supplied by a test fixture; no browser GUI automation. No paid AI calls."
+}

@@ -1,0 +1,374 @@
+[
+  {
+    "name": "clean",
+    "weights": "E:\\yolo_project\\runs\\neu_defect_clean\\weights\\best.pt",
+    "augment": false,
+    "imgsz": 640,
+    "precision": 0.6633267049895452,
+    "recall": 0.6391869337921136,
+    "mAP50": 0.6952416767877319,
+    "mAP50_95": 0.3578335195504562,
+    "speed": {
+      "preprocess": 0.22565500001089983,
+      "inference": 2.5902449999901163,
+      "loss": 0.0007516666856746371,
+      "postprocess": 0.6176091666626841
+    },
+    "per_class": [
+      {
+        "Class": "crazing",
+        "Images": 60,
+        "Instances": 162,
+        "Box-P": 0.57904,
+        "Box-R": 0.22222,
+        "Box-F1": 0.32118,
+        "mAP50": 0.37745,
+        "mAP75": 0.12201,
+        "mAP50-95": 0.15666
+      },
+      {
+        "Class": "inclusion",
+        "Images": 71,
+        "Instances": 159,
+        "Box-P": 0.75624,
+        "Box-R": 0.7044,
+        "Box-F1": 0.7294,
+        "mAP50": 0.77975,
+        "mAP75": 0.3724,
+        "mAP50-95": 0.41493
+      },
+      {
+        "Class": "patches",
+        "Images": 73,
+        "Instances": 193,
+        "Box-P": 0.84597,
+        "Box-R": 0.87047,
+        "Box-F1": 0.85804,
+        "mAP50": 0.912,
+        "mAP75": 0.598,
+        "mAP50-95": 0.5549
+      },
+      {
+        "Class": "pitted_surface",
+        "Images": 60,
+        "Instances": 87,
+        "Box-P": 0.71068,
+        "Box-R": 0.72414,
+        "Box-F1": 0.71735,
+        "mAP50": 0.78963,
+        "mAP75": 0.34445,
+        "mAP50-95": 0.40549
+      },
+      {
+        "Class": "rolled-in_scale",
+        "Images": 60,
+        "Instances": 132,
+        "Box-P": 0.53914,
+        "Box-R": 0.48745,
+        "Box-F1": 0.51199,
+        "mAP50": 0.52897,
+        "mAP75": 0.17343,
+        "mAP50-95": 0.22277
+      },
+      {
+        "Class": "scratches",
+        "Images": 60,
+        "Instances": 121,
+        "Box-P": 0.5489,
+        "Box-R": 0.82645,
+        "Box-F1": 0.65967,
+        "mAP50": 0.78365,
+        "mAP75": 0.33115,
+        "mAP50-95": 0.39225
+      }
+    ],
+    "torch": "2.5.1+cu121",
+    "ultralytics": "8.4.177",
+    "settings": {
+      "batch": 8,
+      "conf": 0.001,
+      "nms_iou": 0.7,
+      "rect": false,
+      "device": 0
+    }
+  },
+  {
+    "name": "mosaic000",
+    "weights": "E:\\yolo_project\\runs\\neu_defect_mosaic000\\weights\\best.pt",
+    "augment": false,
+    "imgsz": 640,
+    "precision": 0.6659344948793718,
+    "recall": 0.6724136642502537,
+    "mAP50": 0.7017866471409446,
+    "mAP50_95": 0.3605258588160976,
+    "speed": {
+      "preprocess": 0.22326527776183663,
+      "inference": 2.4738750000122107,
+      "loss": 0.0006719444475796383,
+      "postprocess": 0.5753336111360517
+    },
+    "per_class": [
+      {
+        "Class": "crazing",
+        "Images": 60,
+        "Instances": 162,
+        "Box-P": 0.62689,
+        "Box-R": 0.33333,
+        "Box-F1": 0.43524,
+        "mAP50": 0.48605,
+        "mAP75": 0.13555,
+        "mAP50-95": 0.19844
+      },
+      {
+        "Class": "inclusion",
+        "Images": 71,
+        "Instances": 159,
+        "Box-P": 0.65328,
+        "Box-R": 0.74214,
+        "Box-F1": 0.69488,
+        "mAP50": 0.78856,
+        "mAP75": 0.38451,
+        "mAP50-95": 0.41598
+      },
+      {
+        "Class": "patches",
+        "Images": 73,
+        "Instances": 193,
+        "Box-P": 0.75676,
+        "Box-R": 0.91192,
+        "Box-F1": 0.82712,
+        "mAP50": 0.91083,
+        "mAP75": 0.63268,
+        "mAP50-95": 0.56396
+      },
+      {
+        "Class": "pitted_surface",
+        "Images": 60,
+        "Instances": 87,
+        "Box-P": 0.7639,
+        "Box-R": 0.68966,
+        "Box-F1": 0.72488,
+        "mAP50": 0.74248,
+        "mAP75": 0.26489,
+        "mAP50-95": 0.36624
+      },
+      {
+        "Class": "rolled-in_scale",
+        "Images": 60,
+        "Instances": 132,
+        "Box-P": 0.44443,
+        "Box-R": 0.61364,
+        "Box-F1": 0.5155,
+        "mAP50": 0.50209,
+        "mAP75": 0.18655,
+        "mAP50-95": 0.23199
+      },
+      {
+        "Class": "scratches",
+        "Images": 60,
+        "Instances": 121,
+        "Box-P": 0.75036,
+        "Box-R": 0.7438,
+        "Box-F1": 0.74706,
+        "mAP50": 0.7807,
+        "mAP75": 0.31892,
+        "mAP50-95": 0.38654
+      }
+    ],
+    "torch": "2.5.1+cu121",
+    "ultralytics": "8.4.177",
+    "settings": {
+      "batch": 8,
+      "conf": 0.001,
+      "nms_iou": 0.7,
+      "rect": false,
+      "device": 0
+    }
+  },
+  {
+    "name": "clean_tta",
+    "weights": "E:\\yolo_project\\runs\\neu_defect_clean\\weights\\best.pt",
+    "augment": true,
+    "imgsz": 640,
+    "precision": 0.6998082964753524,
+    "recall": 0.6189676765816626,
+    "mAP50": 0.7135415352437624,
+    "mAP50_95": 0.3740582534185931,
+    "speed": {
+      "preprocess": 0.24140722221596259,
+      "inference": 6.2761502777852405,
+      "loss": 0.0006352777846687887,
+      "postprocess": 0.7083977777812025
+    },
+    "per_class": [
+      {
+        "Class": "crazing",
+        "Images": 60,
+        "Instances": 162,
+        "Box-P": 0.64392,
+        "Box-R": 0.28395,
+        "Box-F1": 0.39411,
+        "mAP50": 0.46904,
+        "mAP75": 0.13326,
+        "mAP50-95": 0.19838
+      },
+      {
+        "Class": "inclusion",
+        "Images": 71,
+        "Instances": 159,
+        "Box-P": 0.83196,
+        "Box-R": 0.68553,
+        "Box-F1": 0.75168,
+        "mAP50": 0.78915,
+        "mAP75": 0.36091,
+        "mAP50-95": 0.4062
+      },
+      {
+        "Class": "patches",
+        "Images": 73,
+        "Instances": 193,
+        "Box-P": 0.87157,
+        "Box-R": 0.87565,
+        "Box-F1": 0.8736,
+        "mAP50": 0.92085,
+        "mAP75": 0.61144,
+        "mAP50-95": 0.55549
+      },
+      {
+        "Class": "pitted_surface",
+        "Images": 60,
+        "Instances": 87,
+        "Box-P": 0.70828,
+        "Box-R": 0.73563,
+        "Box-F1": 0.7217,
+        "mAP50": 0.80905,
+        "mAP75": 0.44931,
+        "mAP50-95": 0.46833
+      },
+      {
+        "Class": "rolled-in_scale",
+        "Images": 60,
+        "Instances": 132,
+        "Box-P": 0.56796,
+        "Box-R": 0.33862,
+        "Box-F1": 0.42428,
+        "mAP50": 0.51043,
+        "mAP75": 0.13268,
+        "mAP50-95": 0.21073
+      },
+      {
+        "Class": "scratches",
+        "Images": 60,
+        "Instances": 121,
+        "Box-P": 0.57517,
+        "Box-R": 0.79442,
+        "Box-F1": 0.66724,
+        "mAP50": 0.78274,
+        "mAP75": 0.34424,
+        "mAP50-95": 0.40523
+      }
+    ],
+    "torch": "2.5.1+cu121",
+    "ultralytics": "8.4.177",
+    "settings": {
+      "batch": 8,
+      "conf": 0.001,
+      "nms_iou": 0.7,
+      "rect": false,
+      "device": 0
+    }
+  },
+  {
+    "name": "mosaic000_tta",
+    "weights": "E:\\yolo_project\\runs\\neu_defect_mosaic000\\weights\\best.pt",
+    "augment": true,
+    "imgsz": 640,
+    "precision": 0.6227937222472594,
+    "recall": 0.6904393892957659,
+    "mAP50": 0.7056014951401298,
+    "mAP50_95": 0.3586154501996714,
+    "speed": {
+      "preprocess": 0.23354944441457012,
+      "inference": 6.149114722241696,
+      "loss": 0.0006491666782595631,
+      "postprocess": 0.6454008333498171
+    },
+    "per_class": [
+      {
+        "Class": "crazing",
+        "Images": 60,
+        "Instances": 162,
+        "Box-P": 0.58356,
+        "Box-R": 0.37196,
+        "Box-F1": 0.45433,
+        "mAP50": 0.48692,
+        "mAP75": 0.13233,
+        "mAP50-95": 0.18786
+      },
+      {
+        "Class": "inclusion",
+        "Images": 71,
+        "Instances": 159,
+        "Box-P": 0.60732,
+        "Box-R": 0.74843,
+        "Box-F1": 0.67053,
+        "mAP50": 0.77024,
+        "mAP75": 0.36454,
+        "mAP50-95": 0.40717
+      },
+      {
+        "Class": "patches",
+        "Images": 73,
+        "Instances": 193,
+        "Box-P": 0.74003,
+        "Box-R": 0.9171,
+        "Box-F1": 0.8191,
+        "mAP50": 0.91572,
+        "mAP75": 0.61832,
+        "mAP50-95": 0.56627
+      },
+      {
+        "Class": "pitted_surface",
+        "Images": 60,
+        "Instances": 87,
+        "Box-P": 0.69051,
+        "Box-R": 0.7181,
+        "Box-F1": 0.70403,
+        "mAP50": 0.75056,
+        "mAP75": 0.31113,
+        "mAP50-95": 0.38787
+      },
+      {
+        "Class": "rolled-in_scale",
+        "Images": 60,
+        "Instances": 132,
+        "Box-P": 0.44271,
+        "Box-R": 0.65152,
+        "Box-F1": 0.52719,
+        "mAP50": 0.55837,
+        "mAP75": 0.19651,
+        "mAP50-95": 0.22531
+      },
+      {
+        "Class": "scratches",
+        "Images": 60,
+        "Instances": 121,
+        "Box-P": 0.67263,
+        "Box-R": 0.73554,
+        "Box-F1": 0.70268,
+        "mAP50": 0.7518,
+        "mAP75": 0.34134,
+        "mAP50-95": 0.37721
+      }
+    ],
+    "torch": "2.5.1+cu121",
+    "ultralytics": "8.4.177",
+    "settings": {
+      "batch": 8,
+      "conf": 0.001,
+      "nms_iou": 0.7,
+      "rect": false,
+      "device": 0
+    }
+  }
+]

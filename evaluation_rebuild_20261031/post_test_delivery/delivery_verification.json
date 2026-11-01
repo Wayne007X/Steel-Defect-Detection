@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-01T05:13:42.805739+00:00",
+  "report_created": true,
+  "weak_review_images": 124,
+  "diagnostic_events": 217,
+  "web_verified": true,
+  "live_frontend_http": 200,
+  "live_api_status": "ok",
+  "original_freeze_valid": true,
+  "original_test_archive_unchanged": true,
+  "new_api_ports": [
+    8002,
+    8503
+  ],
+  "paid_ai_requests_sent": false
+}

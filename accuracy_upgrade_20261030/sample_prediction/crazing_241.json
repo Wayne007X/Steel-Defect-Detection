@@ -1,0 +1,35 @@
+{
+  "source": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_241.jpg",
+  "models": [
+    "E:\\yolo_project\\runs\\neu_defect_clean\\weights\\best.pt",
+    "C:\\Users\\32077\\Documents\\ChatGPT\\yolov8\\accuracy_experiments\\training\\mosaic000_texture_ft_seed42\\weights\\best.pt"
+  ],
+  "tta": true,
+  "conf": 0.25,
+  "iou": 0.3,
+  "processing_ms": 348.4480999995867,
+  "detections": [
+    {
+      "name": "crazing",
+      "class": 0,
+      "confidence": 0.56104,
+      "box": {
+        "x1": 0.45439,
+        "y1": 66.18188,
+        "x2": 172.84723,
+        "y2": 158.46931
+      }
+    },
+    {
+      "name": "crazing",
+      "class": 0,
+      "confidence": 0.45292,
+      "box": {
+        "x1": 40.34174,
+        "y1": 9.29526,
+        "x2": 186.41406,
+        "y2": 83.47797
+      }
+    }
+  ]
+}

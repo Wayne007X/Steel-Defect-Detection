@@ -1,0 +1,9 @@
+{
+  "hypothesis": "Gentler scale/brightness perturbations preserve fine grayscale defects during fine-tuning.",
+  "init": "E:\\yolo_project\\runs\\neu_defect_mosaic000\\weights\\best.pt",
+  "acceptance": "mAP50-95 must exceed both baselines by 0.005; no class AP50 loss >0.03 vs mosaic000.",
+  "max_epochs": 40,
+  "patience": 12,
+  "seed": 42,
+  "limitation": "Same repeatedly-used validation set; improvement requires independent-data confirmation."
+}

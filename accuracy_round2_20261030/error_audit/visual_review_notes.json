@@ -1,0 +1,132 @@
+{
+  "images_screened": 120,
+  "method": "Inspected all ten 12-image contact sheets of the two weak validation classes.",
+  "observations": [
+    "部分样本的相邻 GT 与预测框存在分组或范围差异；这不是已经确认的标签错误。",
+    "低分候选是主要漏检模式之一；降低阈值或放松 NMS 会同时增加误报。",
+    "框尺寸审计不支持将这两个弱类别笼统视为小目标问题。"
+  ],
+  "no_source_labels_edited": true,
+  "priority_cases": [
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_251.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\crazing_251.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\crazing\\crazing_251.txt",
+      "comparison": "images/crazing_251.png",
+      "review_question": "模型倾向横向覆盖，GT 含纵向或分段框；复核缺陷团划分及边界约定。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_253.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\crazing_253.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\crazing\\crazing_253.txt",
+      "comparison": "images/crazing_253.png",
+      "review_question": "多个相邻 GT 与模型上下大框的范围不同；区分定位学习失败与划分口径差异。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_257.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\crazing_257.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\crazing\\crazing_257.txt",
+      "comparison": "images/crazing_257.png",
+      "review_question": "模型上下大框跨越部分 GT；复核相连裂纹是否应作为同一目标。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_278.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\crazing_278.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\crazing\\crazing_278.txt",
+      "comparison": "images/crazing_278.png",
+      "review_question": "四个 GT 多数未达到当前置信度阈值；检查原图纹理与低分候选。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_299.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\crazing_299.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\crazing\\crazing_299.txt",
+      "comparison": "images/crazing_299.png",
+      "review_question": "当前阈值下无输出，存在多个 GT；作为低对比度和低分漏检复核样本。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_300.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\crazing_300.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\crazing\\crazing_300.txt",
+      "comparison": "images/crazing_300.png",
+      "review_question": "预测范围与 GT 分段明显不同；复核完整裂纹网络的标注范围。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_245.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\rolled-in_scale_245.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\rolled-in_scale\\rolled-in_scale_245.txt",
+      "comparison": "images/rolled-in_scale_245.png",
+      "review_question": "上下两个 GT 对应一个长预测框；复核相邻缺陷团的分隔标准。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_247.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\rolled-in_scale_247.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\rolled-in_scale\\rolled-in_scale_247.txt",
+      "comparison": "images/rolled-in_scale_247.png",
+      "review_question": "三个相邻 GT 被一个较大预测覆盖；复核分组口径及 NMS 影响。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_254.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\rolled-in_scale_254.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\rolled-in_scale\\rolled-in_scale_254.txt",
+      "comparison": "images/rolled-in_scale_254.png",
+      "review_question": "单个 GT 位于下部，模型覆盖更大的区域；请领域人员确认上下可见纹理是否都属于目标。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_273.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\rolled-in_scale_273.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\rolled-in_scale\\rolled-in_scale_273.txt",
+      "comparison": "images/rolled-in_scale_273.png",
+      "review_question": "两个 GT 与多个预测边界不同；定位与背景纹理混淆均需检查。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_286.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\rolled-in_scale_286.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\rolled-in_scale\\rolled-in_scale_286.txt",
+      "comparison": "images/rolled-in_scale_286.png",
+      "review_question": "模型倾向多个窄框，GT 较宽；复核分散压入区域应如何组成一个框。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    },
+    {
+      "image": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_292.jpg",
+      "xml": "D:\\yolov8\\NEU-DET\\validation\\annotations\\rolled-in_scale_292.xml",
+      "yolo": "D:\\yolov8\\NEU-DET\\validation\\labels\\rolled-in_scale\\rolled-in_scale_292.txt",
+      "comparison": "images/rolled-in_scale_292.png",
+      "review_question": "四个 GT 被一个大预测覆盖；优先复核目标分组与框范围。",
+      "status": "visual_flag_only_not_confirmed_label_error",
+      "confirmed_action": "",
+      "reviewer": ""
+    }
+  ]
+}

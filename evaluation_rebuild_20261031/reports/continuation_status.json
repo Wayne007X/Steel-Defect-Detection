@@ -1,0 +1,12 @@
+{
+  "stage": "test_complete",
+  "updated_at": "2026-11-01T04:48:34.311366+00:00",
+  "final_report": "E:\\yolo_project\\evaluation_rebuild_20261031\\test\\Test完成说明与偏差关联.md",
+  "original_final_freeze": "6f9bf021dfaf65de4239358f2ff0970ab22ff0ef144dfb1b3c93ddae45c0bb1d",
+  "test_results": "E:\\yolo_project\\evaluation_rebuild_20261031\\test\\final_results.json",
+  "rows": 11,
+  "seed_results": 33,
+  "checks_passed": true,
+  "archive_id": "36979bf45bc5bf6f55d722fb4f7116fb19bf682bd3b10679486053359f68f05b",
+  "compute_hours": 5.104648611111124
+}

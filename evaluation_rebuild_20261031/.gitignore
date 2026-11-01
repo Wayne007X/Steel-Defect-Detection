@@ -1,0 +1,13 @@
+__pycache__/
+.test_work/
+.ultralytics/
+.matplotlib/
+tools/split_deps/
+dataset/images/
+dataset/labels/
+models/*.pt
+models/*.download
+cache/
+runs/*/weights/
+exports/*.onnx
+*.log

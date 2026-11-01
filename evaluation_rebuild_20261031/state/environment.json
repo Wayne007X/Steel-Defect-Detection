@@ -1,0 +1,22 @@
+{
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "ultralytics": "8.4.177",
+    "numpy": "2.2.6",
+    "opencv-python": "5.0.0.93",
+    "onnxruntime": "1.23.2"
+  },
+  "ultralytics_implementation": {
+    "engine/trainer.py": "7016131a47b61a8b9b9ea51ef5a9e59b0fb896a328eed4901c89ac7a83169655",
+    "engine/validator.py": "4fa6e43d3b090e50c563ab904e7af095348e5f8471374048adb60eee66452111",
+    "models/yolo/detect/train.py": "584e9c89f73f4c4ff68e2870c9e0778d254d808c421746c7ad66163b143b36d6",
+    "models/yolo/detect/val.py": "c9f738b513ba3e59f19fbc7e97028e4e68b70b4846c6b96a1611e3f65b3322d7",
+    "utils/metrics.py": "e2f216964bb0d89ac26efecb4e0a76750b554d2e670a27e6ed4a8f42d998b2a0",
+    "utils/nms.py": "386cd0e3e38fddef5d434fbcfd58264bedfa37295534e9a2b7174a3436d4db62",
+    "data/augment.py": "802333ea359def55e88f61d6726e35c29d28a6491110840a5e912ec1fafd1de3",
+    "data/build.py": "5e44d8dc88f502f824fbf13991ba373b05b8bc0b199321dfc20b33b9497faa1e",
+    "data/utils.py": "570820021220c0b20ff3246d158628398167df91c5c63d4244ae77191459482c",
+    "nn/tasks.py": "1048ab8db7504e7c57a77d05bfbd855e9de0ef477e15a5aae8cdb7e8a958246a"
+  }
+}

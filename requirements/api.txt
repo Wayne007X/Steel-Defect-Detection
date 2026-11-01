@@ -1,0 +1,15 @@
+# Observed versions on the original development machine.
+# CUDA wheels require a compatible wheel source; see README.md.
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+ultralytics==8.4.177
+numpy==2.2.6
+opencv-python==5.0.0.93
+onnxruntime==1.23.2
+Pillow==12.3.0
+PyYAML==6.0.3
+fastapi==0.162.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+httpx==0.28.1
+psutil==7.2.2

@@ -1,0 +1,118 @@
+{
+  "accuracy_api.py": {
+    "bytes": 1731,
+    "sha256": "f34a04b2fea6860d71871b4554219a95320bfdfa77cfe5975803b89ffae98ddc"
+  },
+  "compare_predictions.py": {
+    "bytes": 9282,
+    "sha256": "0796038987eafa88fb6a408d5cb67d65e759093d40056419eb49f30a25727f15"
+  },
+  "compare_texture.py": {
+    "bytes": 1830,
+    "sha256": "6624666cb3fc1cfad13f4a432994a8fbc210d6a06624d75d3af01aa23328c65f"
+  },
+  "optimize_neu.py": {
+    "bytes": 7267,
+    "sha256": "a98870b5b4e70db5926999cf5b8733ce73c2702f99d097cdb05896809f1aa339"
+  },
+  "precision_detector.py": {
+    "bytes": 7214,
+    "sha256": "93f127c8b0ace4a204da969db90a236f181caf1a4bf91679d411383fa657c22e"
+  },
+  "predict_accuracy.py": {
+    "bytes": 2014,
+    "sha256": "d13c1a9727d4b2187414a494c37fa3908c21d94e3850c3a09deeab72dbcd7888"
+  },
+  "README_精度优化结果与运行方法.md": {
+    "bytes": 6585,
+    "sha256": "b7ecafb04815c9dd298285481dede5b07098ed716a30b84ead3d597fed5f1eb0"
+  },
+  "run_accuracy_api.ps1": {
+    "bytes": 182,
+    "sha256": "a83db2fe06ac6c2fbf1dcecf3ac6acc037336809e1caa440e96cb85276403098"
+  },
+  "run_accuracy_frontend.ps1": {
+    "bytes": 252,
+    "sha256": "9651b83b035b44bb9f4ecee05a8927955efbc7950beb199940cccf5893f3090e"
+  },
+  "train_texture_candidate.py": {
+    "bytes": 2728,
+    "sha256": "e356f935a726dfefb0b384004bce59e8f96ddedb3b7c4e9d1cc6f0d3736381f9"
+  },
+  "verify_accuracy_api.py": {
+    "bytes": 1955,
+    "sha256": "f60596db6fd071b50e12a321df67d0aff9df9745f20955a06b3ac3593d85c1e6"
+  },
+  "verify_precision.py": {
+    "bytes": 4417,
+    "sha256": "14a3864333c11f0213246172b64756e4a6d6dd03b6a1d3e29d955d00e09304b4"
+  },
+  "evidence\\candidate_comparison.json": {
+    "bytes": 108389,
+    "sha256": "f453e7e893ac970ae0cac20be6de6cebfc9fddc908045cc2a4897e1480632da1"
+  },
+  "evidence\\dataset_audit.json": {
+    "bytes": 780,
+    "sha256": "e5e2da507d9cc45a9f6fc904be9698ef746ba4403612ddf8e5caf641705a35b9"
+  },
+  "evidence\\export.log": {
+    "bytes": 1383,
+    "sha256": "071515dd88a5f531531105215adee159a358d29eb71dda62156e4ae591cbffd6"
+  },
+  "evidence\\final_api_verification.log": {
+    "bytes": 917,
+    "sha256": "e2607e3186434cd16f33d72ba285688c21b28f6282f71c93e377f30df97587e1"
+  },
+  "evidence\\final_deployable_onnx_metrics.json": {
+    "bytes": 2005,
+    "sha256": "3a0d3e6a200e9d2385ee8807b58bab1b6dec8feb97f2ac10dce0e5edb344c9be"
+  },
+  "evidence\\final_deployable_pt_tta_metrics.json": {
+    "bytes": 1872,
+    "sha256": "f3f882a297174b36f6cb7fad8b73cacd74930f84930ab816e1d65a54e0ac0e3b"
+  },
+  "evidence\\final_deployable_pt_tta_nms030_metrics.json": {
+    "bytes": 1882,
+    "sha256": "2f25001811760b39a94719116868e13ef5eb0b11ec00c0298f7b9b245da86aca"
+  },
+  "evidence\\native_comparison.json": {
+    "bytes": 9188,
+    "sha256": "3ce55567e086a311309285bdcf8a6cc15c2d7beb4800bebf222f322fb30dfedf"
+  },
+  "evidence\\texture_acceptance.json": {
+    "bytes": 3169,
+    "sha256": "48b15b0e40447a5ec804a3dfb1338fc68121b987956eeb404b351faf19f626e7"
+  },
+  "evidence\\texture_experiment_plan.json": {
+    "bytes": 460,
+    "sha256": "092dbfde52c6937025542f65d05795c70634e71430c153bdfddb04af80dcca76"
+  },
+  "evidence\\texture_fusion_comparison.json": {
+    "bytes": 15641,
+    "sha256": "154f606752b769f47e9f788bca28c556bbb7d3777343b9e4f7d62d9ec40ce511"
+  },
+  "evidence\\training_args.yaml": {
+    "bytes": 1967,
+    "sha256": "e8d0deda8fc30e3e61966c3eb9fbbfe163f2e257061c6a738bfdfcc4bdf14795"
+  },
+  "evidence\\training_results.csv": {
+    "bytes": 2582,
+    "sha256": "02201bc00dede351f23133e47ef35689b9fc727650f4c96a0cbe504400cba267"
+  },
+  "models\\texture_ft_best.onnx": {
+    "bytes": 12751169,
+    "sha256": "96b24437e83ebabfa9b06a1ff23522cf4315eb7067ffbd25cbbae74f810a7062"
+  },
+  "models\\texture_ft_best.pt": {
+    "bytes": 6506659,
+    "sha256": "4d52931ad766c176feddf0349d39df6abfed0eddd5929244eb4d91a10273924d"
+  },
+  "sample_prediction\\crazing_241.jpg": {
+    "bytes": 29526,
+    "sha256": "d0c90a449c2123008e11e3ef825d2ead888ae00b2f8192892c6810fefaab4a08"
+  },
+  "sample_prediction\\crazing_241.json": {
+    "bytes": 844,
+    "sha256": "08328c7044606c0e018fb45a6f2287cf5a751efef217e509157b38bc9403bcfa"
+  }
+}

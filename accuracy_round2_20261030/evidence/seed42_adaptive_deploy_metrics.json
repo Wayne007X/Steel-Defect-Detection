@@ -1,0 +1,135 @@
+{
+  "tag": "seed42_adaptive",
+  "weights": [
+    {
+      "path": "E:\\yolo_project\\runs\\neu_defect_clean\\weights\\best.pt",
+      "sha256": "26cc781ab20abfa8af2f77d177ac823003c5ee5ed8ee6a8488f04646f758e31a"
+    },
+    {
+      "path": "C:\\Users\\32077\\Documents\\ChatGPT\\yolov8\\accuracy_experiments\\training\\mosaic000_texture_ft_seed42\\weights\\best.pt",
+      "sha256": "4d52931ad766c176feddf0349d39df6abfed0eddd5929244eb4d91a10273924d"
+    }
+  ],
+  "images": 360,
+  "mAP50": 0.783711295295991,
+  "mAP50_95": 0.391643460807917,
+  "precision": 0.7341198224599137,
+  "recall": 0.7334948246729674,
+  "per_class": [
+    {
+      "name": "crazing",
+      "precision": 0.6337508773125299,
+      "recall": 0.49135484670858093,
+      "mAP50": 0.6015232372467026,
+      "mAP50_95": 0.2400997524784255
+    },
+    {
+      "name": "inclusion",
+      "precision": 0.754260140850808,
+      "recall": 0.7861635220125787,
+      "mAP50": 0.8313987720743631,
+      "mAP50_95": 0.44031412293914907
+    },
+    {
+      "name": "patches",
+      "precision": 0.8697105459351429,
+      "recall": 0.8963730569948186,
+      "mAP50": 0.9221052634673297,
+      "mAP50_95": 0.565633057417189
+    },
+    {
+      "name": "pitted_surface",
+      "precision": 0.8448608429171137,
+      "recall": 0.7511822055174187,
+      "mAP50": 0.8488905643510527,
+      "mAP50_95": 0.4500561736592535
+    },
+    {
+      "name": "rolled-in_scale",
+      "precision": 0.5689118909950455,
+      "recall": 0.5833333333333334,
+      "mAP50": 0.6089915639568264,
+      "mAP50_95": 0.23694982994688857
+    },
+    {
+      "name": "scratches",
+      "precision": 0.7332246367488418,
+      "recall": 0.8925619834710744,
+      "mAP50": 0.8893583706796715,
+      "mAP50_95": 0.416807828406596
+    }
+  ],
+  "fixed_025": {
+    "TP": 633,
+    "FP": 243,
+    "FN": 221,
+    "precision": 0.7226027397260274,
+    "recall": 0.7412177985948478,
+    "F1": 0.7317919075144509
+  },
+  "fixed_025_per_class": [
+    {
+      "name": "crazing",
+      "TP": 82,
+      "FP": 54,
+      "FN": 80
+    },
+    {
+      "name": "inclusion",
+      "TP": 126,
+      "FP": 44,
+      "FN": 33
+    },
+    {
+      "name": "patches",
+      "TP": 173,
+      "FP": 27,
+      "FN": 20
+    },
+    {
+      "name": "pitted_surface",
+      "TP": 65,
+      "FP": 12,
+      "FN": 22
+    },
+    {
+      "name": "rolled-in_scale",
+      "TP": 79,
+      "FP": 63,
+      "FN": 53
+    },
+    {
+      "name": "scratches",
+      "TP": 108,
+      "FP": 43,
+      "FN": 13
+    }
+  ],
+  "fixed_020": {
+    "TP": 659,
+    "FP": 321,
+    "FN": 195,
+    "precision": 0.6724489795918367,
+    "recall": 0.7716627634660421,
+    "F1": 0.7186477644492912
+  },
+  "latency_ms": {
+    "median": 38.55409999960102,
+    "p95": 42.10197999873344,
+    "device": "RTX 3060 Laptop CUDA",
+    "batch": 1,
+    "concurrent_training": false,
+    "includes": "decode, preprocessing, two PyTorch TTA models, NMS, class-specific NMS if selected, fusion"
+  },
+  "class_nms": [
+    0.5,
+    0.3,
+    0.3,
+    0.3,
+    0.5,
+    0.3
+  ],
+  "global_iou": null,
+  "reference_AP50": 0.7835961397820955,
+  "passed_cached_parity": true
+}

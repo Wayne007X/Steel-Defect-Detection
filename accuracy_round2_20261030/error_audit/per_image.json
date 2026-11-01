@@ -1,0 +1,3242 @@
+[
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_241.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_242.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_243.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 3,
+    "GT": 4,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_244.jpg",
+    "image_class": "crazing",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_245.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_246.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 3,
+    "GT": 4,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_247.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_248.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_249.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_250.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_251.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 2,
+    "FN": 3,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_252.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_253.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 2,
+    "FN": 3,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_254.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 2,
+    "FN": 1,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_255.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_256.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_257.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 2,
+    "FN": 3,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_258.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_259.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_260.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_261.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_262.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 2,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_263.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_264.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_265.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_266.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_267.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_268.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_269.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_270.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_271.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 3,
+    "GT": 4,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_272.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_273.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_274.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 1,
+    "FN": 2,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_275.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_276.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_277.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 2,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_278.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 1,
+    "FN": 4,
+    "GT": 4,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_279.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_280.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_281.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 1,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_282.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_283.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 3,
+    "GT": 4,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_284.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_285.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 1,
+    "FN": 3,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_286.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_287.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_288.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_289.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 2,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_290.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_291.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_292.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_293.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_294.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_295.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_296.jpg",
+    "image_class": "crazing",
+    "TP": 1,
+    "FP": 2,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_297.jpg",
+    "image_class": "crazing",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_298.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 1,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_299.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 0,
+    "FN": 4,
+    "GT": 4,
+    "predictions": 0
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\crazing\\crazing_300.jpg",
+    "image_class": "crazing",
+    "TP": 0,
+    "FP": 1,
+    "FN": 3,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_241.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 2,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_242.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 2,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_243.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_244.jpg",
+    "image_class": "inclusion",
+    "TP": 3,
+    "FP": 4,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 7
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_245.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 3,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_246.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_247.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_248.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_249.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_250.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_251.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_252.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_253.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_254.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_255.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_256.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_257.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_258.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_259.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_260.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_261.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_262.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_263.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_264.jpg",
+    "image_class": "inclusion",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_265.jpg",
+    "image_class": "inclusion",
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_266.jpg",
+    "image_class": "inclusion",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_267.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 2,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_268.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_269.jpg",
+    "image_class": "inclusion",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_270.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_271.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_272.jpg",
+    "image_class": "inclusion",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_273.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 2,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_274.jpg",
+    "image_class": "inclusion",
+    "TP": 3,
+    "FP": 2,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_275.jpg",
+    "image_class": "inclusion",
+    "TP": 5,
+    "FP": 2,
+    "FN": 1,
+    "GT": 6,
+    "predictions": 7
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_276.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_277.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_278.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_279.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_280.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_281.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_282.jpg",
+    "image_class": "inclusion",
+    "TP": 0,
+    "FP": 1,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_283.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_284.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_285.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_286.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_287.jpg",
+    "image_class": "inclusion",
+    "TP": 6,
+    "FP": 0,
+    "FN": 2,
+    "GT": 8,
+    "predictions": 6
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_288.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 2,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_289.jpg",
+    "image_class": "inclusion",
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_290.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_291.jpg",
+    "image_class": "inclusion",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_292.jpg",
+    "image_class": "inclusion",
+    "TP": 7,
+    "FP": 2,
+    "FN": 0,
+    "GT": 7,
+    "predictions": 9
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_293.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_294.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 2,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_295.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_296.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_297.jpg",
+    "image_class": "inclusion",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_298.jpg",
+    "image_class": "inclusion",
+    "TP": 5,
+    "FP": 0,
+    "FN": 0,
+    "GT": 5,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_299.jpg",
+    "image_class": "inclusion",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\inclusion\\inclusion_300.jpg",
+    "image_class": "inclusion",
+    "TP": 3,
+    "FP": 1,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_241.jpg",
+    "image_class": "patches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_242.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 1,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_243.jpg",
+    "image_class": "patches",
+    "TP": 5,
+    "FP": 1,
+    "FN": 0,
+    "GT": 5,
+    "predictions": 6
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_244.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_245.jpg",
+    "image_class": "patches",
+    "TP": 6,
+    "FP": 0,
+    "FN": 1,
+    "GT": 7,
+    "predictions": 6
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_246.jpg",
+    "image_class": "patches",
+    "TP": 4,
+    "FP": 1,
+    "FN": 1,
+    "GT": 5,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_247.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_248.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 2,
+    "GT": 5,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_249.jpg",
+    "image_class": "patches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_250.jpg",
+    "image_class": "patches",
+    "TP": 4,
+    "FP": 1,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_251.jpg",
+    "image_class": "patches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_252.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_253.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 1,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_254.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_255.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_256.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 2,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_257.jpg",
+    "image_class": "patches",
+    "TP": 4,
+    "FP": 2,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 6
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_258.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_259.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 2,
+    "GT": 5,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_260.jpg",
+    "image_class": "patches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_261.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_262.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_263.jpg",
+    "image_class": "patches",
+    "TP": 0,
+    "FP": 1,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_264.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_265.jpg",
+    "image_class": "patches",
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_266.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 1,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_267.jpg",
+    "image_class": "patches",
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_268.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 2,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_269.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 2,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_270.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_271.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_272.jpg",
+    "image_class": "patches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_273.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_274.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_275.jpg",
+    "image_class": "patches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_276.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_277.jpg",
+    "image_class": "patches",
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_278.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_279.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_280.jpg",
+    "image_class": "patches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_281.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_282.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_283.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_284.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_285.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_286.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 1,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_287.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_288.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_289.jpg",
+    "image_class": "patches",
+    "TP": 5,
+    "FP": 0,
+    "FN": 0,
+    "GT": 5,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_290.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 1,
+    "FN": 2,
+    "GT": 5,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_291.jpg",
+    "image_class": "patches",
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_292.jpg",
+    "image_class": "patches",
+    "TP": 5,
+    "FP": 0,
+    "FN": 0,
+    "GT": 5,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_293.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_294.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_295.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 2,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_296.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_297.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 1,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_298.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_299.jpg",
+    "image_class": "patches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\patches\\patches_300.jpg",
+    "image_class": "patches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_241.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_242.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_243.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_244.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_245.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_246.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_247.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 2,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_248.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_249.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_250.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_251.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_252.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_253.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 2,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_254.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_255.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_256.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_257.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_258.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_259.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_260.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_261.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_262.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_263.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_264.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_265.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_266.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_267.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_268.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_269.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_270.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_271.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_272.jpg",
+    "image_class": "pitted_surface",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_273.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_274.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_275.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_276.jpg",
+    "image_class": "pitted_surface",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_277.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_278.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_279.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_280.jpg",
+    "image_class": "pitted_surface",
+    "TP": 0,
+    "FP": 2,
+    "FN": 3,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_281.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_282.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_283.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_284.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_285.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_286.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_287.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_288.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_289.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_290.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_291.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_292.jpg",
+    "image_class": "pitted_surface",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_293.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_294.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_295.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_296.jpg",
+    "image_class": "pitted_surface",
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_297.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_298.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_299.jpg",
+    "image_class": "pitted_surface",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\pitted_surface\\pitted_surface_300.jpg",
+    "image_class": "pitted_surface",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_241.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_242.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_243.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_244.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_245.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 1,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_246.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_247.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 1,
+    "FN": 3,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_248.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_249.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_250.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_251.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_252.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 1,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_253.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_254.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 1,
+    "FN": 1,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_255.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 3,
+    "FP": 1,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_256.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_257.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_258.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 1,
+    "FN": 1,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_259.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 2,
+    "GT": 4,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_260.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_261.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 2,
+    "FN": 1,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_262.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_263.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_264.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_265.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_266.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 2,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_267.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_268.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 2,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_269.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_270.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_271.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_272.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_273.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 3,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_274.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_275.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 3,
+    "FP": 2,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_276.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 2,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_277.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_278.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_279.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 1,
+    "FN": 3,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_280.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_281.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_282.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_283.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 3,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_284.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_285.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_286.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 3,
+    "FN": 2,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_287.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_288.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_289.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_290.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_291.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_292.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 0,
+    "FP": 1,
+    "FN": 4,
+    "GT": 4,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_293.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_294.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_295.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 0,
+    "FN": 2,
+    "GT": 3,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_296.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_297.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_298.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_299.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\rolled-in_scale\\rolled-in_scale_300.jpg",
+    "image_class": "rolled-in_scale",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_241.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_242.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_243.jpg",
+    "image_class": "scratches",
+    "TP": 4,
+    "FP": 1,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_244.jpg",
+    "image_class": "scratches",
+    "TP": 3,
+    "FP": 0,
+    "FN": 1,
+    "GT": 4,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_245.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_246.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_247.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_248.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_249.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 2,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_250.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_251.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_252.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_253.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_254.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_255.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_256.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_257.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_258.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_259.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_260.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_261.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_262.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_263.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_264.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_265.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_266.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_267.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_268.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_269.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_270.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_271.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 2,
+    "FN": 2,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_272.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_273.jpg",
+    "image_class": "scratches",
+    "TP": 3,
+    "FP": 3,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 6
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_274.jpg",
+    "image_class": "scratches",
+    "TP": 3,
+    "FP": 1,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_275.jpg",
+    "image_class": "scratches",
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_276.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_277.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_278.jpg",
+    "image_class": "scratches",
+    "TP": 3,
+    "FP": 2,
+    "FN": 0,
+    "GT": 3,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_279.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_280.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 3,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 5
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_281.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 7,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 8
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_282.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_283.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_284.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_285.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_286.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_287.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_288.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_289.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_290.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_291.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 1
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_292.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 3,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_293.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 3,
+    "FN": 1,
+    "GT": 2,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_294.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "GT": 3,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_295.jpg",
+    "image_class": "scratches",
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "GT": 4,
+    "predictions": 4
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_296.jpg",
+    "image_class": "scratches",
+    "TP": 5,
+    "FP": 1,
+    "FN": 0,
+    "GT": 5,
+    "predictions": 6
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_297.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 1,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 3
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_298.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_299.jpg",
+    "image_class": "scratches",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "GT": 1,
+    "predictions": 2
+  },
+  {
+    "path": "D:\\yolov8\\NEU-DET\\validation\\images\\scratches\\scratches_300.jpg",
+    "image_class": "scratches",
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "GT": 2,
+    "predictions": 2
+  }
+]

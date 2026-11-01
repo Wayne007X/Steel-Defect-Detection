@@ -1,0 +1,212 @@
+{
+  "accepted": false,
+  "metrics": {
+    "name": "texture_normalized",
+    "weights": "C:\\Users\\32077\\Documents\\ChatGPT\\yolov8\\accuracy_experiments\\training\\mosaic000_texture_normalized_seed42\\weights\\best.pt",
+    "augment": false,
+    "imgsz": 640,
+    "data_yaml": "C:\\Users\\32077\\Documents\\ChatGPT\\yolov8\\accuracy_experiments\\round2\\normalized_dataset\\data.yaml",
+    "precision": 0.6582509036112095,
+    "recall": 0.6914453873063566,
+    "mAP50": 0.7122412889348783,
+    "mAP50_95": 0.35472077042135836,
+    "speed": {
+      "preprocess": 0.2556669444503415,
+      "inference": 2.716250277777969,
+      "loss": 0.0007655555641071664,
+      "postprocess": 0.832881111116674
+    },
+    "per_class": [
+      {
+        "Class": "crazing",
+        "Images": 60,
+        "Instances": 162,
+        "Box-P": 0.5863,
+        "Box-R": 0.40741,
+        "Box-F1": 0.48075,
+        "mAP50": 0.48275,
+        "mAP75": 0.15165,
+        "mAP50-95": 0.21517
+      },
+      {
+        "Class": "inclusion",
+        "Images": 71,
+        "Instances": 159,
+        "Box-P": 0.70517,
+        "Box-R": 0.7673,
+        "Box-F1": 0.73492,
+        "mAP50": 0.77308,
+        "mAP75": 0.35106,
+        "mAP50-95": 0.40943
+      },
+      {
+        "Class": "patches",
+        "Images": 73,
+        "Instances": 193,
+        "Box-P": 0.78638,
+        "Box-R": 0.88601,
+        "Box-F1": 0.83323,
+        "mAP50": 0.90595,
+        "mAP75": 0.5681,
+        "mAP50-95": 0.54011
+      },
+      {
+        "Class": "pitted_surface",
+        "Images": 60,
+        "Instances": 87,
+        "Box-P": 0.71381,
+        "Box-R": 0.71675,
+        "Box-F1": 0.71528,
+        "mAP50": 0.77123,
+        "mAP75": 0.30441,
+        "mAP50-95": 0.37079
+      },
+      {
+        "Class": "rolled-in_scale",
+        "Images": 60,
+        "Instances": 132,
+        "Box-P": 0.52537,
+        "Box-R": 0.55303,
+        "Box-F1": 0.53884,
+        "mAP50": 0.55319,
+        "mAP75": 0.18298,
+        "mAP50-95": 0.22507
+      },
+      {
+        "Class": "scratches",
+        "Images": 60,
+        "Instances": 121,
+        "Box-P": 0.63247,
+        "Box-R": 0.81818,
+        "Box-F1": 0.71344,
+        "mAP50": 0.78724,
+        "mAP75": 0.29224,
+        "mAP50-95": 0.36776
+      }
+    ],
+    "torch": "2.5.1+cu121",
+    "ultralytics": "8.4.177",
+    "settings": {
+      "batch": 8,
+      "conf": 0.001,
+      "nms_iou": 0.7,
+      "rect": false,
+      "device": 0
+    }
+  },
+  "control": {
+    "name": "texture_ft",
+    "weights": "C:\\Users\\32077\\Documents\\ChatGPT\\yolov8\\accuracy_experiments\\training\\mosaic000_texture_ft_seed42\\weights\\best.pt",
+    "augment": false,
+    "imgsz": 640,
+    "precision": 0.6919580017563224,
+    "recall": 0.6715422475123498,
+    "mAP50": 0.725440570472292,
+    "mAP50_95": 0.36998763800391604,
+    "speed": {
+      "preprocess": 0.21405499998460678,
+      "inference": 2.558615277757781,
+      "loss": 0.0007016666636951009,
+      "postprocess": 0.5827911110979282
+    },
+    "per_class": [
+      {
+        "Class": "crazing",
+        "Images": 60,
+        "Instances": 162,
+        "Box-P": 0.60856,
+        "Box-R": 0.30247,
+        "Box-F1": 0.40409,
+        "mAP50": 0.47694,
+        "mAP75": 0.14513,
+        "mAP50-95": 0.20636
+      },
+      {
+        "Class": "inclusion",
+        "Images": 71,
+        "Instances": 159,
+        "Box-P": 0.71266,
+        "Box-R": 0.77994,
+        "Box-F1": 0.74478,
+        "mAP50": 0.79138,
+        "mAP75": 0.388,
+        "mAP50-95": 0.42111
+      },
+      {
+        "Class": "patches",
+        "Images": 73,
+        "Instances": 193,
+        "Box-P": 0.83573,
+        "Box-R": 0.87565,
+        "Box-F1": 0.85522,
+        "mAP50": 0.91415,
+        "mAP75": 0.58434,
+        "mAP50-95": 0.55543
+      },
+      {
+        "Class": "pitted_surface",
+        "Images": 60,
+        "Instances": 87,
+        "Box-P": 0.77859,
+        "Box-R": 0.68966,
+        "Box-F1": 0.73143,
+        "mAP50": 0.77097,
+        "mAP75": 0.32149,
+        "mAP50-95": 0.39608
+      },
+      {
+        "Class": "rolled-in_scale",
+        "Images": 60,
+        "Instances": 132,
+        "Box-P": 0.52224,
+        "Box-R": 0.5303,
+        "Box-F1": 0.52624,
+        "mAP50": 0.55133,
+        "mAP75": 0.16706,
+        "mAP50-95": 0.23736
+      },
+      {
+        "Class": "scratches",
+        "Images": 60,
+        "Instances": 121,
+        "Box-P": 0.69397,
+        "Box-R": 0.85124,
+        "Box-F1": 0.7646,
+        "mAP50": 0.84789,
+        "mAP75": 0.37275,
+        "mAP50-95": 0.40358
+      }
+    ],
+    "torch": "2.5.1+cu121",
+    "ultralytics": "8.4.177",
+    "settings": {
+      "batch": 8,
+      "conf": 0.001,
+      "nms_iou": 0.7,
+      "rect": false,
+      "device": 0
+    }
+  },
+  "class_AP50_changes": {
+    "crazing": 0.005810000000000037,
+    "inclusion": -0.018299999999999983,
+    "patches": -0.008199999999999985,
+    "pitted_surface": 0.00025999999999992696,
+    "rolled-in_scale": 0.0018599999999999728,
+    "scratches": -0.06064999999999998
+  },
+  "weak_mean_AP50_gain": 0.003835000000000005,
+  "plan": {
+    "hypothesis": "Per-image grayscale normalization reduces the observed train/val brightness shift, especially rolled-in_scale.",
+    "method": "Map each image's own 1st and 99th grayscale percentiles to 0/255; clip outside, preserve coordinates.",
+    "source_labels_edited": false,
+    "dataset_statistics_fitted": false,
+    "initialization": "E:\\yolo_project\\runs\\neu_defect_mosaic000\\weights\\best.pt",
+    "seed": 42,
+    "maximum_epochs": 40,
+    "patience": 12,
+    "control": "Same texture fine-tune profile/optimizer as prior seed42; preprocessing is the changed factor.",
+    "gate": "Weak-class mean AP50 improves >=.03 over texture seed42; overall AP50 >= control+.003, AP50-95 >= control-.005; no other-class AP50 loss >.03.",
+    "limitation": "Same validation images, deterministic different preprocessing; exploratory, not an independent test."
+  }
+}

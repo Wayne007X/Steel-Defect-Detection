@@ -1,0 +1,8 @@
+{
+  "epoch": 2,
+  "AP50": 0.72381,
+  "AP95": 0.38435,
+  "precision": "float32",
+  "rect": false,
+  "batch": 1
+}

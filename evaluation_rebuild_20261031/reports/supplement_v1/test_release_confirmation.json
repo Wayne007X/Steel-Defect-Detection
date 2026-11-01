@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-01T04:37:31.399772+00:00",
+  "reviewer": "用户（聊天中明确确认）",
+  "user_instruction": "确认 开封test",
+  "original_final_freeze": "6f9bf021dfaf65de4239358f2ff0970ab22ff0ef144dfb1b3c93ddae45c0bb1d",
+  "supplement_id": "e236cc4c511066f99e6543980956920284e2df9b7c69e6cd0129548f726998b3",
+  "supplement_manifest_sha256": "41df98841519b08533cece60c57785696b983db82703248a9aa9a51874922715",
+  "verified_supplement_files": {
+    "reports/supplement_v1/Val结果与执行偏差补充报告.md": "6b242bc4d680c629e9a7215d5468779807ecd367a074574f6fae20401520b9e6",
+    "reports/supplement_v1/补充结果与核验.json": "175705f9d58073ba6574ce044349e9c9986a3ed7ca2e9c616ce0f7b55787b26d"
+  },
+  "test_rows": 11,
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "remaining_compute_seconds": 10611.732999999986
+}

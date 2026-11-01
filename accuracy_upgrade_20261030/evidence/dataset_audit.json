@@ -1,0 +1,37 @@
+{
+  "train": {
+    "images": 1440,
+    "boxes": 3335,
+    "class_boxes": {
+      "crazing": 527,
+      "patches": 688,
+      "inclusion": 852,
+      "pitted_surface": 345,
+      "rolled-in_scale": 496,
+      "scratches": 427
+    }
+  },
+  "val": {
+    "images": 360,
+    "boxes": 854,
+    "class_boxes": {
+      "crazing": 162,
+      "inclusion": 159,
+      "patches": 193,
+      "pitted_surface": 87,
+      "rolled-in_scale": 132,
+      "scratches": 121
+    }
+  },
+  "issues": [],
+  "exact_pixel_duplicates": [
+    [
+      "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_101.jpg",
+      "D:\\yolov8\\NEU-DET\\train\\images\\patches\\patches_105.jpg"
+    ]
+  ],
+  "cross_split_duplicates": [],
+  "shapes": {
+    "[200, 200, 3]": 1800
+  }
+}
