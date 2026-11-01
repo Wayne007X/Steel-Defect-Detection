@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-11-01T08:50:24.544174+00:00",
+  "created_at": "2026-11-01T08:54:11.755953+00:00",
   "base_commit": "0d570a4cdeaf16c22e7054bcde5448d35b202df7",
   "staged": false,
   "committed": false,
@@ -7,8 +7,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 41612,
-      "sha256": "a86c992f50d001773007ee2a987e5c13be0390a60bc55cd28a0a829c65a4e78b",
+      "bytes": 41573,
+      "sha256": "b7c2e6dc2cb53b5db8f8c5e5baa0a8d07f839b2c1d3e7ea12adfc7a39cc2ad9e",
       "already_tracked": true
     },
     {
@@ -1407,12 +1407,6 @@
       "path": "docs/history/reports_README_legacy.md",
       "bytes": 36863,
       "sha256": "69ac9555e90e890568858bcd13e51d9ebece23be2d578c3dda356c1faeaf97f0",
-      "already_tracked": false
-    },
-    {
-      "path": "docs/五阶段对话原文.md",
-      "bytes": 6107,
-      "sha256": "a9d9a42b8ce0dcd896c795440820ac3cf371eecef7ed933e656aebcd37117303",
       "already_tracked": false
     },
     {
