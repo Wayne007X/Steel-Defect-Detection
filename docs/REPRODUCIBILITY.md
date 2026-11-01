@@ -39,3 +39,7 @@
 ## 本地整理后新增的只读核验
 
 [代码与配置说明](CODE_AND_CONFIG.md)提供repository/full两种范围；默认不加载模型、不推理、不联网，只核对仓库证据及统计。环境快照和待提交范围分别见[依赖说明](../requirements/README.md)及[本地审阅](LOCAL_REVIEW.md)。
+
+## Git换行与证据文件字节
+
+新实验和新增文档通过.gitattributes保留原始字节，避免Windows/Linux换行转换改变封存哈希。原主分支中已有且由Git规范化换行的74个历史文件继续保持原Git对象，不修改云端入口来迁就开发机CRLF；它们不列入本次逐字节证据清单。核验范围以repository_evidence_manifest.json的files为准，原提交由base_commit定位。完整本地实验核验仍要求原数据、权重和缓存的精确哈希。

@@ -1,0 +1,13 @@
+# Preserve original bytes of new evidence across Windows/Linux checkouts.
+/evaluation_rebuild_20261031/** -text
+/accuracy_upgrade_20261030/** -text
+/accuracy_round2_20261030/** -text
+/docs/** -text
+/requirements/** -text
+/reports/accuracy_tuning_20261030/** -text
+/README.md -text
+/.gitignore -text
+/reports/README.md -text
+/scripts/README.md -text
+/scripts/testing/verify_repository_evidence.py -text
+/.gitattributes -text
