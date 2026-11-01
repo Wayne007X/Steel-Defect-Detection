@@ -583,10 +583,10 @@
     "txt/mosaic000_validator_source.txt": "3790699f56faf0780c2529751fda0193e1dca70a05425de4a7c1f8ed2f767676",
     "txt/streamlit_frontend_requirements.txt": "5eb74bd25c5d9e42abf875557567f3bde2a013fa3dda09d588c66d0429102aeb",
     "docs/evidence/environment_versions.json": "9d2458ca586dbe54e6208e9bd59085b9d2c6c8b6610643b1fbe3700a038420c0",
-    "docs/evidence/local_review_inventory.json": "b2b9d7f73a9a295ba0fea10fc40c3fc723ddd953d0455f37cc6284aa59dc7aeb",
+    "docs/evidence/local_review_inventory.json": "810baac428a2acc8ef36e26db4e966859bc7b1df9c250eb06b4f318c9b2104e9",
     "docs/钢材缺陷检测项目_五阶段完整脉络与模型选择总结.md": "1cb43bc8e90a2cb3b757b24f6603f81603e830eb6e5c4a534de4834f871c912a",
     "docs/五阶段对话原文.md": "a9d9a42b8ce0dcd896c795440820ac3cf371eecef7ed933e656aebcd37117303",
-    ".gitattributes": "073b2223fde2633a4478d6527c0d58b6e4c364b73898290b6eb8900466d8ff94"
+    ".gitattributes": "b83a0e28a5bd86da6cf42ca45b8d74c5c4066c6af0f33ad92cfbaec48886cb45"
   },
   "supersedes": "f69522b0039010523c5e8e40cf49079d8f879eea635908caf98fcc80baa6fe20",
   "revision_reason": "Preserve new evidence bytes using Git attributes; retain baseline cloud entrypoint blobs unchanged and exclude legacy normalized checkout files from exact-byte evidence scope.",
@@ -666,5 +666,5 @@
     "txt/requirements_api_cloud.txt",
     "txt/requirements_api_v4.txt"
   ],
-  "id": "a7d2df814e6f9f7b539b988d37df6224c8282815ec7bb9fb6a13478979228114"
+  "id": "dffd99c4d56adc74f4809dc99cc5a9328a7b2d0e987a241e533d932f1e399d6c"
 }
