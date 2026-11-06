@@ -22,18 +22,18 @@ def visit(page, timeout=240):
                 wake.first.click(timeout=10000)
                 clicked = True
                 print('Clicked the public wake-up button.', flush=True)
-        errors = page.locator('[data-testid="stException"]')
-        if errors.count() and errors.first.is_visible():
-            raise RuntimeError(errors.first.inner_text())
-        heading = page.get_by_role('heading', name=re.compile('工业钢材表面缺陷检测系统'))
-        uploader = page.locator('[data-testid="stFileUploader"] input[type="file"]')
-        if heading.count() and heading.first.is_visible() and uploader.count():
-            # Leave the real browser session connected for activity to register.
-            page.wait_for_timeout(20000)
+            errors = frame.locator('[data-testid="stException"]')
             if errors.count() and errors.first.is_visible():
                 raise RuntimeError(errors.first.inner_text())
-            print('PASS: app heading and image uploader loaded.', flush=True)
-            return
+            heading = frame.get_by_role('heading', name=re.compile('工业钢材表面缺陷检测系统'))
+            uploader = frame.locator('[data-testid="stFileUploader"] input[type="file"]')
+            if heading.count() and heading.first.is_visible() and uploader.count():
+                # Community Cloud can embed the actual app in an iframe.
+                page.wait_for_timeout(20000)
+                if errors.count() and errors.first.is_visible():
+                    raise RuntimeError(errors.first.inner_text())
+                print('PASS: app heading and image uploader loaded.', flush=True)
+                return
         page.wait_for_timeout(2000)
     raise RuntimeError('App did not render its heading and image uploader within the time limit.')
 
