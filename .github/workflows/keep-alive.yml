@@ -14,10 +14,6 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: streamlit-keep-alive
-  cancel-in-progress: true
-
 jobs:
   visit:
     runs-on: ubuntu-24.04
